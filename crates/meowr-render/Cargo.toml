@@ -1,0 +1,18 @@
+[package]
+name = "meowr-render"
+description = "Draws a meowr view to a ratatui frame."
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+meowr-view.workspace = true
+ratatui.workspace = true
+
+[dev-dependencies]
+meowr-syntax.workspace = true
+
+[lints]
+workspace = true

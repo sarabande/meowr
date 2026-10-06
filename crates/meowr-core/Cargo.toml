@@ -1,0 +1,14 @@
+[package]
+name = "meowr-core"
+description = "The Meow state machine: typed selections, motions and history. No I/O."
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+meowr-domain.workspace = true
+
+[lints]
+workspace = true

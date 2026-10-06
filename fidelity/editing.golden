@@ -1,0 +1,121 @@
+# name	text	point	mark	axis	kind	history	signals	state	grab
+bof-a	hello world\nsecond line\nthird\n	0	-	-	-	0	0	insert	-
+bof-ashiftz	Zhello world\nsecond line\nthird\n	1	-	-	-	0	0	insert	-
+bof-bsemik	\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-c	ello world\nsecond line\nthird\n	0	-	-	-	0	0	insert	-
+bof-ishiftx	ello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-k	\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-lc	\nsecond line\nthird\n	0	-	-	-	1	0	insert	-
+bof-lk	second line\nthird\n	0	-	-	-	1	0	normal	-
+bof-lkp	hello world\nsecond line\nthird\n	13	-	-	-	1	0	normal	-
+bof-llk	third\n	0	-	-	-	2	0	normal	-
+bof-lyp	hello world\nhello world\nsecond line\nthird\n	25	-	-	-	1	0	normal	-
+bof-lywwr	hello world\nsecondhello world\nthird\n	29	-	-	-	2	0	normal	-
+bof-mk	 world\nsecond line\nthird\n	0	-	-	-	1	0	normal	-
+bof-p	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-s	hello world\nsecond line\nthird\n	0	-	-	-	0	0	insert	-
+bof-shifta	hello world\n\nsecond line\nthird\n	12	-	-	-	0	0	insert	-
+bof-shiftashiftz	hello world\nZ\nsecond line\nthird\n	13	-	-	-	0	0	insert	-
+bof-shifts	\nhello world\nsecond line\nthird\n	0	-	-	-	0	0	insert	-
+bof-shiftsshiftz	Z\nhello world\nsecond line\nthird\n	1	-	-	-	0	0	insert	-
+bof-shiftx	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-sshiftz	Zhello world\nsecond line\nthird\n	1	-	-	-	0	0	insert	-
+bof-washiftz	helloZ world\nsecond line\nthird\n	6	-	-	-	0	0	insert	-
+bof-wc	 world\nsecond line\nthird\n	0	-	-	-	1	0	insert	-
+bof-wcshiftz	Z world\nsecond line\nthird\n	1	-	-	-	1	0	insert	-
+bof-wk	 world\nsecond line\nthird\n	0	-	-	-	1	0	normal	-
+bof-wkip	 helloworld\nsecond line\nthird\n	6	-	-	-	1	0	normal	-
+bof-wkp	hello world\nsecond line\nthird\n	5	-	-	-	1	0	normal	-
+bof-wr	hello world\nsecond line\nthird\n	5	0	select	word	1	1	normal	-
+bof-wshiftx	 world\nsecond line\nthird\n	0	-	-	-	1	0	normal	-
+bof-wsshiftz	Zhello world\nsecond line\nthird\n	1	-	-	-	0	0	insert	-
+bof-wwk	hello\nsecond line\nthird\n	5	-	-	-	2	0	normal	-
+bof-wx	helloworld\nsecond line\nthird\n	5	-	-	-	1	0	normal	-
+bof-wy	hello world\nsecond line\nthird\n	5	-	-	-	1	0	normal	-
+bof-wyp	hellohello world\nsecond line\nthird\n	10	-	-	-	1	0	normal	-
+bof-wywwr	hello worldhello line\nthird\n	16	-	-	-	2	0	normal	-
+bof-wywwyp	hello world\nsecond\nsecond line\nthird\n	25	-	-	-	2	0	normal	-
+bof-wywyp	hello world world\nsecond line\nthird\n	17	-	-	-	1	0	normal	-
+bof-x	ello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-xx	llo world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-y	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+eol-a	hello world\nsecond line\nthird\n	11	-	-	-	0	0	insert	-
+eol-ashiftz	hello worldZ\nsecond line\nthird\n	12	-	-	-	0	0	insert	-
+eol-bsemik	hello \nsecond line\nthird\n	6	-	-	-	1	0	normal	-
+eol-c	hello worldsecond line\nthird\n	11	-	-	-	0	0	insert	-
+eol-ishiftx	hello worldsecond line\nthird\n	11	-	-	-	0	0	normal	-
+eol-k	hello worldsecond line\nthird\n	11	-	-	-	0	0	normal	-
+eol-lc	\nsecond line\nthird\n	0	-	-	-	1	0	insert	-
+eol-lk	second line\nthird\n	0	-	-	-	1	0	normal	-
+eol-lkp	hello world\nsecond line\nthird\n	13	-	-	-	1	0	normal	-
+eol-llk	third\n	0	-	-	-	2	0	normal	-
+eol-lyp	hello world\nhello world\nsecond line\nthird\n	25	-	-	-	1	0	normal	-
+eol-lywwr	hello world\nsecondhello world\nthird\n	29	-	-	-	2	0	normal	-
+eol-mk	hello \nsecond line\nthird\n	6	-	-	-	1	0	normal	-
+eol-p	hello world\nsecond line\nthird\n	11	-	-	-	0	1	normal	-
+eol-s	hello world\nsecond line\nthird\n	11	-	-	-	0	0	insert	-
+eol-shifta	hello world\n\nsecond line\nthird\n	12	-	-	-	0	0	insert	-
+eol-shiftashiftz	hello world\nZ\nsecond line\nthird\n	13	-	-	-	0	0	insert	-
+eol-shifts	\nhello world\nsecond line\nthird\n	0	-	-	-	0	0	insert	-
+eol-shiftsshiftz	Z\nhello world\nsecond line\nthird\n	1	-	-	-	0	0	insert	-
+eol-shiftx	hello worl\nsecond line\nthird\n	10	-	-	-	0	0	normal	-
+eol-sshiftz	hello worldZ\nsecond line\nthird\n	12	-	-	-	0	0	insert	-
+eol-washiftz	hello world\nsecondZ line\nthird\n	19	-	-	-	0	0	insert	-
+eol-wc	hello world line\nthird\n	11	-	-	-	1	0	insert	-
+eol-wcshiftz	hello worldZ line\nthird\n	12	-	-	-	1	0	insert	-
+eol-wk	hello world line\nthird\n	11	-	-	-	1	0	normal	-
+eol-wkip	hello world \nsecondline\nthird\n	19	-	-	-	1	0	normal	-
+eol-wkp	hello world\nsecond line\nthird\n	18	-	-	-	1	0	normal	-
+eol-wr	hello world\nsecond line\nthird\n	18	11	select	word	1	1	normal	-
+eol-wshiftx	hello world line\nthird\n	11	-	-	-	1	0	normal	-
+eol-wsshiftz	hello worldZ\nsecond line\nthird\n	12	-	-	-	0	0	insert	-
+eol-wwk	hello world\nsecond\nthird\n	18	-	-	-	2	0	normal	-
+eol-wx	hello world\nsecondline\nthird\n	18	-	-	-	1	0	normal	-
+eol-wy	hello world\nsecond line\nthird\n	18	-	-	-	1	0	normal	-
+eol-wyp	hello world\nsecond\nsecond line\nthird\n	25	-	-	-	1	0	normal	-
+eol-wywwr	hello world\nsecond line\nsecond\n	30	-	-	-	2	0	normal	-
+eol-wywwyp	hello world\nsecond line\nthird\nthird\n	35	-	-	-	2	0	normal	-
+eol-wywyp	hello world\nsecond line line\nthird\n	28	-	-	-	1	0	normal	-
+eol-x	hello worldsecond line\nthird\n	11	-	-	-	0	0	normal	-
+eol-xx	hello worldecond line\nthird\n	11	-	-	-	0	0	normal	-
+eol-y	hello world\nsecond line\nthird\n	11	-	-	-	0	1	normal	-
+midword-a	hello world\nsecond line\nthird\n	8	-	-	-	0	0	insert	-
+midword-ashiftz	hello woZrld\nsecond line\nthird\n	9	-	-	-	0	0	insert	-
+midword-bsemik	hello rld\nsecond line\nthird\n	6	-	-	-	1	0	normal	-
+midword-c	hello wold\nsecond line\nthird\n	8	-	-	-	0	0	insert	-
+midword-ishiftx	hello wold\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-k	hello wo\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-lc	\nsecond line\nthird\n	0	-	-	-	1	0	insert	-
+midword-lk	second line\nthird\n	0	-	-	-	1	0	normal	-
+midword-lkp	hello world\nsecond line\nthird\n	13	-	-	-	1	0	normal	-
+midword-llk	third\n	0	-	-	-	2	0	normal	-
+midword-lyp	hello world\nhello world\nsecond line\nthird\n	25	-	-	-	1	0	normal	-
+midword-lywwr	hello world\nsecondhello world\nthird\n	29	-	-	-	2	0	normal	-
+midword-mk	hello \nsecond line\nthird\n	6	-	-	-	1	0	normal	-
+midword-p	hello world\nsecond line\nthird\n	8	-	-	-	0	1	normal	-
+midword-s	hello world\nsecond line\nthird\n	8	-	-	-	0	0	insert	-
+midword-shifta	hello world\n\nsecond line\nthird\n	12	-	-	-	0	0	insert	-
+midword-shiftashiftz	hello world\nZ\nsecond line\nthird\n	13	-	-	-	0	0	insert	-
+midword-shifts	\nhello world\nsecond line\nthird\n	0	-	-	-	0	0	insert	-
+midword-shiftsshiftz	Z\nhello world\nsecond line\nthird\n	1	-	-	-	0	0	insert	-
+midword-shiftx	hello wrld\nsecond line\nthird\n	7	-	-	-	0	0	normal	-
+midword-sshiftz	hello woZrld\nsecond line\nthird\n	9	-	-	-	0	0	insert	-
+midword-washiftz	hello worldZ\nsecond line\nthird\n	12	-	-	-	0	0	insert	-
+midword-wc	hello wo\nsecond line\nthird\n	8	-	-	-	1	0	insert	-
+midword-wcshiftz	hello woZ\nsecond line\nthird\n	9	-	-	-	1	0	insert	-
+midword-wk	hello wo\nsecond line\nthird\n	8	-	-	-	1	0	normal	-
+midword-wkip	hello wo\nrldsecond line\nthird\n	12	-	-	-	1	0	normal	-
+midword-wkp	hello world\nsecond line\nthird\n	11	-	-	-	1	0	normal	-
+midword-wr	hello world\nsecond line\nthird\n	11	8	select	word	1	1	normal	-
+midword-wshiftx	hello wo\nsecond line\nthird\n	8	-	-	-	1	0	normal	-
+midword-wsshiftz	hello woZrld\nsecond line\nthird\n	9	-	-	-	0	0	insert	-
+midword-wwk	hello world line\nthird\n	11	-	-	-	2	0	normal	-
+midword-wx	hello worldsecond line\nthird\n	11	-	-	-	1	0	normal	-
+midword-wy	hello world\nsecond line\nthird\n	11	-	-	-	1	0	normal	-
+midword-wyp	hello worldrld\nsecond line\nthird\n	14	-	-	-	1	0	normal	-
+midword-wywwr	hello world\nsecondrld\nthird\n	21	-	-	-	2	0	normal	-
+midword-wywwyp	hello world\nsecond line line\nthird\n	28	-	-	-	2	0	normal	-
+midword-wywyp	hello world\nsecond\nsecond line\nthird\n	25	-	-	-	1	0	normal	-
+midword-x	hello wold\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-xx	hello wod\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-y	hello world\nsecond line\nthird\n	8	-	-	-	0	1	normal	-

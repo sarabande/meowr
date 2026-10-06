@@ -1,0 +1,39 @@
+The `*.scm` files in this directory are tree-sitter queries vendored from the
+Helix editor's runtime. `<language>.scm` is a textobject query, which no
+grammar crate publishes — `toml.scm`, `nix.scm` and `scheme.scm` came the same
+way and the same day the language list grew; `markdown-injections.scm` is an injection query,
+vendored for a different reason — the `tree-sitter-md` crate's own was written
+for nvim-treesitter, which includes an injected node's children by default
+where tree-house excludes them unless asked. Both come from Helix
+(https://github.com/helix-editor/helix), which is licensed under the Mozilla Public License 2.0. MPL-2.0 is file-level
+copyleft: these files remain under it, modifications to them must be published
+under it, and shipping them alongside the rest of meowr (MIT OR Apache-2.0) is
+permitted. The notice must be kept, which is what this file is.
+
+They are vendored rather than taken from `meow-tree-sitter`, which is where the
+reference configuration gets its equivalent queries and whose behaviour is
+therefore what meowr is trying to match. **`meow-tree-sitter` is GPL-3.0**, and
+vendoring GPL-3 files into an MIT/Apache-2.0 project would relicense the whole
+binary. The two query sets are the same size and evidently share an ancestor,
+so the behavioural difference is expected to be small — but the licences are
+not interchangeable and this is the one that can be used.
+
+Unlike the highlight queries, which come from the `tree-sitter-*` crates
+themselves, no crate publishes textobject queries, so these have to come from
+somewhere and be kept up to date by hand.
+
+What a vendored query offers varies, and what it does not offer is worth saying
+out loud. `scheme.scm` captures comments and nothing else, so Scheme has no
+`function` Thing even though `(define (f) ...)` is obviously one. `toml.scm`
+gives entries and comments; `nix.scm` gives functions, parameters, entries and
+comments. Helix wrote what its users needed, which is not the same set meowr's
+Things want.
+
+A caveat that follows from vendoring queries from one project and taking
+grammars from another: they can disagree. Helix pins its own grammar revisions,
+so a vendored query can name a node the published crate does not have, in which
+case the whole query is rejected, that language loses its Things but keeps its
+highlighting, and `Languages::skipped` says so. Go was that case — `go.scm`
+named a `method_spec` the crate has no node for — until Go was dropped. Any
+query added here should be checked against the crate version actually in
+`Cargo.toml`, not against Helix's.

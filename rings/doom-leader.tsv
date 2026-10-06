@@ -1,0 +1,254 @@
+# doom-leader-map
+# key	command	desc
+&	PREFIX	snippets
+& /	yas-visit-snippet-file	Find global snippet
+& c	aya-create	Create Temp Template
+& e	aya-expand	Use Temp Template
+& i	yas-insert-snippet	Insert snippet
+& n	yas-new-snippet	New snippet
+& r	yas-reload-all	Reload snippets
+,	dired-jump	Switch to dired
+.	switch-to-buffer	Switch to buffer
+0	meow-digit-argument	
+1	meow-digit-argument	
+2	meow-digit-argument	
+3	meow-digit-argument	
+4	meow-digit-argument	
+5	meow-digit-argument	
+6	meow-digit-argument	
+7	meow-digit-argument	
+8	meow-digit-argument	
+9	meow-digit-argument	
+?	meow-cheatsheet	
+C-f	PREFIX	fold
+C-f C-a	PREFIX	
+C-f C-a C-d	vimish-fold-delete-all	
+C-f C-a C-f	+fold/close-all	
+C-f C-a C-u	+fold/open-all	
+C-f C-d	vimish-fold-delete	
+C-f C-f	+fold/toggle	
+C-f C-u	+fold/open	
+ESC	PREFIX	
+ESC g	magit-file-dispatch	
+ESC x	consult-mode-command	
+RET	recentf-open-files	Find receht file
+SPC	projectile-find-file	Find file in project
+a	embark-act	Actions
+b	PREFIX	buffer
+b .	switch-to-buffer	Switch to buffer
+b D	kill-buffer-and-window	Kill buffer and window
+b X	doom/open-scratch-buffer	Open *doom:scratch*
+b d	kill-current-buffer	Kill current buffer
+b k	kill-buffer	Kill buffer
+b o	doom/kill-other-buffers	Kill other buffers
+b x	doom/switch-to-scratch-buffer	Switch to scratch buffer
+d	PREFIX	dape
+d R	dape-repl	dape repl
+d b	PREFIX	Breakpoint
+d b b	dape-breakpoint-toggle	breakpoint toggle
+d b c	dape-breakpoint-expression	breakpoint expression
+d b d	dape-breakpoint-remove-all	breakpoint remove all
+d b h	dape-breakpoint-hits	breakpoint hit count
+d b l	dape-breakpoint-log	breakpoint log
+d c	dape-continue	dape continue
+d e	PREFIX	Eval
+d e a	dape-watch-dwim	watch thing at point
+d e e	dape-evaluate-expression	evaluate expression
+d h	dape-info	dape info
+d i	dape-step-in	dape step in
+d n	dape-next	dape next
+d o	dape-step-out	dape step out
+d q	dape-quit	dape quit
+d r	dape-restart	dape restart
+d s	dape	dape start
+e	+eval/line-or-region	Evaluate line/region
+f	PREFIX	file
+f C	doom/copy-this-file	Copy this file
+f D	doom/delete-this-file	Delete this file
+f E	doom/browse-in-emacsd	Browse emacs.d
+f F	+default/find-file-under-here	Find file from here
+f P	doom/open-private-config	Browse private config
+f R	projectile-recentf	Recent project files
+f U	doom/sudo-find-file	Sudo find file
+f X	doom/switch-to-scratch-buffer	Switch to scratch buffer
+f Y	+default/yank-buffer-path-relative-to-project	Yank file path from project
+f c	editorconfig-find-current-editorconfig	Open project editorconfig
+f d	dired	Find directory
+f e	doom/find-file-in-emacsd	Find file in emacs.d
+f f	find-file	Find file
+f l	locate	Locate file
+f m	doom/move-this-file	Rename/move this file
+f p	doom/find-file-in-private-config	Find file in private config
+f r	recentf-open-files	Recent files
+f u	doom/sudo-this-file	Sudo this file
+f x	doom/toggle-scratch-buffer	Toggle scratch buffer
+f y	+default/yank-buffer-path	Yank file path
+h	consult-history	
+i	PREFIX	insert
+i F	#[(arg &rest _) ((let ((current-prefix-arg (or t arg))) (call-interactively (let ((command #'+default/insert-file-path)) (or (command-remapping command) command))))) (t) nil nil P]	Current file path
+i e	emoji-search	Emoji
+i f	+default/insert-file-path	Current file name
+i s	yas-insert-snippet	Snippet
+i u	insert-char	Unicode
+i y	+default/yank-pop	From clipboard
+k	PREFIX	code
+k C	recompile	Recompile
+k D	+lookup/references	Jump to references
+k E	+eval/region-and-replace	Evaluate & replace region
+k J	#[(arg &rest _) ((let ((current-prefix-arg (or 'all-workspaces arg))) (call-interactively (let ((command #'consult-lsp-symbols)) (or (command-remapping command) command))))) (t) nil nil P]	Jump to symbol in any workspace
+k W	doom/delete-trailing-newlines	Delete trailing newlines
+k a	lsp-execute-code-action	LSP Code actions
+k c	compile	Compile
+k d	+lookup/definition	Jump to definition
+k e	+eval/buffer-or-region	Evaluate buffer/region
+k f	+format/region-or-buffer	Format buffer/region
+k i	+lookup/implementations	Find implementations
+k j	consult-lsp-symbols	Jump to symbol in current workspace
+k k	+lookup/documentation	Jump to documentation
+k l	+default/lsp-command-map	LSP
+k o	lsp-organize-imports	LSP Organize imports
+k r	lsp-rename	LSP Rename
+k s	+eval/buffer-or-region-in-repl	Send buffer/region to repl
+k t	+lookup/type-definition	Find type definition
+k w	delete-trailing-whitespace	Delete trailing whitespace
+k x	+default/diagnostics	List errors
+l	#[(&rest _) ((meow--execute-kbd-macro C-c c)) (t) nil nil nil]	+localleader
+m	consult-man	
+n	PREFIX	notes
+n .	+default/search-notes-for-symbol-at-point	Search notes for symbol
+n C	org-clock-cancel	Cancel current org-clock
+n F	+default/browse-notes	Browse notes
+n N	org-capture-goto-target	Goto capture
+n S	+default/org-notes-headlines	Search org agenda headlines
+n Y	+org/export-to-clipboard-as-rich-text	Org export to clipboard as RTF
+n a	org-agenda	Org agenda
+n c	+org/toggle-last-clock	Toggle last org-clock
+n f	+default/find-in-notes	Find file in notes
+n l	org-store-link	Org store link
+n m	org-tags-view	Tags search
+n n	org-capture	Org capture
+n o	org-clock-goto	Active org-clock
+n s	+default/org-notes-search	Search notes
+n t	org-todo-list	Todo list
+n v	org-search-view	View search
+n y	+org/export-to-clipboard	Org export to clipboard
+o	PREFIX	open
+o -	dired-jump	Dired
+o P	treemacs-find-file	Find file in project rsidebar
+o R	+eval/open-repl-same-window	REPL (same window)
+o T	+vterm/here	Open vterm here
+o b	browse-url-of-file	Browser
+o d	+debugger/start	Debugger
+o f	make-frame	New frame
+o p	+treemacs/toggle	Project sidebar
+o r	+eval/open-repl-other-window	REPL
+o t	+vterm/toggle	Toggle vterm popup
+p	PREFIX	project
+p .	+default/search-project-for-symbol-at-point	Search project for symbol
+p F	doom/find-file-in-other-project	Find file in other project
+p X	doom/switch-to-project-scratch-buffer	Switch to project scratch buffer
+p s	+default/search-project	Search project
+p x	doom/toggle-project-scratch-buffer	Toggle project scratch buffer
+q	PREFIX	quit/restart
+q F	doom/kill-all-buffers	Clear current frame
+q K	save-buffers-kill-emacs	Kill Emacs (and daemon)
+q L	doom/load-session	Restore session from file
+q Q	kill-emacs	Quit Emacs without saving
+q S	doom/save-session	Save session to file
+q d	+default/restart-server	Restart emacs server
+q f	delete-frame	Delete frame
+q l	doom/quickload-session	Restore last session
+q q	save-buffers-kill-terminal	Quit Emacs
+q r	doom/restart	Restart Emacs
+q s	doom/quicksave-session	Quick save current session
+s	PREFIX	search
+s .	+default/search-project-for-symbol-at-point	Search project for symbol
+s B	#[(arg &rest _) ((let ((current-prefix-arg (or 'all-buffers arg))) (call-interactively (let ((command #'consult-line-multi)) (or (command-remapping command) command))))) (t) nil nil P]	Search all open buffers
+s D	+default/search-other-cwd	Search other directory
+s I	consult-imenu-multi	Jump to symbol in open buffers
+s K	+lookup/in-all-docsets	Look up in all docsets
+s L	ffap-menu	Jump to link
+s O	+lookup/online-select	Look up online (w/ prompt)
+s P	+default/search-other-project	Search other project
+s S	+vertico/search-symbol-at-point	Search buffer for thing at point
+s T	+lookup/synonyms	Thesaurus
+s b	consult-line	Search buffer
+s d	+default/search-cwd	Search current directory
+s e	+default/search-emacsd	Search .emacs.d
+s f	+lookup/file	Locate file
+s i	imenu	Jump to symbol
+s k	+lookup/in-docsets	Look up in local docsets
+s l	link-hint-open-link	Jump to visible link
+s m	bookmark-jump	Jump to bookmark
+s o	+lookup/online	Look up online
+s p	+default/search-project	Search project
+s s	+default/search-buffer	Search buffer
+s t	+lookup/dictionary-definition	Dictionary
+t	PREFIX	toggle
+t F	toggle-frame-fullscreen	Frame fullscreen
+t I	doom/toggle-indent-style	Indent style
+t b	doom-big-font-mode	Big mode
+t c	global-display-fill-column-indicator-mode	Fill Column Indicator
+t f	flymake-mode	Flymake
+t l	doom/toggle-line-numbers	Line numbers
+t r	read-only-mode	Read-only mode
+t s	flyspell-mode	Spell checker
+t v	visible-mode	Visible mode
+t w	visual-line-mode	Soft line wrapping
+u	meow-universal-argument	
+v	PREFIX	versioning
+v '	forge-dispatch	Forge dispatch
+v .	magit-file-dispatch	Magit file dispatch
+v /	magit-dispatch	Magit dispatch
+v B	magit-blame-addition	Magit blame
+v C	magit-clone	Magit clone
+v F	magit-fetch	Magit fetch
+v G	magit-status-here	Magit status here
+v L	magit-log-buffer-file	Magit buffer log
+v R	vc-revert	Git revert file
+v S	magit-stage-file	Git stage file
+v U	magit-unstage-file	Git unstage file
+v Y	+vc/git-link-kill-homepage	Kill link to homepage
+v c	PREFIX	create
+v c R	magit-clone	Clone repo
+v c c	magit-commit-create	Commit
+v c f	magit-commit-fixup	Fixup
+v c i	forge-create-issue	Issue
+v c p	forge-create-pullreq	Pull request
+v c r	magit-init	Initialize repo
+v f	PREFIX	find
+v f c	magit-show-commit	Find commit
+v f f	magit-find-file	Find file
+v f g	magit-find-git-config-file	Find gitconfig file
+v f i	forge-visit-issue	Find issue
+v f p	forge-visit-pullreq	Find pull request
+v g	magit-status	Magit status
+v l	PREFIX	
+v l i	forge-list-issues	List issues
+v l n	forge-list-notifications	List notifications
+v l p	forge-list-pullreqs	List pull requests
+v l r	magit-list-repositories	List repositories
+v l s	magit-list-submodules	List submodules
+v n	+vc-gutter/next-hunk	Jump to next hunk
+v o	PREFIX	open in browser
+v o .	+vc/git-link	Browse file or region
+v o I	forge-browse-issues	Browse issues
+v o P	forge-browse-pullreqs	Browse pull requests
+v o c	forge-browse-commit	Browse commit
+v o h	+vc/git-link-homepage	Browse homepage
+v o i	forge-browse-issue	Browse an issue
+v o p	forge-browse-pullreq	Browse a pull request
+v o r	forge-browse-remote	Browse remote
+v p	+vc-gutter/previous-hunk	Jump to previous hunk
+v r	+vc-gutter/revert-hunk	Git revert hunk
+v s	+vc-gutter/stage-hunk	Git stage hunk
+v t	git-timemachine-toggle	Git time machine
+v x	magit-file-delete	Magit file delete
+v y	+vc/git-link-kill	Kill link to remote
+w	PREFIX	workspaces/windows
+w L	doom/quickload-session	Load last autosaved session
+w U	winner-redo	Redo window config
+w a	doom/quicksave-session	Autosave session
+w l	doom/load-session	Load session
+w s	doom/save-session	Save session
+w u	winner-undo	Undo window config

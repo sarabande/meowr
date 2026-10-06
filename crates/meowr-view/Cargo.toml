@@ -1,0 +1,16 @@
+[package]
+name = "meowr-view"
+description = "The plain-data row model meowr renders. No decisions, no ratatui."
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+meowr-syntax.workspace = true
+meowr-core.workspace = true
+meowr-domain.workspace = true
+
+[lints]
+workspace = true

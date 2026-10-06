@@ -1,0 +1,15 @@
+[package]
+name = "meowr-domain"
+description = "Buffers, positions and the differences between texts for meowr. No I/O."
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+ropey.workspace = true
+similar.workspace = true
+
+[lints]
+workspace = true

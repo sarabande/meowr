@@ -1,0 +1,241 @@
+# name	buffer	point	axis	kind	mark	keys	diverges
+nested-innerr	outer (alpha (beta) gamma) tail\n	14	-	-	-	,r	-
+nested-inners	outer (alpha (beta) gamma) tail\n	14	-	-	-	,s	-
+nested-innerc	outer (alpha (beta) gamma) tail\n	14	-	-	-	,c	-
+nested-innerg	outer (alpha (beta) gamma) tail\n	14	-	-	-	,g	-
+nested-innere	outer (alpha (beta) gamma) tail\n	14	-	-	-	,e	-
+nested-innerb	outer (alpha (beta) gamma) tail\n	14	-	-	-	,b	-
+nested-innerp	outer (alpha (beta) gamma) tail\n	14	-	-	-	,p	-
+nested-innerl	outer (alpha (beta) gamma) tail\n	14	-	-	-	,l	-
+nested-innerdot	outer (alpha (beta) gamma) tail\n	14	-	-	-	,.	-
+nested-innerm	outer (alpha (beta) gamma) tail\n	14	-	-	-	,m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+nested-dotr	outer (alpha (beta) gamma) tail\n	14	-	-	-	.r	-
+nested-dots	outer (alpha (beta) gamma) tail\n	14	-	-	-	.s	-
+nested-dotc	outer (alpha (beta) gamma) tail\n	14	-	-	-	.c	-
+nested-dotg	outer (alpha (beta) gamma) tail\n	14	-	-	-	.g	-
+nested-dote	outer (alpha (beta) gamma) tail\n	14	-	-	-	.e	-
+nested-dotb	outer (alpha (beta) gamma) tail\n	14	-	-	-	.b	-
+nested-dotp	outer (alpha (beta) gamma) tail\n	14	-	-	-	.p	-
+nested-dotl	outer (alpha (beta) gamma) tail\n	14	-	-	-	.l	-
+nested-dotdot	outer (alpha (beta) gamma) tail\n	14	-	-	-	..	-
+nested-dotm	outer (alpha (beta) gamma) tail\n	14	-	-	-	.m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+nested-begr	outer (alpha (beta) gamma) tail\n	14	-	-	-	[r	-
+nested-begs	outer (alpha (beta) gamma) tail\n	14	-	-	-	[s	-
+nested-begc	outer (alpha (beta) gamma) tail\n	14	-	-	-	[c	-
+nested-begg	outer (alpha (beta) gamma) tail\n	14	-	-	-	[g	-
+nested-bege	outer (alpha (beta) gamma) tail\n	14	-	-	-	[e	-
+nested-begb	outer (alpha (beta) gamma) tail\n	14	-	-	-	[b	-
+nested-begp	outer (alpha (beta) gamma) tail\n	14	-	-	-	[p	-
+nested-begl	outer (alpha (beta) gamma) tail\n	14	-	-	-	[l	-
+nested-begdot	outer (alpha (beta) gamma) tail\n	14	-	-	-	[.	-
+nested-begm	outer (alpha (beta) gamma) tail\n	14	-	-	-	[m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+nested-endr	outer (alpha (beta) gamma) tail\n	14	-	-	-	]r	-
+nested-ends	outer (alpha (beta) gamma) tail\n	14	-	-	-	]s	-
+nested-endc	outer (alpha (beta) gamma) tail\n	14	-	-	-	]c	-
+nested-endg	outer (alpha (beta) gamma) tail\n	14	-	-	-	]g	-
+nested-ende	outer (alpha (beta) gamma) tail\n	14	-	-	-	]e	-
+nested-endb	outer (alpha (beta) gamma) tail\n	14	-	-	-	]b	-
+nested-endp	outer (alpha (beta) gamma) tail\n	14	-	-	-	]p	-
+nested-endl	outer (alpha (beta) gamma) tail\n	14	-	-	-	]l	-
+nested-enddot	outer (alpha (beta) gamma) tail\n	14	-	-	-	].	-
+nested-endm	outer (alpha (beta) gamma) tail\n	14	-	-	-	]m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+afterpair-innerr	outer (alpha (beta) gamma) tail\n	21	-	-	-	,r	-
+afterpair-inners	outer (alpha (beta) gamma) tail\n	21	-	-	-	,s	-
+afterpair-innerc	outer (alpha (beta) gamma) tail\n	21	-	-	-	,c	-
+afterpair-innerg	outer (alpha (beta) gamma) tail\n	21	-	-	-	,g	-
+afterpair-innere	outer (alpha (beta) gamma) tail\n	21	-	-	-	,e	-
+afterpair-innerb	outer (alpha (beta) gamma) tail\n	21	-	-	-	,b	-
+afterpair-innerp	outer (alpha (beta) gamma) tail\n	21	-	-	-	,p	-
+afterpair-innerl	outer (alpha (beta) gamma) tail\n	21	-	-	-	,l	-
+afterpair-innerdot	outer (alpha (beta) gamma) tail\n	21	-	-	-	,.	-
+afterpair-innerm	outer (alpha (beta) gamma) tail\n	21	-	-	-	,m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+afterpair-dotr	outer (alpha (beta) gamma) tail\n	21	-	-	-	.r	-
+afterpair-dots	outer (alpha (beta) gamma) tail\n	21	-	-	-	.s	-
+afterpair-dotc	outer (alpha (beta) gamma) tail\n	21	-	-	-	.c	-
+afterpair-dotg	outer (alpha (beta) gamma) tail\n	21	-	-	-	.g	-
+afterpair-dote	outer (alpha (beta) gamma) tail\n	21	-	-	-	.e	-
+afterpair-dotb	outer (alpha (beta) gamma) tail\n	21	-	-	-	.b	-
+afterpair-dotp	outer (alpha (beta) gamma) tail\n	21	-	-	-	.p	-
+afterpair-dotl	outer (alpha (beta) gamma) tail\n	21	-	-	-	.l	-
+afterpair-dotdot	outer (alpha (beta) gamma) tail\n	21	-	-	-	..	-
+afterpair-dotm	outer (alpha (beta) gamma) tail\n	21	-	-	-	.m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+afterpair-begr	outer (alpha (beta) gamma) tail\n	21	-	-	-	[r	-
+afterpair-begs	outer (alpha (beta) gamma) tail\n	21	-	-	-	[s	-
+afterpair-begc	outer (alpha (beta) gamma) tail\n	21	-	-	-	[c	-
+afterpair-begg	outer (alpha (beta) gamma) tail\n	21	-	-	-	[g	-
+afterpair-bege	outer (alpha (beta) gamma) tail\n	21	-	-	-	[e	-
+afterpair-begb	outer (alpha (beta) gamma) tail\n	21	-	-	-	[b	-
+afterpair-begp	outer (alpha (beta) gamma) tail\n	21	-	-	-	[p	-
+afterpair-begl	outer (alpha (beta) gamma) tail\n	21	-	-	-	[l	-
+afterpair-begdot	outer (alpha (beta) gamma) tail\n	21	-	-	-	[.	-
+afterpair-begm	outer (alpha (beta) gamma) tail\n	21	-	-	-	[m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+afterpair-endr	outer (alpha (beta) gamma) tail\n	21	-	-	-	]r	-
+afterpair-ends	outer (alpha (beta) gamma) tail\n	21	-	-	-	]s	-
+afterpair-endc	outer (alpha (beta) gamma) tail\n	21	-	-	-	]c	-
+afterpair-endg	outer (alpha (beta) gamma) tail\n	21	-	-	-	]g	-
+afterpair-ende	outer (alpha (beta) gamma) tail\n	21	-	-	-	]e	-
+afterpair-endb	outer (alpha (beta) gamma) tail\n	21	-	-	-	]b	-
+afterpair-endp	outer (alpha (beta) gamma) tail\n	21	-	-	-	]p	-
+afterpair-endl	outer (alpha (beta) gamma) tail\n	21	-	-	-	]l	-
+afterpair-enddot	outer (alpha (beta) gamma) tail\n	21	-	-	-	].	-
+afterpair-endm	outer (alpha (beta) gamma) tail\n	21	-	-	-	]m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+string-innerr	say "one two" and "three" end\n	7	-	-	-	,r	-
+string-inners	say "one two" and "three" end\n	7	-	-	-	,s	-
+string-innerc	say "one two" and "three" end\n	7	-	-	-	,c	-
+string-innerg	say "one two" and "three" end\n	7	-	-	-	,g	-
+string-innere	say "one two" and "three" end\n	7	-	-	-	,e	-
+string-innerb	say "one two" and "three" end\n	7	-	-	-	,b	-
+string-innerp	say "one two" and "three" end\n	7	-	-	-	,p	-
+string-innerl	say "one two" and "three" end\n	7	-	-	-	,l	-
+string-innerdot	say "one two" and "three" end\n	7	-	-	-	,.	-
+string-innerm	say "one two" and "three" end\n	7	-	-	-	,m	-
+string-dotr	say "one two" and "three" end\n	7	-	-	-	.r	-
+string-dots	say "one two" and "three" end\n	7	-	-	-	.s	-
+string-dotc	say "one two" and "three" end\n	7	-	-	-	.c	-
+string-dotg	say "one two" and "three" end\n	7	-	-	-	.g	-
+string-dote	say "one two" and "three" end\n	7	-	-	-	.e	-
+string-dotb	say "one two" and "three" end\n	7	-	-	-	.b	-
+string-dotp	say "one two" and "three" end\n	7	-	-	-	.p	-
+string-dotl	say "one two" and "three" end\n	7	-	-	-	.l	-
+string-dotdot	say "one two" and "three" end\n	7	-	-	-	..	-
+string-dotm	say "one two" and "three" end\n	7	-	-	-	.m	-
+string-begr	say "one two" and "three" end\n	7	-	-	-	[r	-
+string-begs	say "one two" and "three" end\n	7	-	-	-	[s	-
+string-begc	say "one two" and "three" end\n	7	-	-	-	[c	-
+string-begg	say "one two" and "three" end\n	7	-	-	-	[g	-
+string-bege	say "one two" and "three" end\n	7	-	-	-	[e	-
+string-begb	say "one two" and "three" end\n	7	-	-	-	[b	-
+string-begp	say "one two" and "three" end\n	7	-	-	-	[p	-
+string-begl	say "one two" and "three" end\n	7	-	-	-	[l	-
+string-begdot	say "one two" and "three" end\n	7	-	-	-	[.	-
+string-begm	say "one two" and "three" end\n	7	-	-	-	[m	-
+string-endr	say "one two" and "three" end\n	7	-	-	-	]r	-
+string-ends	say "one two" and "three" end\n	7	-	-	-	]s	-
+string-endc	say "one two" and "three" end\n	7	-	-	-	]c	-
+string-endg	say "one two" and "three" end\n	7	-	-	-	]g	-
+string-ende	say "one two" and "three" end\n	7	-	-	-	]e	-
+string-endb	say "one two" and "three" end\n	7	-	-	-	]b	-
+string-endp	say "one two" and "three" end\n	7	-	-	-	]p	-
+string-endl	say "one two" and "three" end\n	7	-	-	-	]l	-
+string-enddot	say "one two" and "three" end\n	7	-	-	-	].	-
+string-endm	say "one two" and "three" end\n	7	-	-	-	]m	-
+stringpair-innerr	call(a, ")", b) end\n	6	-	-	-	,r	-
+stringpair-inners	call(a, ")", b) end\n	6	-	-	-	,s	-
+stringpair-innerc	call(a, ")", b) end\n	6	-	-	-	,c	-
+stringpair-innerg	call(a, ")", b) end\n	6	-	-	-	,g	-
+stringpair-innere	call(a, ")", b) end\n	6	-	-	-	,e	-
+stringpair-innerb	call(a, ")", b) end\n	6	-	-	-	,b	-
+stringpair-innerp	call(a, ")", b) end\n	6	-	-	-	,p	-
+stringpair-innerl	call(a, ")", b) end\n	6	-	-	-	,l	-
+stringpair-innerdot	call(a, ")", b) end\n	6	-	-	-	,.	-
+stringpair-innerm	call(a, ")", b) end\n	6	-	-	-	,m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+stringpair-dotr	call(a, ")", b) end\n	6	-	-	-	.r	-
+stringpair-dots	call(a, ")", b) end\n	6	-	-	-	.s	-
+stringpair-dotc	call(a, ")", b) end\n	6	-	-	-	.c	-
+stringpair-dotg	call(a, ")", b) end\n	6	-	-	-	.g	-
+stringpair-dote	call(a, ")", b) end\n	6	-	-	-	.e	-
+stringpair-dotb	call(a, ")", b) end\n	6	-	-	-	.b	-
+stringpair-dotp	call(a, ")", b) end\n	6	-	-	-	.p	-
+stringpair-dotl	call(a, ")", b) end\n	6	-	-	-	.l	-
+stringpair-dotdot	call(a, ")", b) end\n	6	-	-	-	..	-
+stringpair-dotm	call(a, ")", b) end\n	6	-	-	-	.m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+stringpair-begr	call(a, ")", b) end\n	6	-	-	-	[r	-
+stringpair-begs	call(a, ")", b) end\n	6	-	-	-	[s	-
+stringpair-begc	call(a, ")", b) end\n	6	-	-	-	[c	-
+stringpair-begg	call(a, ")", b) end\n	6	-	-	-	[g	-
+stringpair-bege	call(a, ")", b) end\n	6	-	-	-	[e	-
+stringpair-begb	call(a, ")", b) end\n	6	-	-	-	[b	-
+stringpair-begp	call(a, ")", b) end\n	6	-	-	-	[p	-
+stringpair-begl	call(a, ")", b) end\n	6	-	-	-	[l	-
+stringpair-begdot	call(a, ")", b) end\n	6	-	-	-	[.	-
+stringpair-begm	call(a, ")", b) end\n	6	-	-	-	[m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+stringpair-endr	call(a, ")", b) end\n	6	-	-	-	]r	-
+stringpair-ends	call(a, ")", b) end\n	6	-	-	-	]s	-
+stringpair-endc	call(a, ")", b) end\n	6	-	-	-	]c	-
+stringpair-endg	call(a, ")", b) end\n	6	-	-	-	]g	-
+stringpair-ende	call(a, ")", b) end\n	6	-	-	-	]e	-
+stringpair-endb	call(a, ")", b) end\n	6	-	-	-	]b	-
+stringpair-endp	call(a, ")", b) end\n	6	-	-	-	]p	-
+stringpair-endl	call(a, ")", b) end\n	6	-	-	-	]l	-
+stringpair-enddot	call(a, ")", b) end\n	6	-	-	-	].	-
+stringpair-endm	call(a, ")", b) end\n	6	-	-	-	]m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+prose-innerr	One thing. Then another.\n\nA second para here.\n	14	-	-	-	,r	-
+prose-inners	One thing. Then another.\n\nA second para here.\n	14	-	-	-	,s	-
+prose-innerc	One thing. Then another.\n\nA second para here.\n	14	-	-	-	,c	-
+prose-innerg	One thing. Then another.\n\nA second para here.\n	14	-	-	-	,g	-
+prose-innere	One thing. Then another.\n\nA second para here.\n	14	-	-	-	,e	-
+prose-innerb	One thing. Then another.\n\nA second para here.\n	14	-	-	-	,b	-
+prose-innerp	One thing. Then another.\n\nA second para here.\n	14	-	-	-	,p	-
+prose-innerl	One thing. Then another.\n\nA second para here.\n	14	-	-	-	,l	-
+prose-innerdot	One thing. Then another.\n\nA second para here.\n	14	-	-	-	,.	-
+prose-innerm	One thing. Then another.\n\nA second para here.\n	14	-	-	-	,m	-
+prose-dotr	One thing. Then another.\n\nA second para here.\n	14	-	-	-	.r	-
+prose-dots	One thing. Then another.\n\nA second para here.\n	14	-	-	-	.s	-
+prose-dotc	One thing. Then another.\n\nA second para here.\n	14	-	-	-	.c	-
+prose-dotg	One thing. Then another.\n\nA second para here.\n	14	-	-	-	.g	-
+prose-dote	One thing. Then another.\n\nA second para here.\n	14	-	-	-	.e	-
+prose-dotb	One thing. Then another.\n\nA second para here.\n	14	-	-	-	.b	-
+prose-dotp	One thing. Then another.\n\nA second para here.\n	14	-	-	-	.p	-
+prose-dotl	One thing. Then another.\n\nA second para here.\n	14	-	-	-	.l	-
+prose-dotdot	One thing. Then another.\n\nA second para here.\n	14	-	-	-	..	-
+prose-dotm	One thing. Then another.\n\nA second para here.\n	14	-	-	-	.m	-
+prose-begr	One thing. Then another.\n\nA second para here.\n	14	-	-	-	[r	-
+prose-begs	One thing. Then another.\n\nA second para here.\n	14	-	-	-	[s	-
+prose-begc	One thing. Then another.\n\nA second para here.\n	14	-	-	-	[c	-
+prose-begg	One thing. Then another.\n\nA second para here.\n	14	-	-	-	[g	-
+prose-bege	One thing. Then another.\n\nA second para here.\n	14	-	-	-	[e	-
+prose-begb	One thing. Then another.\n\nA second para here.\n	14	-	-	-	[b	-
+prose-begp	One thing. Then another.\n\nA second para here.\n	14	-	-	-	[p	-
+prose-begl	One thing. Then another.\n\nA second para here.\n	14	-	-	-	[l	-
+prose-begdot	One thing. Then another.\n\nA second para here.\n	14	-	-	-	[.	-
+prose-begm	One thing. Then another.\n\nA second para here.\n	14	-	-	-	[m	-
+prose-endr	One thing. Then another.\n\nA second para here.\n	14	-	-	-	]r	-
+prose-ends	One thing. Then another.\n\nA second para here.\n	14	-	-	-	]s	-
+prose-endc	One thing. Then another.\n\nA second para here.\n	14	-	-	-	]c	-
+prose-endg	One thing. Then another.\n\nA second para here.\n	14	-	-	-	]g	-
+prose-ende	One thing. Then another.\n\nA second para here.\n	14	-	-	-	]e	-
+prose-endb	One thing. Then another.\n\nA second para here.\n	14	-	-	-	]b	-
+prose-endp	One thing. Then another.\n\nA second para here.\n	14	-	-	-	]p	-
+prose-endl	One thing. Then another.\n\nA second para here.\n	14	-	-	-	]l	-
+prose-enddot	One thing. Then another.\n\nA second para here.\n	14	-	-	-	].	-
+prose-endm	One thing. Then another.\n\nA second para here.\n	14	-	-	-	]m	-
+indent-innerr	fn main() {\n    let x = 1;\n}\n	20	-	-	-	,r	-
+indent-inners	fn main() {\n    let x = 1;\n}\n	20	-	-	-	,s	-
+indent-innerc	fn main() {\n    let x = 1;\n}\n	20	-	-	-	,c	-
+indent-innerg	fn main() {\n    let x = 1;\n}\n	20	-	-	-	,g	-
+indent-innere	fn main() {\n    let x = 1;\n}\n	20	-	-	-	,e	-
+indent-innerb	fn main() {\n    let x = 1;\n}\n	20	-	-	-	,b	-
+indent-innerp	fn main() {\n    let x = 1;\n}\n	20	-	-	-	,p	-
+indent-innerl	fn main() {\n    let x = 1;\n}\n	20	-	-	-	,l	-
+indent-innerdot	fn main() {\n    let x = 1;\n}\n	20	-	-	-	,.	-
+indent-innerm	fn main() {\n    let x = 1;\n}\n	20	-	-	-	,m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+indent-dotr	fn main() {\n    let x = 1;\n}\n	20	-	-	-	.r	-
+indent-dots	fn main() {\n    let x = 1;\n}\n	20	-	-	-	.s	-
+indent-dotc	fn main() {\n    let x = 1;\n}\n	20	-	-	-	.c	-
+indent-dotg	fn main() {\n    let x = 1;\n}\n	20	-	-	-	.g	-
+indent-dote	fn main() {\n    let x = 1;\n}\n	20	-	-	-	.e	-
+indent-dotb	fn main() {\n    let x = 1;\n}\n	20	-	-	-	.b	-
+indent-dotp	fn main() {\n    let x = 1;\n}\n	20	-	-	-	.p	-
+indent-dotl	fn main() {\n    let x = 1;\n}\n	20	-	-	-	.l	-
+indent-dotdot	fn main() {\n    let x = 1;\n}\n	20	-	-	-	..	-
+indent-dotm	fn main() {\n    let x = 1;\n}\n	20	-	-	-	.m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+indent-begr	fn main() {\n    let x = 1;\n}\n	20	-	-	-	[r	-
+indent-begs	fn main() {\n    let x = 1;\n}\n	20	-	-	-	[s	-
+indent-begc	fn main() {\n    let x = 1;\n}\n	20	-	-	-	[c	-
+indent-begg	fn main() {\n    let x = 1;\n}\n	20	-	-	-	[g	-
+indent-bege	fn main() {\n    let x = 1;\n}\n	20	-	-	-	[e	-
+indent-begb	fn main() {\n    let x = 1;\n}\n	20	-	-	-	[b	-
+indent-begp	fn main() {\n    let x = 1;\n}\n	20	-	-	-	[p	-
+indent-begl	fn main() {\n    let x = 1;\n}\n	20	-	-	-	[l	-
+indent-begdot	fn main() {\n    let x = 1;\n}\n	20	-	-	-	[.	-
+indent-begm	fn main() {\n    let x = 1;\n}\n	20	-	-	-	[m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.
+indent-endr	fn main() {\n    let x = 1;\n}\n	20	-	-	-	]r	-
+indent-ends	fn main() {\n    let x = 1;\n}\n	20	-	-	-	]s	-
+indent-endc	fn main() {\n    let x = 1;\n}\n	20	-	-	-	]c	-
+indent-endg	fn main() {\n    let x = 1;\n}\n	20	-	-	-	]g	-
+indent-ende	fn main() {\n    let x = 1;\n}\n	20	-	-	-	]e	-
+indent-endb	fn main() {\n    let x = 1;\n}\n	20	-	-	-	]b	-
+indent-endp	fn main() {\n    let x = 1;\n}\n	20	-	-	-	]p	-
+indent-endl	fn main() {\n    let x = 1;\n}\n	20	-	-	-	]l	-
+indent-enddot	fn main() {\n    let x = 1;\n}\n	20	-	-	-	].	-
+indent-endm	fn main() {\n    let x = 1;\n}\n	20	-	-	-	]m	`m` is meowr's own `match` Thing and has no row in `meow-char-thing-table`, so Meow does nothing at all: `meow--parse-inner-of-thing-char` is a `when-let*` over that table and its callers are a bare `(when bounds ...)`. meowr selects the innermost bracket pair around the point. ADR-0008 measures Fidelity on meowr's defaults, and this is a default Meow leaves unbound -- the difference is the feature, not a failure. The `string` and `prose` situations have no bracket around the point, so meowr does nothing there either and they are absent from this table.

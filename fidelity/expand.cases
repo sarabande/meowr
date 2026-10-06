@@ -1,0 +1,70 @@
+# name	buffer	point	axis	kind	mark	keys	diverges
+bof-w1	hello world\nsecond line\nthird\n	0	-	-	-	w1	-
+bof-w2	hello world\nsecond line\nthird\n	0	-	-	-	w2	-
+bof-w3	hello world\nsecond line\nthird\n	0	-	-	-	w3	-
+bof-w0	hello world\nsecond line\nthird\n	0	-	-	-	w0	-
+bof-shiftw2	hello world\nsecond line\nthird\n	0	-	-	-	W2	-
+bof-b2	hello world\nsecond line\nthird\n	0	-	-	-	b2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+bof-shiftb2	hello world\nsecond line\nthird\n	0	-	-	-	B2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+bof-l1	hello world\nsecond line\nthird\n	0	-	-	-	l1	-
+bof-l2	hello world\nsecond line\nthird\n	0	-	-	-	l2	-
+bof-l0	hello world\nsecond line\nthird\n	0	-	-	-	l0	-
+bof-o2	hello world\nsecond line\nthird\n	0	-	-	-	o2	a digit with no selection, and nothing to do with `meow-block` any more. This buffer holds no brackets at all, so `o` finds no block in Emacs either and the two agree about it; what is left is the digit, which Meow then refuses for the reason recorded against `bof-b2`.
+bof-m2	hello world\nsecond line\nthird\n	0	-	-	-	m2	-
+bof-shiftm2	hello world\nsecond line\nthird\n	0	-	-	-	M2	-
+bof-wsemi2	hello world\nsecond line\nthird\n	0	-	-	-	w;2	-
+bof-bsemi2	hello world\nsecond line\nthird\n	0	-	-	-	b;2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+bof-w22	hello world\nsecond line\nthird\n	0	-	-	-	w22	-
+bof-w2w	hello world\nsecond line\nthird\n	0	-	-	-	w2w	-
+bof-w2semi2	hello world\nsecond line\nthird\n	0	-	-	-	w2;2	-
+bof-l22	hello world\nsecond line\nthird\n	0	-	-	-	l22	-
+bof-i2	hello world\nsecond line\nthird\n	0	-	-	-	i2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+bof-h2	hello world\nsecond line\nthird\n	0	-	-	-	h2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+bof-n2	hello world\nsecond line\nthird\n	0	-	-	-	n2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+bof-e2	hello world\nsecond line\nthird\n	0	-	-	-	e2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+midword-w1	hello world\nsecond line\nthird\n	8	-	-	-	w1	-
+midword-w2	hello world\nsecond line\nthird\n	8	-	-	-	w2	-
+midword-w3	hello world\nsecond line\nthird\n	8	-	-	-	w3	-
+midword-w0	hello world\nsecond line\nthird\n	8	-	-	-	w0	-
+midword-shiftw2	hello world\nsecond line\nthird\n	8	-	-	-	W2	-
+midword-b2	hello world\nsecond line\nthird\n	8	-	-	-	b2	-
+midword-shiftb2	hello world\nsecond line\nthird\n	8	-	-	-	B2	-
+midword-l1	hello world\nsecond line\nthird\n	8	-	-	-	l1	-
+midword-l2	hello world\nsecond line\nthird\n	8	-	-	-	l2	-
+midword-l0	hello world\nsecond line\nthird\n	8	-	-	-	l0	-
+midword-o2	hello world\nsecond line\nthird\n	8	-	-	-	o2	as bof-o2: no brackets in the buffer, so `o` correctly finds nothing in both, and the divergence that remains is the digit's.
+midword-m2	hello world\nsecond line\nthird\n	8	-	-	-	m2	-
+midword-shiftm2	hello world\nsecond line\nthird\n	8	-	-	-	M2	-
+midword-wsemi2	hello world\nsecond line\nthird\n	8	-	-	-	w;2	-
+midword-bsemi2	hello world\nsecond line\nthird\n	8	-	-	-	b;2	-
+midword-w22	hello world\nsecond line\nthird\n	8	-	-	-	w22	-
+midword-w2w	hello world\nsecond line\nthird\n	8	-	-	-	w2w	-
+midword-w2semi2	hello world\nsecond line\nthird\n	8	-	-	-	w2;2	-
+midword-l22	hello world\nsecond line\nthird\n	8	-	-	-	l22	-
+midword-i2	hello world\nsecond line\nthird\n	8	-	-	-	i2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+midword-h2	hello world\nsecond line\nthird\n	8	-	-	-	h2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+midword-n2	hello world\nsecond line\nthird\n	8	-	-	-	n2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+midword-e2	hello world\nsecond line\nthird\n	8	-	-	-	e2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+symbol-w1	foo_bar baz\n\nqux(arg)\n	4	-	-	-	w1	-
+symbol-w2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	w2	-
+symbol-w3	foo_bar baz\n\nqux(arg)\n	4	-	-	-	w3	-
+symbol-w0	foo_bar baz\n\nqux(arg)\n	4	-	-	-	w0	-
+symbol-shiftw2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	W2	-
+symbol-b2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	b2	-
+symbol-shiftb2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	B2	-
+symbol-l1	foo_bar baz\n\nqux(arg)\n	4	-	-	-	l1	-
+symbol-l2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	l2	-
+symbol-l0	foo_bar baz\n\nqux(arg)\n	4	-	-	-	l0	-
+symbol-o2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	o2	-
+symbol-m2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	m2	-
+symbol-shiftm2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	M2	-
+symbol-wsemi2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	w;2	-
+symbol-bsemi2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	b;2	-
+symbol-w22	foo_bar baz\n\nqux(arg)\n	4	-	-	-	w22	-
+symbol-w2w	foo_bar baz\n\nqux(arg)\n	4	-	-	-	w2w	-
+symbol-w2semi2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	w2;2	-
+symbol-l22	foo_bar baz\n\nqux(arg)\n	4	-	-	-	l22	-
+symbol-i2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	i2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+symbol-h2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	h2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+symbol-n2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	n2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.
+symbol-e2	foo_bar baz\n\nqux(arg)\n	4	-	-	-	e2	a digit with no selection. Meow raises "No selection": `meow--selection-fallback` looks the fallback up by `this-command`, which is `meow-expand-2`, while `meow-selection-command-fallback`'s key is `meow-expand` -- so the entry pairing it with `meow-digit-argument` never fires. meowr does what that entry says and treats the digit as a numeric argument, which is what the table was written to mean.

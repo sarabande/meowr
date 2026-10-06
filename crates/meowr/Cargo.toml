@@ -1,0 +1,27 @@
+[package]
+name = "meowr"
+description = "A modal editor driven by the exact keybindings of Emacs Meow."
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+meowr-command.workspace = true
+meowr-domain.workspace = true
+meowr-view.workspace = true
+meowr-render.workspace = true
+meowr-app.workspace = true
+ratatui.workspace = true
+crossterm.workspace = true
+anyhow.workspace = true
+tokio.workspace = true
+futures.workspace = true
+steel-core.workspace = true
+lsp-types.workspace = true
+serde_json.workspace = true
+serde.workspace = true
+
+[lints]
+workspace = true

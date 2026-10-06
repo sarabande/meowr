@@ -1,0 +1,22 @@
+[package]
+name = "meowr-app"
+description = "Session state and event handling for meowr."
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+meowr-command.workspace = true
+meowr-core.workspace = true
+meowr-domain.workspace = true
+meowr-narrow.workspace = true
+meowr-syntax.workspace = true
+meowr-view.workspace = true
+
+[dev-dependencies]
+meowr-fidelity.workspace = true
+
+[lints]
+workspace = true

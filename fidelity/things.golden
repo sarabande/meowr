@@ -1,0 +1,241 @@
+# name	text	point	mark	axis	kind	history	signals	state	grab
+afterpair-begb	outer (alpha (beta) gamma) tail\n	0	21	select	transient	1	0	normal	-
+afterpair-begc	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-begdot	outer (alpha (beta) gamma) tail\n	0	21	select	transient	1	0	normal	-
+afterpair-bege	outer (alpha (beta) gamma) tail\n	20	21	select	transient	1	0	normal	-
+afterpair-begg	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-begl	outer (alpha (beta) gamma) tail\n	0	21	select	transient	1	0	normal	-
+afterpair-begm	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-begp	outer (alpha (beta) gamma) tail\n	0	21	select	transient	1	0	normal	-
+afterpair-begr	outer (alpha (beta) gamma) tail\n	7	21	select	transient	1	0	normal	-
+afterpair-begs	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-dotb	outer (alpha (beta) gamma) tail\n	0	32	select	transient	1	0	normal	-
+afterpair-dotc	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-dotdot	outer (alpha (beta) gamma) tail\n	0	31	select	transient	1	0	normal	-
+afterpair-dote	outer (alpha (beta) gamma) tail\n	19	25	select	transient	1	0	normal	-
+afterpair-dotg	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-dotl	outer (alpha (beta) gamma) tail\n	0	32	select	transient	1	0	normal	-
+afterpair-dotm	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-dotp	outer (alpha (beta) gamma) tail\n	0	32	select	transient	1	0	normal	-
+afterpair-dotr	outer (alpha (beta) gamma) tail\n	6	26	select	transient	1	0	normal	-
+afterpair-dots	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-endb	outer (alpha (beta) gamma) tail\n	32	21	select	transient	1	0	normal	-
+afterpair-endc	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-enddot	outer (alpha (beta) gamma) tail\n	31	21	select	transient	1	0	normal	-
+afterpair-ende	outer (alpha (beta) gamma) tail\n	25	21	select	transient	1	0	normal	-
+afterpair-endg	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-endl	outer (alpha (beta) gamma) tail\n	31	21	select	transient	1	0	normal	-
+afterpair-endm	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-endp	outer (alpha (beta) gamma) tail\n	32	21	select	transient	1	0	normal	-
+afterpair-endr	outer (alpha (beta) gamma) tail\n	25	21	select	transient	1	0	normal	-
+afterpair-ends	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-innerb	outer (alpha (beta) gamma) tail\n	32	0	select	transient	1	0	normal	-
+afterpair-innerc	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-innerdot	outer (alpha (beta) gamma) tail\n	31	0	select	transient	1	0	normal	-
+afterpair-innere	outer (alpha (beta) gamma) tail\n	25	20	select	transient	1	0	normal	-
+afterpair-innerg	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-innerl	outer (alpha (beta) gamma) tail\n	31	0	select	transient	1	0	normal	-
+afterpair-innerm	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+afterpair-innerp	outer (alpha (beta) gamma) tail\n	32	0	select	transient	1	0	normal	-
+afterpair-innerr	outer (alpha (beta) gamma) tail\n	25	7	select	transient	1	0	normal	-
+afterpair-inners	outer (alpha (beta) gamma) tail\n	21	-	-	-	0	0	normal	-
+indent-begb	fn main() {\n    let x = 1;\n}\n	0	20	select	transient	1	0	normal	-
+indent-begc	fn main() {\n    let x = 1;\n}\n	11	20	select	transient	1	0	normal	-
+indent-begdot	fn main() {\n    let x = 1;\n}\n	0	20	select	transient	1	0	normal	-
+indent-bege	fn main() {\n    let x = 1;\n}\n	20	20	select	transient	1	0	normal	-
+indent-begg	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-begl	fn main() {\n    let x = 1;\n}\n	16	20	select	transient	1	0	normal	-
+indent-begm	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-begp	fn main() {\n    let x = 1;\n}\n	0	20	select	transient	1	0	normal	-
+indent-begr	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-begs	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-dotb	fn main() {\n    let x = 1;\n}\n	0	29	select	transient	1	0	normal	-
+indent-dotc	fn main() {\n    let x = 1;\n}\n	10	28	select	transient	1	0	normal	-
+indent-dotdot	fn main() {\n    let x = 1;\n}\n	0	28	select	transient	1	0	normal	-
+indent-dote	fn main() {\n    let x = 1;\n}\n	20	22	select	transient	1	0	normal	-
+indent-dotg	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-dotl	fn main() {\n    let x = 1;\n}\n	12	27	select	transient	1	0	normal	-
+indent-dotm	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-dotp	fn main() {\n    let x = 1;\n}\n	0	29	select	transient	1	0	normal	-
+indent-dotr	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-dots	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-endb	fn main() {\n    let x = 1;\n}\n	29	20	select	transient	1	0	normal	-
+indent-endc	fn main() {\n    let x = 1;\n}\n	27	20	select	transient	1	0	normal	-
+indent-enddot	fn main() {\n    let x = 1;\n}\n	28	20	select	transient	1	0	normal	-
+indent-ende	fn main() {\n    let x = 1;\n}\n	21	20	select	transient	1	0	normal	-
+indent-endg	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-endl	fn main() {\n    let x = 1;\n}\n	26	20	select	transient	1	0	normal	-
+indent-endm	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-endp	fn main() {\n    let x = 1;\n}\n	29	20	select	transient	1	0	normal	-
+indent-endr	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-ends	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-innerb	fn main() {\n    let x = 1;\n}\n	29	0	select	transient	1	0	normal	-
+indent-innerc	fn main() {\n    let x = 1;\n}\n	27	11	select	transient	1	0	normal	-
+indent-innerdot	fn main() {\n    let x = 1;\n}\n	28	0	select	transient	1	0	normal	-
+indent-innere	fn main() {\n    let x = 1;\n}\n	21	20	select	transient	1	0	normal	-
+indent-innerg	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-innerl	fn main() {\n    let x = 1;\n}\n	26	16	select	transient	1	0	normal	-
+indent-innerm	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-innerp	fn main() {\n    let x = 1;\n}\n	29	0	select	transient	1	0	normal	-
+indent-innerr	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+indent-inners	fn main() {\n    let x = 1;\n}\n	20	-	-	-	0	0	normal	-
+nested-begb	outer (alpha (beta) gamma) tail\n	0	14	select	transient	1	0	normal	-
+nested-begc	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-begdot	outer (alpha (beta) gamma) tail\n	0	14	select	transient	1	0	normal	-
+nested-bege	outer (alpha (beta) gamma) tail\n	14	14	select	transient	1	0	normal	-
+nested-begg	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-begl	outer (alpha (beta) gamma) tail\n	0	14	select	transient	1	0	normal	-
+nested-begm	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-begp	outer (alpha (beta) gamma) tail\n	0	14	select	transient	1	0	normal	-
+nested-begr	outer (alpha (beta) gamma) tail\n	14	14	select	transient	1	0	normal	-
+nested-begs	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-dotb	outer (alpha (beta) gamma) tail\n	0	32	select	transient	1	0	normal	-
+nested-dotc	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-dotdot	outer (alpha (beta) gamma) tail\n	0	31	select	transient	1	0	normal	-
+nested-dote	outer (alpha (beta) gamma) tail\n	14	18	select	transient	1	0	normal	-
+nested-dotg	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-dotl	outer (alpha (beta) gamma) tail\n	0	32	select	transient	1	0	normal	-
+nested-dotm	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-dotp	outer (alpha (beta) gamma) tail\n	0	32	select	transient	1	0	normal	-
+nested-dotr	outer (alpha (beta) gamma) tail\n	13	19	select	transient	1	0	normal	-
+nested-dots	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-endb	outer (alpha (beta) gamma) tail\n	32	14	select	transient	1	0	normal	-
+nested-endc	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-enddot	outer (alpha (beta) gamma) tail\n	31	14	select	transient	1	0	normal	-
+nested-ende	outer (alpha (beta) gamma) tail\n	18	14	select	transient	1	0	normal	-
+nested-endg	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-endl	outer (alpha (beta) gamma) tail\n	31	14	select	transient	1	0	normal	-
+nested-endm	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-endp	outer (alpha (beta) gamma) tail\n	32	14	select	transient	1	0	normal	-
+nested-endr	outer (alpha (beta) gamma) tail\n	18	14	select	transient	1	0	normal	-
+nested-ends	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-innerb	outer (alpha (beta) gamma) tail\n	32	0	select	transient	1	0	normal	-
+nested-innerc	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-innerdot	outer (alpha (beta) gamma) tail\n	31	0	select	transient	1	0	normal	-
+nested-innere	outer (alpha (beta) gamma) tail\n	18	14	select	transient	1	0	normal	-
+nested-innerg	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-innerl	outer (alpha (beta) gamma) tail\n	31	0	select	transient	1	0	normal	-
+nested-innerm	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+nested-innerp	outer (alpha (beta) gamma) tail\n	32	0	select	transient	1	0	normal	-
+nested-innerr	outer (alpha (beta) gamma) tail\n	18	14	select	transient	1	0	normal	-
+nested-inners	outer (alpha (beta) gamma) tail\n	14	-	-	-	0	0	normal	-
+prose-begb	One thing. Then another.\n\nA second para here.\n	0	14	select	transient	1	0	normal	-
+prose-begc	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-begdot	One thing. Then another.\n\nA second para here.\n	0	14	select	transient	1	0	normal	-
+prose-bege	One thing. Then another.\n\nA second para here.\n	11	14	select	transient	1	0	normal	-
+prose-begg	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-begl	One thing. Then another.\n\nA second para here.\n	0	14	select	transient	1	0	normal	-
+prose-begm	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-begp	One thing. Then another.\n\nA second para here.\n	0	14	select	transient	1	0	normal	-
+prose-begr	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-begs	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-dotb	One thing. Then another.\n\nA second para here.\n	0	46	select	transient	1	0	normal	-
+prose-dotc	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-dotdot	One thing. Then another.\n\nA second para here.\n	0	24	select	transient	1	0	normal	-
+prose-dote	One thing. Then another.\n\nA second para here.\n	11	16	select	transient	1	0	normal	-
+prose-dotg	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-dotl	One thing. Then another.\n\nA second para here.\n	0	25	select	transient	1	0	normal	-
+prose-dotm	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-dotp	One thing. Then another.\n\nA second para here.\n	0	25	select	transient	1	0	normal	-
+prose-dotr	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-dots	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-endb	One thing. Then another.\n\nA second para here.\n	46	14	select	transient	1	0	normal	-
+prose-endc	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-enddot	One thing. Then another.\n\nA second para here.\n	24	14	select	transient	1	0	normal	-
+prose-ende	One thing. Then another.\n\nA second para here.\n	15	14	select	transient	1	0	normal	-
+prose-endg	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-endl	One thing. Then another.\n\nA second para here.\n	24	14	select	transient	1	0	normal	-
+prose-endm	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-endp	One thing. Then another.\n\nA second para here.\n	25	14	select	transient	1	0	normal	-
+prose-endr	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-ends	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-innerb	One thing. Then another.\n\nA second para here.\n	46	0	select	transient	1	0	normal	-
+prose-innerc	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-innerdot	One thing. Then another.\n\nA second para here.\n	24	0	select	transient	1	0	normal	-
+prose-innere	One thing. Then another.\n\nA second para here.\n	15	11	select	transient	1	0	normal	-
+prose-innerg	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-innerl	One thing. Then another.\n\nA second para here.\n	24	0	select	transient	1	0	normal	-
+prose-innerm	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-innerp	One thing. Then another.\n\nA second para here.\n	25	0	select	transient	1	0	normal	-
+prose-innerr	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+prose-inners	One thing. Then another.\n\nA second para here.\n	14	-	-	-	0	0	normal	-
+string-begb	say "one two" and "three" end\n	0	7	select	transient	1	0	normal	-
+string-begc	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-begdot	say "one two" and "three" end\n	0	7	select	transient	1	0	normal	-
+string-bege	say "one two" and "three" end\n	5	7	select	transient	1	0	normal	-
+string-begg	say "one two" and "three" end\n	5	7	select	transient	1	0	normal	-
+string-begl	say "one two" and "three" end\n	0	7	select	transient	1	0	normal	-
+string-begm	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-begp	say "one two" and "three" end\n	0	7	select	transient	1	0	normal	-
+string-begr	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-begs	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-dotb	say "one two" and "three" end\n	0	30	select	transient	1	0	normal	-
+string-dotc	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-dotdot	say "one two" and "three" end\n	0	29	select	transient	1	0	normal	-
+string-dote	say "one two" and "three" end\n	5	9	select	transient	1	0	normal	-
+string-dotg	say "one two" and "three" end\n	4	13	select	transient	1	0	normal	-
+string-dotl	say "one two" and "three" end\n	0	30	select	transient	1	0	normal	-
+string-dotm	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-dotp	say "one two" and "three" end\n	0	30	select	transient	1	0	normal	-
+string-dotr	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-dots	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-endb	say "one two" and "three" end\n	30	7	select	transient	1	0	normal	-
+string-endc	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-enddot	say "one two" and "three" end\n	29	7	select	transient	1	0	normal	-
+string-ende	say "one two" and "three" end\n	8	7	select	transient	1	0	normal	-
+string-endg	say "one two" and "three" end\n	12	7	select	transient	1	0	normal	-
+string-endl	say "one two" and "three" end\n	29	7	select	transient	1	0	normal	-
+string-endm	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-endp	say "one two" and "three" end\n	30	7	select	transient	1	0	normal	-
+string-endr	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-ends	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-innerb	say "one two" and "three" end\n	30	0	select	transient	1	0	normal	-
+string-innerc	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-innerdot	say "one two" and "three" end\n	29	0	select	transient	1	0	normal	-
+string-innere	say "one two" and "three" end\n	8	5	select	transient	1	0	normal	-
+string-innerg	say "one two" and "three" end\n	12	5	select	transient	1	0	normal	-
+string-innerl	say "one two" and "three" end\n	29	0	select	transient	1	0	normal	-
+string-innerm	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-innerp	say "one two" and "three" end\n	30	0	select	transient	1	0	normal	-
+string-innerr	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+string-inners	say "one two" and "three" end\n	7	-	-	-	0	0	normal	-
+stringpair-begb	call(a, ")", b) end\n	0	6	select	transient	1	0	normal	-
+stringpair-begc	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-begdot	call(a, ")", b) end\n	0	6	select	transient	1	0	normal	-
+stringpair-bege	call(a, ")", b) end\n	5	6	select	transient	1	0	normal	-
+stringpair-begg	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-begl	call(a, ")", b) end\n	0	6	select	transient	1	0	normal	-
+stringpair-begm	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-begp	call(a, ")", b) end\n	0	6	select	transient	1	0	normal	-
+stringpair-begr	call(a, ")", b) end\n	5	6	select	transient	1	0	normal	-
+stringpair-begs	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-dotb	call(a, ")", b) end\n	0	20	select	transient	1	0	normal	-
+stringpair-dotc	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-dotdot	call(a, ")", b) end\n	0	19	select	transient	1	0	normal	-
+stringpair-dote	call(a, ")", b) end\n	5	8	select	transient	1	0	normal	-
+stringpair-dotg	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-dotl	call(a, ")", b) end\n	0	20	select	transient	1	0	normal	-
+stringpair-dotm	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-dotp	call(a, ")", b) end\n	0	20	select	transient	1	0	normal	-
+stringpair-dotr	call(a, ")", b) end\n	4	10	select	transient	1	0	normal	-
+stringpair-dots	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-endb	call(a, ")", b) end\n	20	6	select	transient	1	0	normal	-
+stringpair-endc	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-enddot	call(a, ")", b) end\n	19	6	select	transient	1	0	normal	-
+stringpair-ende	call(a, ")", b) end\n	6	6	select	transient	1	0	normal	-
+stringpair-endg	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-endl	call(a, ")", b) end\n	19	6	select	transient	1	0	normal	-
+stringpair-endm	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-endp	call(a, ")", b) end\n	20	6	select	transient	1	0	normal	-
+stringpair-endr	call(a, ")", b) end\n	9	6	select	transient	1	0	normal	-
+stringpair-ends	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-innerb	call(a, ")", b) end\n	20	0	select	transient	1	0	normal	-
+stringpair-innerc	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-innerdot	call(a, ")", b) end\n	19	0	select	transient	1	0	normal	-
+stringpair-innere	call(a, ")", b) end\n	6	5	select	transient	1	0	normal	-
+stringpair-innerg	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-innerl	call(a, ")", b) end\n	19	0	select	transient	1	0	normal	-
+stringpair-innerm	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-
+stringpair-innerp	call(a, ")", b) end\n	20	0	select	transient	1	0	normal	-
+stringpair-innerr	call(a, ")", b) end\n	9	5	select	transient	1	0	normal	-
+stringpair-inners	call(a, ")", b) end\n	6	-	-	-	0	0	normal	-

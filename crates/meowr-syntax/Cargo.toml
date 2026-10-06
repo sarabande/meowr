@@ -1,0 +1,31 @@
+[package]
+name = "meowr-syntax"
+description = "Tree-sitter parsing and highlighting for meowr, with grammars linked into the binary."
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+ropey.workspace = true
+tree-house = "0.4.0"
+# Taken directly, with `tree-sitter-language` on, so that `Grammar` can be built
+# from a statically linked `LanguageFn` rather than only by dlopening a `.so`.
+# Feature unification turns it on for the copy `tree-house` already depends on,
+# so this is the same `Grammar` type — see ADR-0007.
+tree-house-bindings = { version = "0.3.2", features = ["tree-sitter-language"] }
+
+tree-sitter-rust = "0.24"
+tree-sitter-json = "0.24"
+tree-sitter-python = "0.25"
+tree-sitter-bash = "0.25"
+tree-sitter-language = "0.1.7"
+tree-sitter-yaml = "0.7.2"
+tree-sitter-md = "0.5.3"
+tree-sitter-toml-ng = "0.7"
+tree-sitter-nix = "0.3"
+tree-sitter-scheme = "0.24"
+
+[lints]
+workspace = true

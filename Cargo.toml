@@ -1,0 +1,104 @@
+[workspace]
+resolver = "3"
+members = [
+  "crates/meowr-domain",
+  "crates/meowr-core",
+  "crates/meowr-command",
+  "crates/meowr-view",
+  "crates/meowr-render",
+  "crates/meowr-app",
+  "crates/meowr-fidelity",
+  "crates/meowr-narrow",
+  "crates/meowr-syntax",
+  "crates/meowr",
+]
+
+# Publishing order, which `cargo publish` cannot work out for itself: a crate
+# cannot go up until everything it depends on is already on crates.io. That
+# includes dev-dependencies carrying a version, which is why `meowr-render`
+# counts as depending on `meowr-syntax` even though only its tests do.
+#
+# Derived from the manifests rather than remembered. An earlier version of
+# this list had `meowr-syntax` last, below the three crates that depend on it.
+#
+#   meowr-domain     -
+#   meowr-syntax     -
+#   meowr-fidelity   -
+#   meowr-narrow     -
+#   meowr-core       domain
+#   meowr-command    syntax core domain
+#   meowr-view       syntax core domain
+#   meowr-render     view syntax (dev)
+#   meowr-app        command core domain narrow syntax view fidelity
+#   meowr            command domain view render app
+
+[workspace.package]
+edition = "2024"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/sarabande/meowr"
+rust-version = "1.85"
+
+[workspace.lints.clippy]
+# A `debug_assert!` is compiled out of release builds, arguments and all, so a
+# call with a side effect inside one happens under `cargo test` and never in the
+# binary anybody runs. No test can see that -- tests build with assertions on --
+# which is why this is a lint rather than a test. `open_picker_on` narrowed the
+# picker inside one from #75 to #151, so `SPC .`, `SPC RET` and `SPC s b` opened
+# unnarrowed in every release build for that whole time while their tests
+# passed. The lint sees a call taking `&mut`; a side effect behind `&self` and
+# interior mutability would still pass it.
+debug_assert_with_mut_call = "deny"
+
+[workspace.dependencies]
+# Turning a formatter's whole output into the hunks that changed (#162). Chosen
+# by measurement over `imara-diff`: one crate against three, and a slice diff
+# over any tokens, which is what lets `replacements_between` diff by line and
+# then by word with the newline its own token. Measured through that function on
+# this repository's largest file (278 KB): 1.3 ms for one line added, 13 ms
+# against a copy with every line reindented, 37 ms for 60,000 lines with nothing
+# in common -- so no deadline is needed, and the domain crate reads no clock.
+# Its slice diff alone, with `std` kept: without it the crate's internal map is
+# a `BTreeMap`, which these figures were not taken with.
+similar = { version = "3.2", default-features = false, features = ["std"] }
+# The scripted seam (ADR-0003). Only the binary depends on it: evaluating a
+# config is reading a file, and the domain crates do no I/O. Costs measured in
+# #44 before it was taken on -- roughly 7.6MB of binary and 100-250ms to build
+# an engine, against ~0.5ms to evaluate a real config.
+steel-core = "0.8.3"
+meowr-domain = { path = "crates/meowr-domain", version = "0.1.0" }
+meowr-core   = { path = "crates/meowr-core",   version = "0.1.0" }
+meowr-command = { path = "crates/meowr-command", version = "0.1.0" }
+meowr-view   = { path = "crates/meowr-view",   version = "0.1.0" }
+meowr-render = { path = "crates/meowr-render", version = "0.1.0" }
+meowr-app    = { path = "crates/meowr-app",    version = "0.1.0" }
+meowr-fidelity = { path = "crates/meowr-fidelity", version = "0.1.0" }
+meowr-narrow = { path = "crates/meowr-narrow", version = "0.1.0" }
+meowr-syntax = { path = "crates/meowr-syntax", version = "0.1.0" }
+
+# Pinned to 1.x deliberately: tree-house takes `ropey::RopeSlice` and depends on
+# ropey ^1.6, so the 2.0 beta is not an option until tree-house moves.
+ropey = "1.6"
+ratatui = "0.30"
+crossterm = { version = "0.29", features = ["event-stream"] }
+# Chosen over threads+channels for slice 1 so M3's LSP client lands in an
+# established runtime rather than migrating onto one.
+# `io-util` is what drives a child process's stdio: `AsyncReadExt`,
+# `AsyncWriteExt`, `AsyncBufReadExt` and `BufReader` are all gated behind it,
+# and an LSP client is a subprocess spoken to over pipes. #112's prototype
+# would not compile without it, which is the one thing #109's research did not
+# catch -- found only once something real tried to use it.
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "fs", "sync", "time", "process", "signal", "io-util"] }
+futures = "0.3"
+# The LSP wire vocabulary, chosen in #109: pure data, `serde`-derived, no I/O
+# of its own -- as inert as `meowr_command::HookPoint` is, and MIT, which the
+# dual licence here is compatible with. It pulls exactly three new crates.
+lsp-types = "0.97"
+serde_json = "1"
+# Zero new crates in the lockfile: `lsp-types` already brings `serde` and turns
+# its `derive` on, so this only makes direct what was transitive. Taken in #138
+# so `rg --json` is read through a type rather than by indexing a `Value` --
+# `lsp.rs` argues for exactly that and the reason applies here, since rg spells
+# a path two ways and the type is what says which.
+serde = { version = "1", features = ["derive"] }
+anyhow = "1"

@@ -1,0 +1,14 @@
+[package]
+name = "meowr-narrow"
+description = "The narrowing widget: one mechanism for the picker and for completion at point."
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+nucleo-matcher = "0.3"
+
+[lints]
+workspace = true

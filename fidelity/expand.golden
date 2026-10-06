@@ -1,0 +1,70 @@
+# name	text	point	mark	axis	kind	history	signals	state	grab
+bof-b2	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-bsemi2	hello world\nsecond line\nthird\n	0	-	-	-	0	2	normal	-
+bof-e2	hello world\nsecond line\nthird\n	0	-	-	-	0	2	normal	-
+bof-h2	hello world\nsecond line\nthird\n	0	-	-	-	0	2	normal	-
+bof-i2	hello world\nsecond line\nthird\n	1	-	-	-	0	1	normal	-
+bof-l0	hello world\nsecond line\nthird\n	30	0	select	line	2	0	normal	-
+bof-l1	hello world\nsecond line\nthird\n	23	0	select	line	2	0	normal	-
+bof-l2	hello world\nsecond line\nthird\n	29	0	select	line	2	0	normal	-
+bof-l22	hello world\nsecond line\nthird\n	30	0	select	line	3	0	normal	-
+bof-m2	hello world\nsecond line\nthird\n	5	0	expand	word	1	0	normal	-
+bof-n2	hello world\nsecond line\nthird\n	12	-	-	-	0	1	normal	-
+bof-o2	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-shiftb2	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-shiftm2	hello world\nsecond line\nthird\n	5	0	expand	symbol	1	0	normal	-
+bof-shiftw2	hello world\nsecond line\nthird\n	18	0	select	symbol	2	0	normal	-
+bof-w0	hello world\nsecond line\nthird\n	30	0	select	word	2	0	normal	-
+bof-w1	hello world\nsecond line\nthird\n	11	0	select	word	2	0	normal	-
+bof-w2	hello world\nsecond line\nthird\n	18	0	select	word	2	0	normal	-
+bof-w22	hello world\nsecond line\nthird\n	29	0	select	word	3	0	normal	-
+bof-w2semi2	hello world\nsecond line\nthird\n	0	18	select	word	3	0	normal	-
+bof-w2w	hello world\nsecond line\nthird\n	23	18	select	word	3	0	normal	-
+bof-w3	hello world\nsecond line\nthird\n	23	0	select	word	2	0	normal	-
+bof-wsemi2	hello world\nsecond line\nthird\n	0	5	select	word	2	0	normal	-
+midword-b2	hello world\nsecond line\nthird\n	0	8	select	word	2	0	normal	-
+midword-bsemi2	hello world\nsecond line\nthird\n	18	6	select	word	2	0	normal	-
+midword-e2	hello world\nsecond line\nthird\n	0	-	-	-	0	2	normal	-
+midword-h2	hello world\nsecond line\nthird\n	7	-	-	-	0	1	normal	-
+midword-i2	hello world\nsecond line\nthird\n	9	-	-	-	0	1	normal	-
+midword-l0	hello world\nsecond line\nthird\n	30	0	select	line	2	0	normal	-
+midword-l1	hello world\nsecond line\nthird\n	23	0	select	line	2	0	normal	-
+midword-l2	hello world\nsecond line\nthird\n	29	0	select	line	2	0	normal	-
+midword-l22	hello world\nsecond line\nthird\n	30	0	select	line	3	0	normal	-
+midword-m2	hello world\nsecond line\nthird\n	11	6	expand	word	1	0	normal	-
+midword-n2	hello world\nsecond line\nthird\n	20	-	-	-	0	1	normal	-
+midword-o2	hello world\nsecond line\nthird\n	8	-	-	-	0	1	normal	-
+midword-shiftb2	hello world\nsecond line\nthird\n	0	8	select	symbol	2	0	normal	-
+midword-shiftm2	hello world\nsecond line\nthird\n	11	6	expand	symbol	1	0	normal	-
+midword-shiftw2	hello world\nsecond line\nthird\n	23	8	select	symbol	2	0	normal	-
+midword-w0	hello world\nsecond line\nthird\n	30	8	select	word	2	0	normal	-
+midword-w1	hello world\nsecond line\nthird\n	18	8	select	word	2	0	normal	-
+midword-w2	hello world\nsecond line\nthird\n	23	8	select	word	2	0	normal	-
+midword-w22	hello world\nsecond line\nthird\n	30	8	select	word	3	0	normal	-
+midword-w2semi2	hello world\nsecond line\nthird\n	0	23	select	word	3	0	normal	-
+midword-w2w	hello world\nsecond line\nthird\n	29	23	select	word	3	0	normal	-
+midword-w3	hello world\nsecond line\nthird\n	29	8	select	word	2	0	normal	-
+midword-wsemi2	hello world\nsecond line\nthird\n	0	11	select	word	2	0	normal	-
+symbol-b2	foo_bar baz\n\nqux(arg)\n	0	4	select	word	2	0	normal	-
+symbol-bsemi2	foo_bar baz\n\nqux(arg)\n	11	0	select	word	2	0	normal	-
+symbol-e2	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	2	normal	-
+symbol-h2	foo_bar baz\n\nqux(arg)\n	3	-	-	-	0	1	normal	-
+symbol-i2	foo_bar baz\n\nqux(arg)\n	5	-	-	-	0	1	normal	-
+symbol-l0	foo_bar baz\n\nqux(arg)\n	22	0	select	line	2	0	normal	-
+symbol-l1	foo_bar baz\n\nqux(arg)\n	12	0	select	line	2	0	normal	-
+symbol-l2	foo_bar baz\n\nqux(arg)\n	21	0	select	line	2	0	normal	-
+symbol-l22	foo_bar baz\n\nqux(arg)\n	22	0	select	line	3	0	normal	-
+symbol-m2	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	1	0	normal	-
+symbol-n2	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	1	normal	-
+symbol-o2	foo_bar baz\n\nqux(arg)\n	21	16	select	block	2	0	normal	-
+symbol-shiftb2	foo_bar baz\n\nqux(arg)\n	0	4	select	symbol	2	0	normal	-
+symbol-shiftm2	foo_bar baz\n\nqux(arg)\n	7	0	expand	symbol	1	0	normal	-
+symbol-shiftw2	foo_bar baz\n\nqux(arg)\n	16	4	select	symbol	2	0	normal	-
+symbol-w0	foo_bar baz\n\nqux(arg)\n	22	4	select	word	2	0	normal	-
+symbol-w1	foo_bar baz\n\nqux(arg)\n	11	4	select	word	2	0	normal	-
+symbol-w2	foo_bar baz\n\nqux(arg)\n	16	4	select	word	2	0	normal	-
+symbol-w22	foo_bar baz\n\nqux(arg)\n	22	4	select	word	3	0	normal	-
+symbol-w2semi2	foo_bar baz\n\nqux(arg)\n	0	16	select	word	3	0	normal	-
+symbol-w2w	foo_bar baz\n\nqux(arg)\n	20	17	select	word	3	0	normal	-
+symbol-w3	foo_bar baz\n\nqux(arg)\n	20	4	select	word	2	0	normal	-
+symbol-wsemi2	foo_bar baz\n\nqux(arg)\n	0	7	select	word	2	0	normal	-

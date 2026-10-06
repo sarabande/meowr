@@ -1,0 +1,1977 @@
+# name	text	point	mark	axis	kind	history	signals	state	grab
+blankline-expand.block-b	foo_bar baz\n\nqux(arg)\n	8	12	select	word	1	0	normal	-
+blankline-expand.block-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	0	normal	-
+blankline-expand.block-g	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-expand.block-h	foo_bar baz\n\nqux(arg)\n	11	-	-	-	0	0	normal	-
+blankline-expand.block-i	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-expand.block-j	foo_bar baz\n\nqux(arg)\n	12	11	expand	join	1	0	normal	-
+blankline-expand.block-l	foo_bar baz\n\nqux(arg)\n	12	12	expand	line	1	0	normal	-
+blankline-expand.block-m	foo_bar baz\n\nqux(arg)\n	12	9	expand	block	0	0	normal	-
+blankline-expand.block-n	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-expand.block-o	foo_bar baz\n\nqux(arg)\n	12	9	expand	block	0	0	normal	-
+blankline-expand.block-semi	foo_bar baz\n\nqux(arg)\n	9	12	expand	block	0	0	normal	-
+blankline-expand.block-shiftb	foo_bar baz\n\nqux(arg)\n	8	12	select	symbol	1	0	normal	-
+blankline-expand.block-shifte	foo_bar baz\n\nqux(arg)\n	0	9	expand	char	1	0	normal	-
+blankline-expand.block-shifth	foo_bar baz\n\nqux(arg)\n	11	9	expand	char	1	0	normal	-
+blankline-expand.block-shifti	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-expand.block-shiftm	foo_bar baz\n\nqux(arg)\n	12	9	expand	block	0	0	normal	-
+blankline-expand.block-shiftn	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-expand.block-shifto	foo_bar baz\n\nqux(arg)\n	21	9	expand	block	1	0	normal	-
+blankline-expand.block-shiftw	foo_bar baz\n\nqux(arg)\n	16	12	select	symbol	1	0	normal	-
+blankline-expand.block-w	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	0	normal	-
+blankline-expand.block-z	foo_bar baz\n\nqux(arg)\n	12	9	expand	block	0	0	normal	-
+blankline-expand.char-b	foo_bar baz\n\nqux(arg)\n	8	12	select	word	1	0	normal	-
+blankline-expand.char-e	foo_bar baz\n\nqux(arg)\n	0	9	expand	char	0	0	normal	-
+blankline-expand.char-g	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-expand.char-h	foo_bar baz\n\nqux(arg)\n	11	9	expand	char	0	0	normal	-
+blankline-expand.char-i	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	0	0	normal	-
+blankline-expand.char-j	foo_bar baz\n\nqux(arg)\n	12	11	expand	join	1	0	normal	-
+blankline-expand.char-l	foo_bar baz\n\nqux(arg)\n	12	12	expand	line	1	0	normal	-
+blankline-expand.char-m	foo_bar baz\n\nqux(arg)\n	12	9	expand	char	0	0	normal	-
+blankline-expand.char-n	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	0	0	normal	-
+blankline-expand.char-o	foo_bar baz\n\nqux(arg)\n	12	9	expand	char	0	0	normal	-
+blankline-expand.char-semi	foo_bar baz\n\nqux(arg)\n	9	12	expand	char	0	0	normal	-
+blankline-expand.char-shiftb	foo_bar baz\n\nqux(arg)\n	8	12	select	symbol	1	0	normal	-
+blankline-expand.char-shifte	foo_bar baz\n\nqux(arg)\n	0	9	expand	char	1	0	normal	-
+blankline-expand.char-shifth	foo_bar baz\n\nqux(arg)\n	11	9	expand	char	1	0	normal	-
+blankline-expand.char-shifti	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-expand.char-shiftm	foo_bar baz\n\nqux(arg)\n	12	9	expand	char	0	0	normal	-
+blankline-expand.char-shiftn	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-expand.char-shifto	foo_bar baz\n\nqux(arg)\n	21	9	expand	block	1	0	normal	-
+blankline-expand.char-shiftw	foo_bar baz\n\nqux(arg)\n	16	12	select	symbol	1	0	normal	-
+blankline-expand.char-w	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	0	normal	-
+blankline-expand.char-z	foo_bar baz\n\nqux(arg)\n	12	9	expand	char	0	0	normal	-
+blankline-expand.join-b	foo_bar baz\n\nqux(arg)\n	8	12	select	word	1	0	normal	-
+blankline-expand.join-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	0	normal	-
+blankline-expand.join-g	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-expand.join-h	foo_bar baz\n\nqux(arg)\n	11	-	-	-	0	0	normal	-
+blankline-expand.join-i	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-expand.join-j	foo_bar baz\n\nqux(arg)\n	13	11	expand	join	1	0	normal	-
+blankline-expand.join-l	foo_bar baz\n\nqux(arg)\n	12	12	expand	line	1	0	normal	-
+blankline-expand.join-m	foo_bar baz\n\nqux(arg)\n	12	9	expand	join	0	0	normal	-
+blankline-expand.join-n	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-expand.join-o	foo_bar baz\n\nqux(arg)\n	12	9	expand	join	0	0	normal	-
+blankline-expand.join-semi	foo_bar baz\n\nqux(arg)\n	9	12	expand	join	0	0	normal	-
+blankline-expand.join-shiftb	foo_bar baz\n\nqux(arg)\n	8	12	select	symbol	1	0	normal	-
+blankline-expand.join-shifte	foo_bar baz\n\nqux(arg)\n	0	9	expand	char	1	0	normal	-
+blankline-expand.join-shifth	foo_bar baz\n\nqux(arg)\n	11	9	expand	char	1	0	normal	-
+blankline-expand.join-shifti	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-expand.join-shiftm	foo_bar baz\n\nqux(arg)\n	12	9	expand	join	0	0	normal	-
+blankline-expand.join-shiftn	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-expand.join-shifto	foo_bar baz\n\nqux(arg)\n	21	9	expand	block	1	0	normal	-
+blankline-expand.join-shiftw	foo_bar baz\n\nqux(arg)\n	16	12	select	symbol	1	0	normal	-
+blankline-expand.join-w	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	0	normal	-
+blankline-expand.join-z	foo_bar baz\n\nqux(arg)\n	12	9	expand	join	0	0	normal	-
+blankline-expand.line-b	foo_bar baz\n\nqux(arg)\n	8	12	select	word	1	0	normal	-
+blankline-expand.line-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	0	normal	-
+blankline-expand.line-g	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-expand.line-h	foo_bar baz\n\nqux(arg)\n	11	-	-	-	0	0	normal	-
+blankline-expand.line-i	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-expand.line-j	foo_bar baz\n\nqux(arg)\n	12	11	expand	join	1	0	normal	-
+blankline-expand.line-l	foo_bar baz\n\nqux(arg)\n	21	9	expand	line	1	0	normal	-
+blankline-expand.line-m	foo_bar baz\n\nqux(arg)\n	12	9	expand	line	0	0	normal	-
+blankline-expand.line-n	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-expand.line-o	foo_bar baz\n\nqux(arg)\n	12	9	expand	line	0	0	normal	-
+blankline-expand.line-semi	foo_bar baz\n\nqux(arg)\n	9	12	expand	line	0	0	normal	-
+blankline-expand.line-shiftb	foo_bar baz\n\nqux(arg)\n	8	12	select	symbol	1	0	normal	-
+blankline-expand.line-shifte	foo_bar baz\n\nqux(arg)\n	0	9	expand	char	1	0	normal	-
+blankline-expand.line-shifth	foo_bar baz\n\nqux(arg)\n	11	9	expand	char	1	0	normal	-
+blankline-expand.line-shifti	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-expand.line-shiftm	foo_bar baz\n\nqux(arg)\n	12	9	expand	line	0	0	normal	-
+blankline-expand.line-shiftn	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-expand.line-shifto	foo_bar baz\n\nqux(arg)\n	21	9	expand	block	1	0	normal	-
+blankline-expand.line-shiftw	foo_bar baz\n\nqux(arg)\n	16	12	select	symbol	1	0	normal	-
+blankline-expand.line-w	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	0	normal	-
+blankline-expand.line-z	foo_bar baz\n\nqux(arg)\n	12	9	expand	line	0	0	normal	-
+blankline-expand.symbol-b	foo_bar baz\n\nqux(arg)\n	8	12	select	word	1	0	normal	-
+blankline-expand.symbol-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	0	normal	-
+blankline-expand.symbol-g	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-expand.symbol-h	foo_bar baz\n\nqux(arg)\n	11	-	-	-	0	0	normal	-
+blankline-expand.symbol-i	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-expand.symbol-j	foo_bar baz\n\nqux(arg)\n	12	11	expand	join	1	0	normal	-
+blankline-expand.symbol-l	foo_bar baz\n\nqux(arg)\n	12	12	expand	line	1	0	normal	-
+blankline-expand.symbol-m	foo_bar baz\n\nqux(arg)\n	12	9	expand	symbol	0	0	normal	-
+blankline-expand.symbol-n	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-expand.symbol-o	foo_bar baz\n\nqux(arg)\n	12	9	expand	symbol	0	0	normal	-
+blankline-expand.symbol-semi	foo_bar baz\n\nqux(arg)\n	9	12	expand	symbol	0	0	normal	-
+blankline-expand.symbol-shiftb	foo_bar baz\n\nqux(arg)\n	8	12	expand	symbol	1	0	normal	-
+blankline-expand.symbol-shifte	foo_bar baz\n\nqux(arg)\n	0	9	expand	char	1	0	normal	-
+blankline-expand.symbol-shifth	foo_bar baz\n\nqux(arg)\n	11	9	expand	char	1	0	normal	-
+blankline-expand.symbol-shifti	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-expand.symbol-shiftm	foo_bar baz\n\nqux(arg)\n	12	9	expand	symbol	0	0	normal	-
+blankline-expand.symbol-shiftn	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-expand.symbol-shifto	foo_bar baz\n\nqux(arg)\n	21	9	expand	block	1	0	normal	-
+blankline-expand.symbol-shiftw	foo_bar baz\n\nqux(arg)\n	16	9	expand	symbol	1	0	normal	-
+blankline-expand.symbol-w	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	0	normal	-
+blankline-expand.symbol-z	foo_bar baz\n\nqux(arg)\n	12	9	expand	symbol	0	0	normal	-
+blankline-expand.word-b	foo_bar baz\n\nqux(arg)\n	8	12	expand	word	1	0	normal	-
+blankline-expand.word-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	0	normal	-
+blankline-expand.word-g	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-expand.word-h	foo_bar baz\n\nqux(arg)\n	11	-	-	-	0	0	normal	-
+blankline-expand.word-i	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-expand.word-j	foo_bar baz\n\nqux(arg)\n	12	11	expand	join	1	0	normal	-
+blankline-expand.word-l	foo_bar baz\n\nqux(arg)\n	12	12	expand	line	1	0	normal	-
+blankline-expand.word-m	foo_bar baz\n\nqux(arg)\n	12	9	expand	word	0	0	normal	-
+blankline-expand.word-n	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-expand.word-o	foo_bar baz\n\nqux(arg)\n	12	9	expand	word	0	0	normal	-
+blankline-expand.word-semi	foo_bar baz\n\nqux(arg)\n	9	12	expand	word	0	0	normal	-
+blankline-expand.word-shiftb	foo_bar baz\n\nqux(arg)\n	8	12	select	symbol	1	0	normal	-
+blankline-expand.word-shifte	foo_bar baz\n\nqux(arg)\n	0	9	expand	char	1	0	normal	-
+blankline-expand.word-shifth	foo_bar baz\n\nqux(arg)\n	11	9	expand	char	1	0	normal	-
+blankline-expand.word-shifti	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-expand.word-shiftm	foo_bar baz\n\nqux(arg)\n	12	9	expand	word	0	0	normal	-
+blankline-expand.word-shiftn	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-expand.word-shifto	foo_bar baz\n\nqux(arg)\n	21	9	expand	block	1	0	normal	-
+blankline-expand.word-shiftw	foo_bar baz\n\nqux(arg)\n	16	12	select	symbol	1	0	normal	-
+blankline-expand.word-w	foo_bar baz\n\nqux(arg)\n	16	9	expand	word	1	0	normal	-
+blankline-expand.word-z	foo_bar baz\n\nqux(arg)\n	12	9	expand	word	0	0	normal	-
+blankline-none-b	foo_bar baz\n\nqux(arg)\n	8	12	select	word	1	0	normal	-
+blankline-none-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	0	normal	-
+blankline-none-g	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	1	normal	-
+blankline-none-h	foo_bar baz\n\nqux(arg)\n	11	-	-	-	0	0	normal	-
+blankline-none-i	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-none-j	foo_bar baz\n\nqux(arg)\n	12	11	expand	join	1	0	normal	-
+blankline-none-l	foo_bar baz\n\nqux(arg)\n	12	12	expand	line	1	0	normal	-
+blankline-none-m	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-none-n	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-none-o	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+blankline-none-semi	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	1	normal	-
+blankline-none-shiftb	foo_bar baz\n\nqux(arg)\n	8	12	select	symbol	1	0	normal	-
+blankline-none-shifte	foo_bar baz\n\nqux(arg)\n	0	12	expand	char	1	0	normal	-
+blankline-none-shifth	foo_bar baz\n\nqux(arg)\n	11	12	expand	char	1	0	normal	-
+blankline-none-shifti	foo_bar baz\n\nqux(arg)\n	13	12	expand	char	1	0	normal	-
+blankline-none-shiftm	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-none-shiftn	foo_bar baz\n\nqux(arg)\n	13	12	expand	char	1	0	normal	-
+blankline-none-shifto	foo_bar baz\n\nqux(arg)\n	21	12	expand	block	1	0	normal	-
+blankline-none-shiftw	foo_bar baz\n\nqux(arg)\n	16	12	select	symbol	1	0	normal	-
+blankline-none-w	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	0	normal	-
+blankline-none-z	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-select.char-b	foo_bar baz\n\nqux(arg)\n	8	12	select	word	1	0	normal	-
+blankline-select.char-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	0	normal	-
+blankline-select.char-g	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-select.char-h	foo_bar baz\n\nqux(arg)\n	11	-	-	-	0	0	normal	-
+blankline-select.char-i	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-select.char-j	foo_bar baz\n\nqux(arg)\n	12	11	expand	join	1	0	normal	-
+blankline-select.char-l	foo_bar baz\n\nqux(arg)\n	12	12	expand	line	1	0	normal	-
+blankline-select.char-m	foo_bar baz\n\nqux(arg)\n	12	9	select	char	0	0	normal	-
+blankline-select.char-n	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-select.char-o	foo_bar baz\n\nqux(arg)\n	12	9	select	char	0	0	normal	-
+blankline-select.char-semi	foo_bar baz\n\nqux(arg)\n	9	12	select	char	0	0	normal	-
+blankline-select.char-shiftb	foo_bar baz\n\nqux(arg)\n	8	12	select	symbol	1	0	normal	-
+blankline-select.char-shifte	foo_bar baz\n\nqux(arg)\n	0	9	expand	char	1	0	normal	-
+blankline-select.char-shifth	foo_bar baz\n\nqux(arg)\n	11	9	expand	char	1	0	normal	-
+blankline-select.char-shifti	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-select.char-shiftm	foo_bar baz\n\nqux(arg)\n	12	9	select	char	0	0	normal	-
+blankline-select.char-shiftn	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-select.char-shifto	foo_bar baz\n\nqux(arg)\n	21	9	expand	block	1	0	normal	-
+blankline-select.char-shiftw	foo_bar baz\n\nqux(arg)\n	16	12	select	symbol	1	0	normal	-
+blankline-select.char-w	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	0	normal	-
+blankline-select.char-z	foo_bar baz\n\nqux(arg)\n	12	9	select	char	0	0	normal	-
+blankline-select.word-b	foo_bar baz\n\nqux(arg)\n	8	12	select	word	1	0	normal	-
+blankline-select.word-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	0	normal	-
+blankline-select.word-g	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-select.word-h	foo_bar baz\n\nqux(arg)\n	11	-	-	-	0	0	normal	-
+blankline-select.word-i	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-select.word-j	foo_bar baz\n\nqux(arg)\n	12	11	expand	join	1	0	normal	-
+blankline-select.word-l	foo_bar baz\n\nqux(arg)\n	12	12	expand	line	1	0	normal	-
+blankline-select.word-m	foo_bar baz\n\nqux(arg)\n	12	9	select	word	0	0	normal	-
+blankline-select.word-n	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-select.word-o	foo_bar baz\n\nqux(arg)\n	12	9	select	word	0	0	normal	-
+blankline-select.word-semi	foo_bar baz\n\nqux(arg)\n	9	12	select	word	0	0	normal	-
+blankline-select.word-shiftb	foo_bar baz\n\nqux(arg)\n	8	12	select	symbol	1	0	normal	-
+blankline-select.word-shifte	foo_bar baz\n\nqux(arg)\n	0	9	expand	char	1	0	normal	-
+blankline-select.word-shifth	foo_bar baz\n\nqux(arg)\n	11	9	expand	char	1	0	normal	-
+blankline-select.word-shifti	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-select.word-shiftm	foo_bar baz\n\nqux(arg)\n	12	9	select	word	0	0	normal	-
+blankline-select.word-shiftn	foo_bar baz\n\nqux(arg)\n	13	9	expand	char	1	0	normal	-
+blankline-select.word-shifto	foo_bar baz\n\nqux(arg)\n	21	9	expand	block	1	0	normal	-
+blankline-select.word-shiftw	foo_bar baz\n\nqux(arg)\n	16	12	select	symbol	1	0	normal	-
+blankline-select.word-w	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	0	normal	-
+blankline-select.word-z	foo_bar baz\n\nqux(arg)\n	12	9	select	word	0	0	normal	-
+blankline-seq-flo	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+blankline-seq-fo	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-seq-fonegrep	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	1	normal	-
+blankline-seq-forep	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-seq-fq	foo_bar baz\n\nqux(arg)\n	14	12	select	find	1	0	normal	-
+blankline-seq-ftl	foo_bar baz\n\nqux(arg)\n	12	12	expand	line	1	0	normal	-
+blankline-seq-jj	foo_bar baz\n\nqux(arg)\n	13	11	expand	join	2	0	normal	-
+blankline-seq-jw	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	0	normal	-
+blankline-seq-ll	foo_bar baz\n\nqux(arg)\n	21	12	expand	line	2	0	normal	-
+blankline-seq-llrep	foo_bar baz\n\nqux(arg)\n	22	12	expand	line	3	0	normal	-
+blankline-seq-lm	foo_bar baz\n\nqux(arg)\n	12	12	expand	line	1	0	normal	-
+blankline-seq-lnegl	foo_bar baz\n\nqux(arg)\n	0	12	expand	line	2	0	normal	-
+blankline-seq-lrep	foo_bar baz\n\nqux(arg)\n	21	12	expand	line	2	0	normal	-
+blankline-seq-lz	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-seq-mb	foo_bar baz\n\nqux(arg)\n	8	12	select	word	1	0	normal	-
+blankline-seq-mg	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	1	normal	-
+blankline-seq-mm	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-seq-mrep	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-seq-msemiw	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	1	normal	-
+blankline-seq-mw	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	0	normal	-
+blankline-seq-mz	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-seq-mzz	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-seq-negb	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	0	normal	-
+blankline-seq-nege	foo_bar baz\n\nqux(arg)\n	13	-	-	-	0	0	normal	-
+blankline-seq-negfo	foo_bar baz\n\nqux(arg)\n	2	12	select	find	1	0	normal	-
+blankline-seq-negl	foo_bar baz\n\nqux(arg)\n	0	12	expand	line	1	0	normal	-
+blankline-seq-negll	foo_bar baz\n\nqux(arg)\n	0	12	expand	line	2	0	normal	-
+blankline-seq-neglnegl	foo_bar baz\n\nqux(arg)\n	12	12	expand	line	2	0	normal	-
+blankline-seq-negn	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	0	normal	-
+blankline-seq-negtl	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-seq-negw	foo_bar baz\n\nqux(arg)\n	8	12	select	word	1	0	normal	-
+blankline-seq-negwrep	foo_bar baz\n\nqux(arg)\n	4	8	select	word	2	0	normal	-
+blankline-seq-oo	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+blankline-seq-osemishifto	foo_bar baz\n\nqux(arg)\n	16	21	expand	block	1	0	normal	-
+blankline-seq-oshifto	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+blankline-seq-oshiftosemishifto	foo_bar baz\n\nqux(arg)\n	16	21	expand	block	1	0	normal	-
+blankline-seq-ow	foo_bar baz\n\nqux(arg)\n	22	21	select	word	1	0	normal	-
+blankline-seq-semifo	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	1	normal	-
+blankline-seq-semisemi	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	2	normal	-
+blankline-seq-semiw	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	1	normal	-
+blankline-seq-shiftmshiftw	foo_bar baz\n\nqux(arg)\n	16	12	select	symbol	1	0	normal	-
+blankline-seq-shiftosemishifto	foo_bar baz\n\nqux(arg)\n	12	21	expand	block	1	0	normal	-
+blankline-seq-shiftoshifto	foo_bar baz\n\nqux(arg)\n	21	12	expand	block	1	0	normal	-
+blankline-seq-shiftwshiftw	foo_bar baz\n\nqux(arg)\n	20	17	select	symbol	2	0	normal	-
+blankline-seq-tl	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+blankline-seq-tq	foo_bar baz\n\nqux(arg)\n	13	12	select	till	1	0	normal	-
+blankline-seq-wb	foo_bar baz\n\nqux(arg)\n	13	16	select	word	2	0	normal	-
+blankline-seq-wfo	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	0	normal	-
+blankline-seq-wj	foo_bar baz\n\nqux(arg)\n	13	11	expand	join	2	0	normal	-
+blankline-seq-wm	foo_bar baz\n\nqux(arg)\n	16	13	expand	word	2	0	normal	-
+blankline-seq-wmrep	foo_bar baz\n\nqux(arg)\n	16	13	expand	word	3	0	normal	-
+blankline-seq-wnegrep	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	1	normal	-
+blankline-seq-wrep	foo_bar baz\n\nqux(arg)\n	20	17	select	word	2	0	normal	-
+blankline-seq-wsemib	foo_bar baz\n\nqux(arg)\n	8	12	select	word	2	0	normal	-
+blankline-seq-wshifto	foo_bar baz\n\nqux(arg)\n	21	12	expand	block	2	0	normal	-
+blankline-seq-ww	foo_bar baz\n\nqux(arg)\n	20	17	select	word	2	0	normal	-
+blankline-seq-wwz	foo_bar baz\n\nqux(arg)\n	16	12	select	word	1	0	normal	-
+blankline-seq-wz	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+bof-expand.block-b	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.block-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-expand.block-g	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.block-h	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-expand.block-i	hello world\nsecond line\nthird\n	1	-	-	-	0	0	normal	-
+bof-expand.block-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+bof-expand.block-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+bof-expand.block-m	hello world\nsecond line\nthird\n	5	0	expand	word	1	0	normal	-
+bof-expand.block-n	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bof-expand.block-o	hello world\nsecond line\nthird\n	0	3	expand	block	0	0	normal	-
+bof-expand.block-semi	hello world\nsecond line\nthird\n	3	0	expand	block	0	0	normal	-
+bof-expand.block-shiftb	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.block-shifte	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-expand.block-shifth	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-expand.block-shifti	hello world\nsecond line\nthird\n	1	3	expand	char	1	0	normal	-
+bof-expand.block-shiftm	hello world\nsecond line\nthird\n	5	0	expand	symbol	1	0	normal	-
+bof-expand.block-shiftn	hello world\nsecond line\nthird\n	12	3	expand	char	1	0	normal	-
+bof-expand.block-shifto	hello world\nsecond line\nthird\n	0	3	expand	block	0	0	normal	-
+bof-expand.block-shiftw	hello world\nsecond line\nthird\n	5	0	select	symbol	1	0	normal	-
+bof-expand.block-w	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+bof-expand.block-z	hello world\nsecond line\nthird\n	0	3	expand	block	0	0	normal	-
+bof-expand.char-b	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.char-e	hello world\nsecond line\nthird\n	0	3	expand	char	0	1	normal	-
+bof-expand.char-g	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.char-h	hello world\nsecond line\nthird\n	0	3	expand	char	0	1	normal	-
+bof-expand.char-i	hello world\nsecond line\nthird\n	1	3	expand	char	0	0	normal	-
+bof-expand.char-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+bof-expand.char-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+bof-expand.char-m	hello world\nsecond line\nthird\n	5	0	expand	word	1	0	normal	-
+bof-expand.char-n	hello world\nsecond line\nthird\n	12	3	expand	char	0	0	normal	-
+bof-expand.char-o	hello world\nsecond line\nthird\n	0	3	expand	char	0	0	normal	-
+bof-expand.char-semi	hello world\nsecond line\nthird\n	3	0	expand	char	0	0	normal	-
+bof-expand.char-shiftb	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.char-shifte	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-expand.char-shifth	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-expand.char-shifti	hello world\nsecond line\nthird\n	1	3	expand	char	1	0	normal	-
+bof-expand.char-shiftm	hello world\nsecond line\nthird\n	5	0	expand	symbol	1	0	normal	-
+bof-expand.char-shiftn	hello world\nsecond line\nthird\n	12	3	expand	char	1	0	normal	-
+bof-expand.char-shifto	hello world\nsecond line\nthird\n	0	3	expand	char	0	0	normal	-
+bof-expand.char-shiftw	hello world\nsecond line\nthird\n	5	0	select	symbol	1	0	normal	-
+bof-expand.char-w	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+bof-expand.char-z	hello world\nsecond line\nthird\n	0	3	expand	char	0	0	normal	-
+bof-expand.join-b	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.join-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-expand.join-g	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.join-h	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-expand.join-i	hello world\nsecond line\nthird\n	1	-	-	-	0	0	normal	-
+bof-expand.join-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+bof-expand.join-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+bof-expand.join-m	hello world\nsecond line\nthird\n	5	0	expand	word	1	0	normal	-
+bof-expand.join-n	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bof-expand.join-o	hello world\nsecond line\nthird\n	0	3	expand	join	0	0	normal	-
+bof-expand.join-semi	hello world\nsecond line\nthird\n	3	0	expand	join	0	0	normal	-
+bof-expand.join-shiftb	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.join-shifte	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-expand.join-shifth	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-expand.join-shifti	hello world\nsecond line\nthird\n	1	3	expand	char	1	0	normal	-
+bof-expand.join-shiftm	hello world\nsecond line\nthird\n	5	0	expand	symbol	1	0	normal	-
+bof-expand.join-shiftn	hello world\nsecond line\nthird\n	12	3	expand	char	1	0	normal	-
+bof-expand.join-shifto	hello world\nsecond line\nthird\n	0	3	expand	join	0	0	normal	-
+bof-expand.join-shiftw	hello world\nsecond line\nthird\n	5	0	select	symbol	1	0	normal	-
+bof-expand.join-w	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+bof-expand.join-z	hello world\nsecond line\nthird\n	0	3	expand	join	0	0	normal	-
+bof-expand.line-b	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.line-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-expand.line-g	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.line-h	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-expand.line-i	hello world\nsecond line\nthird\n	1	-	-	-	0	0	normal	-
+bof-expand.line-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+bof-expand.line-l	hello world\nsecond line\nthird\n	0	3	expand	line	1	0	normal	-
+bof-expand.line-m	hello world\nsecond line\nthird\n	5	0	expand	word	1	0	normal	-
+bof-expand.line-n	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bof-expand.line-o	hello world\nsecond line\nthird\n	0	3	expand	line	0	0	normal	-
+bof-expand.line-semi	hello world\nsecond line\nthird\n	3	0	expand	line	0	0	normal	-
+bof-expand.line-shiftb	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.line-shifte	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-expand.line-shifth	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-expand.line-shifti	hello world\nsecond line\nthird\n	1	3	expand	char	1	0	normal	-
+bof-expand.line-shiftm	hello world\nsecond line\nthird\n	5	0	expand	symbol	1	0	normal	-
+bof-expand.line-shiftn	hello world\nsecond line\nthird\n	12	3	expand	char	1	0	normal	-
+bof-expand.line-shifto	hello world\nsecond line\nthird\n	0	3	expand	line	0	0	normal	-
+bof-expand.line-shiftw	hello world\nsecond line\nthird\n	5	0	select	symbol	1	0	normal	-
+bof-expand.line-w	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+bof-expand.line-z	hello world\nsecond line\nthird\n	0	3	expand	line	0	0	normal	-
+bof-expand.symbol-b	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.symbol-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-expand.symbol-g	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.symbol-h	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-expand.symbol-i	hello world\nsecond line\nthird\n	1	-	-	-	0	0	normal	-
+bof-expand.symbol-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+bof-expand.symbol-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+bof-expand.symbol-m	hello world\nsecond line\nthird\n	5	0	expand	word	1	0	normal	-
+bof-expand.symbol-n	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bof-expand.symbol-o	hello world\nsecond line\nthird\n	0	3	expand	symbol	0	0	normal	-
+bof-expand.symbol-semi	hello world\nsecond line\nthird\n	3	0	expand	symbol	0	0	normal	-
+bof-expand.symbol-shiftb	hello world\nsecond line\nthird\n	0	3	expand	symbol	0	0	normal	-
+bof-expand.symbol-shifte	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-expand.symbol-shifth	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-expand.symbol-shifti	hello world\nsecond line\nthird\n	1	3	expand	char	1	0	normal	-
+bof-expand.symbol-shiftm	hello world\nsecond line\nthird\n	5	0	expand	symbol	1	0	normal	-
+bof-expand.symbol-shiftn	hello world\nsecond line\nthird\n	12	3	expand	char	1	0	normal	-
+bof-expand.symbol-shifto	hello world\nsecond line\nthird\n	0	3	expand	symbol	0	0	normal	-
+bof-expand.symbol-shiftw	hello world\nsecond line\nthird\n	5	0	expand	symbol	1	0	normal	-
+bof-expand.symbol-w	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+bof-expand.symbol-z	hello world\nsecond line\nthird\n	0	3	expand	symbol	0	0	normal	-
+bof-expand.word-b	hello world\nsecond line\nthird\n	0	3	expand	word	0	0	normal	-
+bof-expand.word-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-expand.word-g	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.word-h	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-expand.word-i	hello world\nsecond line\nthird\n	1	-	-	-	0	0	normal	-
+bof-expand.word-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+bof-expand.word-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+bof-expand.word-m	hello world\nsecond line\nthird\n	5	0	expand	word	1	0	normal	-
+bof-expand.word-n	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bof-expand.word-o	hello world\nsecond line\nthird\n	0	3	expand	word	0	0	normal	-
+bof-expand.word-semi	hello world\nsecond line\nthird\n	3	0	expand	word	0	0	normal	-
+bof-expand.word-shiftb	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-expand.word-shifte	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-expand.word-shifth	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-expand.word-shifti	hello world\nsecond line\nthird\n	1	3	expand	char	1	0	normal	-
+bof-expand.word-shiftm	hello world\nsecond line\nthird\n	5	0	expand	symbol	1	0	normal	-
+bof-expand.word-shiftn	hello world\nsecond line\nthird\n	12	3	expand	char	1	0	normal	-
+bof-expand.word-shifto	hello world\nsecond line\nthird\n	0	3	expand	word	0	0	normal	-
+bof-expand.word-shiftw	hello world\nsecond line\nthird\n	5	0	select	symbol	1	0	normal	-
+bof-expand.word-w	hello world\nsecond line\nthird\n	5	0	expand	word	1	0	normal	-
+bof-expand.word-z	hello world\nsecond line\nthird\n	0	3	expand	word	0	0	normal	-
+bof-none-b	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-none-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-none-g	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-none-h	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-none-i	hello world\nsecond line\nthird\n	1	-	-	-	0	0	normal	-
+bof-none-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+bof-none-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+bof-none-m	hello world\nsecond line\nthird\n	5	0	expand	word	1	0	normal	-
+bof-none-n	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bof-none-o	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-none-semi	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-none-shiftb	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-none-shifte	hello world\nsecond line\nthird\n	0	0	expand	char	1	1	normal	-
+bof-none-shifth	hello world\nsecond line\nthird\n	0	0	expand	char	1	1	normal	-
+bof-none-shifti	hello world\nsecond line\nthird\n	1	0	expand	char	1	0	normal	-
+bof-none-shiftm	hello world\nsecond line\nthird\n	5	0	expand	symbol	1	0	normal	-
+bof-none-shiftn	hello world\nsecond line\nthird\n	12	0	expand	char	1	0	normal	-
+bof-none-shifto	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-none-shiftw	hello world\nsecond line\nthird\n	5	0	select	symbol	1	0	normal	-
+bof-none-w	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+bof-none-z	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-select.char-b	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-select.char-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-select.char-g	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-select.char-h	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-select.char-i	hello world\nsecond line\nthird\n	1	-	-	-	0	0	normal	-
+bof-select.char-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+bof-select.char-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+bof-select.char-m	hello world\nsecond line\nthird\n	5	0	expand	word	1	0	normal	-
+bof-select.char-n	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bof-select.char-o	hello world\nsecond line\nthird\n	0	3	select	char	0	0	normal	-
+bof-select.char-semi	hello world\nsecond line\nthird\n	3	0	select	char	0	0	normal	-
+bof-select.char-shiftb	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-select.char-shifte	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-select.char-shifth	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-select.char-shifti	hello world\nsecond line\nthird\n	1	3	expand	char	1	0	normal	-
+bof-select.char-shiftm	hello world\nsecond line\nthird\n	5	0	expand	symbol	1	0	normal	-
+bof-select.char-shiftn	hello world\nsecond line\nthird\n	12	3	expand	char	1	0	normal	-
+bof-select.char-shifto	hello world\nsecond line\nthird\n	0	3	select	char	0	0	normal	-
+bof-select.char-shiftw	hello world\nsecond line\nthird\n	5	0	select	symbol	1	0	normal	-
+bof-select.char-w	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+bof-select.char-z	hello world\nsecond line\nthird\n	0	3	select	char	0	0	normal	-
+bof-select.word-b	hello world\nsecond line\nthird\n	0	3	select	word	0	0	normal	-
+bof-select.word-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-select.word-g	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-select.word-h	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-select.word-i	hello world\nsecond line\nthird\n	1	-	-	-	0	0	normal	-
+bof-select.word-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+bof-select.word-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+bof-select.word-m	hello world\nsecond line\nthird\n	5	0	expand	word	1	0	normal	-
+bof-select.word-n	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bof-select.word-o	hello world\nsecond line\nthird\n	0	3	select	word	0	0	normal	-
+bof-select.word-semi	hello world\nsecond line\nthird\n	3	0	select	word	0	0	normal	-
+bof-select.word-shiftb	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-select.word-shifte	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-select.word-shifth	hello world\nsecond line\nthird\n	0	3	expand	char	1	1	normal	-
+bof-select.word-shifti	hello world\nsecond line\nthird\n	1	3	expand	char	1	0	normal	-
+bof-select.word-shiftm	hello world\nsecond line\nthird\n	5	0	expand	symbol	1	0	normal	-
+bof-select.word-shiftn	hello world\nsecond line\nthird\n	12	3	expand	char	1	0	normal	-
+bof-select.word-shifto	hello world\nsecond line\nthird\n	0	3	select	word	0	0	normal	-
+bof-select.word-shiftw	hello world\nsecond line\nthird\n	5	0	select	symbol	1	0	normal	-
+bof-select.word-w	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+bof-select.word-z	hello world\nsecond line\nthird\n	0	3	select	word	0	0	normal	-
+bof-seq-flo	hello world\nsecond line\nthird\n	3	0	select	find	1	0	normal	-
+bof-seq-fo	hello world\nsecond line\nthird\n	5	0	select	find	1	0	normal	-
+bof-seq-fonegrep	hello world\nsecond line\nthird\n	5	0	select	find	1	1	normal	-
+bof-seq-forep	hello world\nsecond line\nthird\n	8	5	select	find	2	0	normal	-
+bof-seq-fq	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-seq-ftl	hello world\nsecond line\nthird\n	29	24	expand	line	2	0	normal	-
+bof-seq-jj	hello world\nsecond line\nthird\n	0	0	expand	join	2	0	normal	-
+bof-seq-jw	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+bof-seq-ll	hello world\nsecond line\nthird\n	23	0	expand	line	2	0	normal	-
+bof-seq-llrep	hello world\nsecond line\nthird\n	29	0	expand	line	3	0	normal	-
+bof-seq-lm	hello world\nsecond line\nthird\n	11	6	expand	word	2	0	normal	-
+bof-seq-lnegl	hello world\nsecond line\nthird\n	0	0	expand	line	2	0	normal	-
+bof-seq-lrep	hello world\nsecond line\nthird\n	23	0	expand	line	2	0	normal	-
+bof-seq-lz	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-seq-mb	hello world\nsecond line\nthird\n	0	5	expand	word	1	0	normal	-
+bof-seq-mg	hello world\nsecond line\nthird\n	5	-	-	-	0	0	normal	-
+bof-seq-mm	hello world\nsecond line\nthird\n	5	0	expand	word	2	0	normal	-
+bof-seq-mrep	hello world\nsecond line\nthird\n	5	0	expand	word	2	0	normal	-
+bof-seq-msemiw	hello world\nsecond line\nthird\n	11	0	expand	word	2	0	normal	-
+bof-seq-mw	hello world\nsecond line\nthird\n	11	0	expand	word	2	0	normal	-
+bof-seq-mz	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-seq-mzz	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-seq-negb	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+bof-seq-nege	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bof-seq-negfo	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-seq-negl	hello world\nsecond line\nthird\n	0	11	expand	line	1	0	normal	-
+bof-seq-negll	hello world\nsecond line\nthird\n	0	11	expand	line	2	0	normal	-
+bof-seq-neglnegl	hello world\nsecond line\nthird\n	23	11	expand	line	2	0	normal	-
+bof-seq-negn	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-seq-negtl	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-seq-negw	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-seq-negwrep	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-seq-oo	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-seq-osemishifto	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-seq-oshifto	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-seq-oshiftosemishifto	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-seq-ow	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+bof-seq-semifo	hello world\nsecond line\nthird\n	5	0	select	find	1	1	normal	-
+bof-seq-semisemi	hello world\nsecond line\nthird\n	0	-	-	-	0	2	normal	-
+bof-seq-semiw	hello world\nsecond line\nthird\n	5	0	select	word	1	1	normal	-
+bof-seq-shiftmshiftw	hello world\nsecond line\nthird\n	11	0	expand	symbol	2	0	normal	-
+bof-seq-shiftosemishifto	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+bof-seq-shiftoshifto	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-seq-shiftwshiftw	hello world\nsecond line\nthird\n	11	5	select	symbol	2	0	normal	-
+bof-seq-tl	hello world\nsecond line\nthird\n	2	0	select	till	1	0	normal	-
+bof-seq-tq	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bof-seq-wb	hello world\nsecond line\nthird\n	0	5	select	word	2	0	normal	-
+bof-seq-wfo	hello world\nsecond line\nthird\n	8	5	select	find	2	0	normal	-
+bof-seq-wj	hello world\nsecond line\nthird\n	0	0	expand	join	2	0	normal	-
+bof-seq-wm	hello world\nsecond line\nthird\n	5	0	expand	word	2	0	normal	-
+bof-seq-wmrep	hello world\nsecond line\nthird\n	5	0	expand	word	3	0	normal	-
+bof-seq-wnegrep	hello world\nsecond line\nthird\n	5	0	select	word	1	1	normal	-
+bof-seq-wrep	hello world\nsecond line\nthird\n	11	5	select	word	2	0	normal	-
+bof-seq-wsemib	hello world\nsecond line\nthird\n	0	5	select	word	1	0	normal	-
+bof-seq-wshifto	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+bof-seq-ww	hello world\nsecond line\nthird\n	11	5	select	word	2	0	normal	-
+bof-seq-wwz	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+bof-seq-wz	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bol2-expand.block-b	hello world\nsecond line\nthird\n	6	12	select	word	1	0	normal	-
+bol2-expand.block-e	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bol2-expand.block-g	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-expand.block-h	hello world\nsecond line\nthird\n	11	-	-	-	0	0	normal	-
+bol2-expand.block-i	hello world\nsecond line\nthird\n	13	-	-	-	0	0	normal	-
+bol2-expand.block-j	hello world\nsecond line\nthird\n	12	11	expand	join	1	0	normal	-
+bol2-expand.block-l	hello world\nsecond line\nthird\n	23	12	expand	line	1	0	normal	-
+bol2-expand.block-m	hello world\nsecond line\nthird\n	18	12	expand	word	1	0	normal	-
+bol2-expand.block-n	hello world\nsecond line\nthird\n	24	-	-	-	0	0	normal	-
+bol2-expand.block-o	hello world\nsecond line\nthird\n	12	9	expand	block	0	0	normal	-
+bol2-expand.block-semi	hello world\nsecond line\nthird\n	9	12	expand	block	0	0	normal	-
+bol2-expand.block-shiftb	hello world\nsecond line\nthird\n	6	12	select	symbol	1	0	normal	-
+bol2-expand.block-shifte	hello world\nsecond line\nthird\n	0	9	expand	char	1	0	normal	-
+bol2-expand.block-shifth	hello world\nsecond line\nthird\n	11	9	expand	char	1	0	normal	-
+bol2-expand.block-shifti	hello world\nsecond line\nthird\n	13	9	expand	char	1	0	normal	-
+bol2-expand.block-shiftm	hello world\nsecond line\nthird\n	18	12	expand	symbol	1	0	normal	-
+bol2-expand.block-shiftn	hello world\nsecond line\nthird\n	24	9	expand	char	1	0	normal	-
+bol2-expand.block-shifto	hello world\nsecond line\nthird\n	12	9	expand	block	0	0	normal	-
+bol2-expand.block-shiftw	hello world\nsecond line\nthird\n	18	12	select	symbol	1	0	normal	-
+bol2-expand.block-w	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-expand.block-z	hello world\nsecond line\nthird\n	12	9	expand	block	0	0	normal	-
+bol2-expand.char-b	hello world\nsecond line\nthird\n	6	12	select	word	1	0	normal	-
+bol2-expand.char-e	hello world\nsecond line\nthird\n	0	9	expand	char	0	0	normal	-
+bol2-expand.char-g	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-expand.char-h	hello world\nsecond line\nthird\n	11	9	expand	char	0	0	normal	-
+bol2-expand.char-i	hello world\nsecond line\nthird\n	13	9	expand	char	0	0	normal	-
+bol2-expand.char-j	hello world\nsecond line\nthird\n	12	11	expand	join	1	0	normal	-
+bol2-expand.char-l	hello world\nsecond line\nthird\n	23	12	expand	line	1	0	normal	-
+bol2-expand.char-m	hello world\nsecond line\nthird\n	18	12	expand	word	1	0	normal	-
+bol2-expand.char-n	hello world\nsecond line\nthird\n	24	9	expand	char	0	0	normal	-
+bol2-expand.char-o	hello world\nsecond line\nthird\n	12	9	expand	char	0	0	normal	-
+bol2-expand.char-semi	hello world\nsecond line\nthird\n	9	12	expand	char	0	0	normal	-
+bol2-expand.char-shiftb	hello world\nsecond line\nthird\n	6	12	select	symbol	1	0	normal	-
+bol2-expand.char-shifte	hello world\nsecond line\nthird\n	0	9	expand	char	1	0	normal	-
+bol2-expand.char-shifth	hello world\nsecond line\nthird\n	11	9	expand	char	1	0	normal	-
+bol2-expand.char-shifti	hello world\nsecond line\nthird\n	13	9	expand	char	1	0	normal	-
+bol2-expand.char-shiftm	hello world\nsecond line\nthird\n	18	12	expand	symbol	1	0	normal	-
+bol2-expand.char-shiftn	hello world\nsecond line\nthird\n	24	9	expand	char	1	0	normal	-
+bol2-expand.char-shifto	hello world\nsecond line\nthird\n	12	9	expand	char	0	0	normal	-
+bol2-expand.char-shiftw	hello world\nsecond line\nthird\n	18	12	select	symbol	1	0	normal	-
+bol2-expand.char-w	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-expand.char-z	hello world\nsecond line\nthird\n	12	9	expand	char	0	0	normal	-
+bol2-expand.join-b	hello world\nsecond line\nthird\n	6	12	select	word	1	0	normal	-
+bol2-expand.join-e	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bol2-expand.join-g	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-expand.join-h	hello world\nsecond line\nthird\n	11	-	-	-	0	0	normal	-
+bol2-expand.join-i	hello world\nsecond line\nthird\n	13	-	-	-	0	0	normal	-
+bol2-expand.join-j	hello world\nsecond line\nthird\n	12	11	expand	join	1	0	normal	-
+bol2-expand.join-l	hello world\nsecond line\nthird\n	23	12	expand	line	1	0	normal	-
+bol2-expand.join-m	hello world\nsecond line\nthird\n	18	12	expand	word	1	0	normal	-
+bol2-expand.join-n	hello world\nsecond line\nthird\n	24	-	-	-	0	0	normal	-
+bol2-expand.join-o	hello world\nsecond line\nthird\n	12	9	expand	join	0	0	normal	-
+bol2-expand.join-semi	hello world\nsecond line\nthird\n	9	12	expand	join	0	0	normal	-
+bol2-expand.join-shiftb	hello world\nsecond line\nthird\n	6	12	select	symbol	1	0	normal	-
+bol2-expand.join-shifte	hello world\nsecond line\nthird\n	0	9	expand	char	1	0	normal	-
+bol2-expand.join-shifth	hello world\nsecond line\nthird\n	11	9	expand	char	1	0	normal	-
+bol2-expand.join-shifti	hello world\nsecond line\nthird\n	13	9	expand	char	1	0	normal	-
+bol2-expand.join-shiftm	hello world\nsecond line\nthird\n	18	12	expand	symbol	1	0	normal	-
+bol2-expand.join-shiftn	hello world\nsecond line\nthird\n	24	9	expand	char	1	0	normal	-
+bol2-expand.join-shifto	hello world\nsecond line\nthird\n	12	9	expand	join	0	0	normal	-
+bol2-expand.join-shiftw	hello world\nsecond line\nthird\n	18	12	select	symbol	1	0	normal	-
+bol2-expand.join-w	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-expand.join-z	hello world\nsecond line\nthird\n	12	9	expand	join	0	0	normal	-
+bol2-expand.line-b	hello world\nsecond line\nthird\n	6	12	select	word	1	0	normal	-
+bol2-expand.line-e	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bol2-expand.line-g	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-expand.line-h	hello world\nsecond line\nthird\n	11	-	-	-	0	0	normal	-
+bol2-expand.line-i	hello world\nsecond line\nthird\n	13	-	-	-	0	0	normal	-
+bol2-expand.line-j	hello world\nsecond line\nthird\n	12	11	expand	join	1	0	normal	-
+bol2-expand.line-l	hello world\nsecond line\nthird\n	29	9	expand	line	1	0	normal	-
+bol2-expand.line-m	hello world\nsecond line\nthird\n	18	12	expand	word	1	0	normal	-
+bol2-expand.line-n	hello world\nsecond line\nthird\n	24	-	-	-	0	0	normal	-
+bol2-expand.line-o	hello world\nsecond line\nthird\n	12	9	expand	line	0	0	normal	-
+bol2-expand.line-semi	hello world\nsecond line\nthird\n	9	12	expand	line	0	0	normal	-
+bol2-expand.line-shiftb	hello world\nsecond line\nthird\n	6	12	select	symbol	1	0	normal	-
+bol2-expand.line-shifte	hello world\nsecond line\nthird\n	0	9	expand	char	1	0	normal	-
+bol2-expand.line-shifth	hello world\nsecond line\nthird\n	11	9	expand	char	1	0	normal	-
+bol2-expand.line-shifti	hello world\nsecond line\nthird\n	13	9	expand	char	1	0	normal	-
+bol2-expand.line-shiftm	hello world\nsecond line\nthird\n	18	12	expand	symbol	1	0	normal	-
+bol2-expand.line-shiftn	hello world\nsecond line\nthird\n	24	9	expand	char	1	0	normal	-
+bol2-expand.line-shifto	hello world\nsecond line\nthird\n	12	9	expand	line	0	0	normal	-
+bol2-expand.line-shiftw	hello world\nsecond line\nthird\n	18	12	select	symbol	1	0	normal	-
+bol2-expand.line-w	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-expand.line-z	hello world\nsecond line\nthird\n	12	9	expand	line	0	0	normal	-
+bol2-expand.symbol-b	hello world\nsecond line\nthird\n	6	12	select	word	1	0	normal	-
+bol2-expand.symbol-e	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bol2-expand.symbol-g	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-expand.symbol-h	hello world\nsecond line\nthird\n	11	-	-	-	0	0	normal	-
+bol2-expand.symbol-i	hello world\nsecond line\nthird\n	13	-	-	-	0	0	normal	-
+bol2-expand.symbol-j	hello world\nsecond line\nthird\n	12	11	expand	join	1	0	normal	-
+bol2-expand.symbol-l	hello world\nsecond line\nthird\n	23	12	expand	line	1	0	normal	-
+bol2-expand.symbol-m	hello world\nsecond line\nthird\n	18	12	expand	word	1	0	normal	-
+bol2-expand.symbol-n	hello world\nsecond line\nthird\n	24	-	-	-	0	0	normal	-
+bol2-expand.symbol-o	hello world\nsecond line\nthird\n	12	9	expand	symbol	0	0	normal	-
+bol2-expand.symbol-semi	hello world\nsecond line\nthird\n	9	12	expand	symbol	0	0	normal	-
+bol2-expand.symbol-shiftb	hello world\nsecond line\nthird\n	6	12	expand	symbol	1	0	normal	-
+bol2-expand.symbol-shifte	hello world\nsecond line\nthird\n	0	9	expand	char	1	0	normal	-
+bol2-expand.symbol-shifth	hello world\nsecond line\nthird\n	11	9	expand	char	1	0	normal	-
+bol2-expand.symbol-shifti	hello world\nsecond line\nthird\n	13	9	expand	char	1	0	normal	-
+bol2-expand.symbol-shiftm	hello world\nsecond line\nthird\n	18	12	expand	symbol	1	0	normal	-
+bol2-expand.symbol-shiftn	hello world\nsecond line\nthird\n	24	9	expand	char	1	0	normal	-
+bol2-expand.symbol-shifto	hello world\nsecond line\nthird\n	12	9	expand	symbol	0	0	normal	-
+bol2-expand.symbol-shiftw	hello world\nsecond line\nthird\n	18	9	expand	symbol	1	0	normal	-
+bol2-expand.symbol-w	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-expand.symbol-z	hello world\nsecond line\nthird\n	12	9	expand	symbol	0	0	normal	-
+bol2-expand.word-b	hello world\nsecond line\nthird\n	6	12	expand	word	1	0	normal	-
+bol2-expand.word-e	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bol2-expand.word-g	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-expand.word-h	hello world\nsecond line\nthird\n	11	-	-	-	0	0	normal	-
+bol2-expand.word-i	hello world\nsecond line\nthird\n	13	-	-	-	0	0	normal	-
+bol2-expand.word-j	hello world\nsecond line\nthird\n	12	11	expand	join	1	0	normal	-
+bol2-expand.word-l	hello world\nsecond line\nthird\n	23	12	expand	line	1	0	normal	-
+bol2-expand.word-m	hello world\nsecond line\nthird\n	18	12	expand	word	1	0	normal	-
+bol2-expand.word-n	hello world\nsecond line\nthird\n	24	-	-	-	0	0	normal	-
+bol2-expand.word-o	hello world\nsecond line\nthird\n	12	9	expand	word	0	0	normal	-
+bol2-expand.word-semi	hello world\nsecond line\nthird\n	9	12	expand	word	0	0	normal	-
+bol2-expand.word-shiftb	hello world\nsecond line\nthird\n	6	12	select	symbol	1	0	normal	-
+bol2-expand.word-shifte	hello world\nsecond line\nthird\n	0	9	expand	char	1	0	normal	-
+bol2-expand.word-shifth	hello world\nsecond line\nthird\n	11	9	expand	char	1	0	normal	-
+bol2-expand.word-shifti	hello world\nsecond line\nthird\n	13	9	expand	char	1	0	normal	-
+bol2-expand.word-shiftm	hello world\nsecond line\nthird\n	18	12	expand	symbol	1	0	normal	-
+bol2-expand.word-shiftn	hello world\nsecond line\nthird\n	24	9	expand	char	1	0	normal	-
+bol2-expand.word-shifto	hello world\nsecond line\nthird\n	12	9	expand	word	0	0	normal	-
+bol2-expand.word-shiftw	hello world\nsecond line\nthird\n	18	12	select	symbol	1	0	normal	-
+bol2-expand.word-w	hello world\nsecond line\nthird\n	18	9	expand	word	1	0	normal	-
+bol2-expand.word-z	hello world\nsecond line\nthird\n	12	9	expand	word	0	0	normal	-
+bol2-none-b	hello world\nsecond line\nthird\n	6	12	select	word	1	0	normal	-
+bol2-none-e	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bol2-none-g	hello world\nsecond line\nthird\n	12	-	-	-	0	1	normal	-
+bol2-none-h	hello world\nsecond line\nthird\n	11	-	-	-	0	0	normal	-
+bol2-none-i	hello world\nsecond line\nthird\n	13	-	-	-	0	0	normal	-
+bol2-none-j	hello world\nsecond line\nthird\n	12	11	expand	join	1	0	normal	-
+bol2-none-l	hello world\nsecond line\nthird\n	23	12	expand	line	1	0	normal	-
+bol2-none-m	hello world\nsecond line\nthird\n	18	12	expand	word	1	0	normal	-
+bol2-none-n	hello world\nsecond line\nthird\n	24	-	-	-	0	0	normal	-
+bol2-none-o	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-none-semi	hello world\nsecond line\nthird\n	12	-	-	-	0	1	normal	-
+bol2-none-shiftb	hello world\nsecond line\nthird\n	6	12	select	symbol	1	0	normal	-
+bol2-none-shifte	hello world\nsecond line\nthird\n	0	12	expand	char	1	0	normal	-
+bol2-none-shifth	hello world\nsecond line\nthird\n	11	12	expand	char	1	0	normal	-
+bol2-none-shifti	hello world\nsecond line\nthird\n	13	12	expand	char	1	0	normal	-
+bol2-none-shiftm	hello world\nsecond line\nthird\n	18	12	expand	symbol	1	0	normal	-
+bol2-none-shiftn	hello world\nsecond line\nthird\n	24	12	expand	char	1	0	normal	-
+bol2-none-shifto	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-none-shiftw	hello world\nsecond line\nthird\n	18	12	select	symbol	1	0	normal	-
+bol2-none-w	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-none-z	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-select.char-b	hello world\nsecond line\nthird\n	6	12	select	word	1	0	normal	-
+bol2-select.char-e	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bol2-select.char-g	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-select.char-h	hello world\nsecond line\nthird\n	11	-	-	-	0	0	normal	-
+bol2-select.char-i	hello world\nsecond line\nthird\n	13	-	-	-	0	0	normal	-
+bol2-select.char-j	hello world\nsecond line\nthird\n	12	11	expand	join	1	0	normal	-
+bol2-select.char-l	hello world\nsecond line\nthird\n	23	12	expand	line	1	0	normal	-
+bol2-select.char-m	hello world\nsecond line\nthird\n	18	12	expand	word	1	0	normal	-
+bol2-select.char-n	hello world\nsecond line\nthird\n	24	-	-	-	0	0	normal	-
+bol2-select.char-o	hello world\nsecond line\nthird\n	12	9	select	char	0	0	normal	-
+bol2-select.char-semi	hello world\nsecond line\nthird\n	9	12	select	char	0	0	normal	-
+bol2-select.char-shiftb	hello world\nsecond line\nthird\n	6	12	select	symbol	1	0	normal	-
+bol2-select.char-shifte	hello world\nsecond line\nthird\n	0	9	expand	char	1	0	normal	-
+bol2-select.char-shifth	hello world\nsecond line\nthird\n	11	9	expand	char	1	0	normal	-
+bol2-select.char-shifti	hello world\nsecond line\nthird\n	13	9	expand	char	1	0	normal	-
+bol2-select.char-shiftm	hello world\nsecond line\nthird\n	18	12	expand	symbol	1	0	normal	-
+bol2-select.char-shiftn	hello world\nsecond line\nthird\n	24	9	expand	char	1	0	normal	-
+bol2-select.char-shifto	hello world\nsecond line\nthird\n	12	9	select	char	0	0	normal	-
+bol2-select.char-shiftw	hello world\nsecond line\nthird\n	18	12	select	symbol	1	0	normal	-
+bol2-select.char-w	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-select.char-z	hello world\nsecond line\nthird\n	12	9	select	char	0	0	normal	-
+bol2-select.word-b	hello world\nsecond line\nthird\n	6	12	select	word	1	0	normal	-
+bol2-select.word-e	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bol2-select.word-g	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-select.word-h	hello world\nsecond line\nthird\n	11	-	-	-	0	0	normal	-
+bol2-select.word-i	hello world\nsecond line\nthird\n	13	-	-	-	0	0	normal	-
+bol2-select.word-j	hello world\nsecond line\nthird\n	12	11	expand	join	1	0	normal	-
+bol2-select.word-l	hello world\nsecond line\nthird\n	23	12	expand	line	1	0	normal	-
+bol2-select.word-m	hello world\nsecond line\nthird\n	18	12	expand	word	1	0	normal	-
+bol2-select.word-n	hello world\nsecond line\nthird\n	24	-	-	-	0	0	normal	-
+bol2-select.word-o	hello world\nsecond line\nthird\n	12	9	select	word	0	0	normal	-
+bol2-select.word-semi	hello world\nsecond line\nthird\n	9	12	select	word	0	0	normal	-
+bol2-select.word-shiftb	hello world\nsecond line\nthird\n	6	12	select	symbol	1	0	normal	-
+bol2-select.word-shifte	hello world\nsecond line\nthird\n	0	9	expand	char	1	0	normal	-
+bol2-select.word-shifth	hello world\nsecond line\nthird\n	11	9	expand	char	1	0	normal	-
+bol2-select.word-shifti	hello world\nsecond line\nthird\n	13	9	expand	char	1	0	normal	-
+bol2-select.word-shiftm	hello world\nsecond line\nthird\n	18	12	expand	symbol	1	0	normal	-
+bol2-select.word-shiftn	hello world\nsecond line\nthird\n	24	9	expand	char	1	0	normal	-
+bol2-select.word-shifto	hello world\nsecond line\nthird\n	12	9	select	word	0	0	normal	-
+bol2-select.word-shiftw	hello world\nsecond line\nthird\n	18	12	select	symbol	1	0	normal	-
+bol2-select.word-w	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-select.word-z	hello world\nsecond line\nthird\n	12	9	select	word	0	0	normal	-
+bol2-seq-flo	hello world\nsecond line\nthird\n	20	12	select	find	1	0	normal	-
+bol2-seq-fo	hello world\nsecond line\nthird\n	16	12	select	find	1	0	normal	-
+bol2-seq-fonegrep	hello world\nsecond line\nthird\n	16	12	select	find	1	1	normal	-
+bol2-seq-forep	hello world\nsecond line\nthird\n	16	12	select	find	1	0	normal	-
+bol2-seq-fq	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-seq-ftl	hello world\nsecond line\nthird\n	29	24	expand	line	2	0	normal	-
+bol2-seq-jj	hello world\nsecond line\nthird\n	12	11	expand	join	2	0	normal	-
+bol2-seq-jw	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-seq-ll	hello world\nsecond line\nthird\n	29	12	expand	line	2	0	normal	-
+bol2-seq-llrep	hello world\nsecond line\nthird\n	30	12	expand	line	3	0	normal	-
+bol2-seq-lm	hello world\nsecond line\nthird\n	23	19	expand	word	2	0	normal	-
+bol2-seq-lnegl	hello world\nsecond line\nthird\n	0	12	expand	line	2	0	normal	-
+bol2-seq-lrep	hello world\nsecond line\nthird\n	29	12	expand	line	2	0	normal	-
+bol2-seq-lz	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-seq-mb	hello world\nsecond line\nthird\n	6	18	expand	word	2	0	normal	-
+bol2-seq-mg	hello world\nsecond line\nthird\n	18	-	-	-	0	0	normal	-
+bol2-seq-mm	hello world\nsecond line\nthird\n	18	12	expand	word	2	0	normal	-
+bol2-seq-mrep	hello world\nsecond line\nthird\n	18	12	expand	word	2	0	normal	-
+bol2-seq-msemiw	hello world\nsecond line\nthird\n	23	12	expand	word	2	0	normal	-
+bol2-seq-mw	hello world\nsecond line\nthird\n	23	12	expand	word	2	0	normal	-
+bol2-seq-mz	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-seq-mzz	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-seq-negb	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-seq-nege	hello world\nsecond line\nthird\n	24	-	-	-	0	0	normal	-
+bol2-seq-negfo	hello world\nsecond line\nthird\n	7	12	select	find	1	0	normal	-
+bol2-seq-negl	hello world\nsecond line\nthird\n	12	23	expand	line	1	0	normal	-
+bol2-seq-negll	hello world\nsecond line\nthird\n	0	23	expand	line	2	0	normal	-
+bol2-seq-neglnegl	hello world\nsecond line\nthird\n	29	23	expand	line	2	0	normal	-
+bol2-seq-negn	hello world\nsecond line\nthird\n	0	-	-	-	0	0	normal	-
+bol2-seq-negtl	hello world\nsecond line\nthird\n	10	12	select	till	1	0	normal	-
+bol2-seq-negw	hello world\nsecond line\nthird\n	6	12	select	word	1	0	normal	-
+bol2-seq-negwrep	hello world\nsecond line\nthird\n	0	6	select	word	2	0	normal	-
+bol2-seq-oo	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-seq-osemishifto	hello world\nsecond line\nthird\n	12	-	-	-	0	1	normal	-
+bol2-seq-oshifto	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-seq-oshiftosemishifto	hello world\nsecond line\nthird\n	12	-	-	-	0	1	normal	-
+bol2-seq-ow	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-seq-semifo	hello world\nsecond line\nthird\n	16	12	select	find	1	1	normal	-
+bol2-seq-semisemi	hello world\nsecond line\nthird\n	12	-	-	-	0	2	normal	-
+bol2-seq-semiw	hello world\nsecond line\nthird\n	18	12	select	word	1	1	normal	-
+bol2-seq-shiftmshiftw	hello world\nsecond line\nthird\n	23	12	expand	symbol	2	0	normal	-
+bol2-seq-shiftosemishifto	hello world\nsecond line\nthird\n	12	-	-	-	0	1	normal	-
+bol2-seq-shiftoshifto	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-seq-shiftwshiftw	hello world\nsecond line\nthird\n	23	18	select	symbol	2	0	normal	-
+bol2-seq-tl	hello world\nsecond line\nthird\n	19	12	select	till	1	0	normal	-
+bol2-seq-tq	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+bol2-seq-wb	hello world\nsecond line\nthird\n	12	18	select	word	2	0	normal	-
+bol2-seq-wfo	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-seq-wj	hello world\nsecond line\nthird\n	12	11	expand	join	2	0	normal	-
+bol2-seq-wm	hello world\nsecond line\nthird\n	18	12	expand	word	2	0	normal	-
+bol2-seq-wmrep	hello world\nsecond line\nthird\n	18	12	expand	word	3	0	normal	-
+bol2-seq-wnegrep	hello world\nsecond line\nthird\n	18	12	select	word	1	1	normal	-
+bol2-seq-wrep	hello world\nsecond line\nthird\n	23	18	select	word	2	0	normal	-
+bol2-seq-wsemib	hello world\nsecond line\nthird\n	6	12	select	word	2	0	normal	-
+bol2-seq-wshifto	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-seq-ww	hello world\nsecond line\nthird\n	23	18	select	word	2	0	normal	-
+bol2-seq-wwz	hello world\nsecond line\nthird\n	18	12	select	word	1	0	normal	-
+bol2-seq-wz	hello world\nsecond line\nthird\n	12	-	-	-	0	0	normal	-
+commentclose-expand.block-b	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.block-e	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-expand.block-g	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.block-h	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-expand.block-i	;; ) comment\n(a)\n	1	-	-	-	0	0	normal	-
+commentclose-expand.block-j	;; ) comment\n(a)\n	0	0	expand	join	1	0	normal	-
+commentclose-expand.block-l	;; ) comment\n(a)\n	12	0	expand	line	1	0	normal	-
+commentclose-expand.block-m	;; ) comment\n(a)\n	0	3	expand	block	0	0	normal	-
+commentclose-expand.block-n	;; ) comment\n(a)\n	13	-	-	-	0	0	normal	-
+commentclose-expand.block-o	;; ) comment\n(a)\n	0	3	expand	block	0	0	normal	-
+commentclose-expand.block-semi	;; ) comment\n(a)\n	3	0	expand	block	0	0	normal	-
+commentclose-expand.block-shiftb	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.block-shifte	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-expand.block-shifth	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-expand.block-shifti	;; ) comment\n(a)\n	1	3	expand	char	1	0	normal	-
+commentclose-expand.block-shiftm	;; ) comment\n(a)\n	0	3	expand	block	0	0	normal	-
+commentclose-expand.block-shiftn	;; ) comment\n(a)\n	13	3	expand	char	1	0	normal	-
+commentclose-expand.block-shifto	;; ) comment\n(a)\n	0	3	expand	block	0	0	normal	-
+commentclose-expand.block-shiftw	;; ) comment\n(a)\n	12	4	select	symbol	1	0	normal	-
+commentclose-expand.block-w	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-expand.block-z	;; ) comment\n(a)\n	0	3	expand	block	0	0	normal	-
+commentclose-expand.char-b	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.char-e	;; ) comment\n(a)\n	0	3	expand	char	0	1	normal	-
+commentclose-expand.char-g	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.char-h	;; ) comment\n(a)\n	0	3	expand	char	0	1	normal	-
+commentclose-expand.char-i	;; ) comment\n(a)\n	1	3	expand	char	0	0	normal	-
+commentclose-expand.char-j	;; ) comment\n(a)\n	0	0	expand	join	1	0	normal	-
+commentclose-expand.char-l	;; ) comment\n(a)\n	12	0	expand	line	1	0	normal	-
+commentclose-expand.char-m	;; ) comment\n(a)\n	0	3	expand	char	0	0	normal	-
+commentclose-expand.char-n	;; ) comment\n(a)\n	13	3	expand	char	0	0	normal	-
+commentclose-expand.char-o	;; ) comment\n(a)\n	0	3	expand	char	0	0	normal	-
+commentclose-expand.char-semi	;; ) comment\n(a)\n	3	0	expand	char	0	0	normal	-
+commentclose-expand.char-shiftb	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.char-shifte	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-expand.char-shifth	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-expand.char-shifti	;; ) comment\n(a)\n	1	3	expand	char	1	0	normal	-
+commentclose-expand.char-shiftm	;; ) comment\n(a)\n	0	3	expand	char	0	0	normal	-
+commentclose-expand.char-shiftn	;; ) comment\n(a)\n	13	3	expand	char	1	0	normal	-
+commentclose-expand.char-shifto	;; ) comment\n(a)\n	0	3	expand	char	0	0	normal	-
+commentclose-expand.char-shiftw	;; ) comment\n(a)\n	12	4	select	symbol	1	0	normal	-
+commentclose-expand.char-w	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-expand.char-z	;; ) comment\n(a)\n	0	3	expand	char	0	0	normal	-
+commentclose-expand.join-b	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.join-e	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-expand.join-g	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.join-h	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-expand.join-i	;; ) comment\n(a)\n	1	-	-	-	0	0	normal	-
+commentclose-expand.join-j	;; ) comment\n(a)\n	0	0	expand	join	1	0	normal	-
+commentclose-expand.join-l	;; ) comment\n(a)\n	12	0	expand	line	1	0	normal	-
+commentclose-expand.join-m	;; ) comment\n(a)\n	0	3	expand	join	0	0	normal	-
+commentclose-expand.join-n	;; ) comment\n(a)\n	13	-	-	-	0	0	normal	-
+commentclose-expand.join-o	;; ) comment\n(a)\n	0	3	expand	join	0	0	normal	-
+commentclose-expand.join-semi	;; ) comment\n(a)\n	3	0	expand	join	0	0	normal	-
+commentclose-expand.join-shiftb	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.join-shifte	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-expand.join-shifth	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-expand.join-shifti	;; ) comment\n(a)\n	1	3	expand	char	1	0	normal	-
+commentclose-expand.join-shiftm	;; ) comment\n(a)\n	0	3	expand	join	0	0	normal	-
+commentclose-expand.join-shiftn	;; ) comment\n(a)\n	13	3	expand	char	1	0	normal	-
+commentclose-expand.join-shifto	;; ) comment\n(a)\n	0	3	expand	join	0	0	normal	-
+commentclose-expand.join-shiftw	;; ) comment\n(a)\n	12	4	select	symbol	1	0	normal	-
+commentclose-expand.join-w	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-expand.join-z	;; ) comment\n(a)\n	0	3	expand	join	0	0	normal	-
+commentclose-expand.line-b	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.line-e	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-expand.line-g	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.line-h	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-expand.line-i	;; ) comment\n(a)\n	1	-	-	-	0	0	normal	-
+commentclose-expand.line-j	;; ) comment\n(a)\n	0	0	expand	join	1	0	normal	-
+commentclose-expand.line-l	;; ) comment\n(a)\n	0	3	expand	line	1	0	normal	-
+commentclose-expand.line-m	;; ) comment\n(a)\n	0	3	expand	line	0	0	normal	-
+commentclose-expand.line-n	;; ) comment\n(a)\n	13	-	-	-	0	0	normal	-
+commentclose-expand.line-o	;; ) comment\n(a)\n	0	3	expand	line	0	0	normal	-
+commentclose-expand.line-semi	;; ) comment\n(a)\n	3	0	expand	line	0	0	normal	-
+commentclose-expand.line-shiftb	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.line-shifte	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-expand.line-shifth	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-expand.line-shifti	;; ) comment\n(a)\n	1	3	expand	char	1	0	normal	-
+commentclose-expand.line-shiftm	;; ) comment\n(a)\n	0	3	expand	line	0	0	normal	-
+commentclose-expand.line-shiftn	;; ) comment\n(a)\n	13	3	expand	char	1	0	normal	-
+commentclose-expand.line-shifto	;; ) comment\n(a)\n	0	3	expand	line	0	0	normal	-
+commentclose-expand.line-shiftw	;; ) comment\n(a)\n	12	4	select	symbol	1	0	normal	-
+commentclose-expand.line-w	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-expand.line-z	;; ) comment\n(a)\n	0	3	expand	line	0	0	normal	-
+commentclose-expand.symbol-b	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.symbol-e	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-expand.symbol-g	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.symbol-h	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-expand.symbol-i	;; ) comment\n(a)\n	1	-	-	-	0	0	normal	-
+commentclose-expand.symbol-j	;; ) comment\n(a)\n	0	0	expand	join	1	0	normal	-
+commentclose-expand.symbol-l	;; ) comment\n(a)\n	12	0	expand	line	1	0	normal	-
+commentclose-expand.symbol-m	;; ) comment\n(a)\n	0	3	expand	symbol	0	0	normal	-
+commentclose-expand.symbol-n	;; ) comment\n(a)\n	13	-	-	-	0	0	normal	-
+commentclose-expand.symbol-o	;; ) comment\n(a)\n	0	3	expand	symbol	0	0	normal	-
+commentclose-expand.symbol-semi	;; ) comment\n(a)\n	3	0	expand	symbol	0	0	normal	-
+commentclose-expand.symbol-shiftb	;; ) comment\n(a)\n	0	3	expand	symbol	0	0	normal	-
+commentclose-expand.symbol-shifte	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-expand.symbol-shifth	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-expand.symbol-shifti	;; ) comment\n(a)\n	1	3	expand	char	1	0	normal	-
+commentclose-expand.symbol-shiftm	;; ) comment\n(a)\n	0	3	expand	symbol	0	0	normal	-
+commentclose-expand.symbol-shiftn	;; ) comment\n(a)\n	13	3	expand	char	1	0	normal	-
+commentclose-expand.symbol-shifto	;; ) comment\n(a)\n	0	3	expand	symbol	0	0	normal	-
+commentclose-expand.symbol-shiftw	;; ) comment\n(a)\n	12	0	expand	symbol	1	0	normal	-
+commentclose-expand.symbol-w	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-expand.symbol-z	;; ) comment\n(a)\n	0	3	expand	symbol	0	0	normal	-
+commentclose-expand.word-b	;; ) comment\n(a)\n	0	3	expand	word	0	0	normal	-
+commentclose-expand.word-e	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-expand.word-g	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.word-h	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-expand.word-i	;; ) comment\n(a)\n	1	-	-	-	0	0	normal	-
+commentclose-expand.word-j	;; ) comment\n(a)\n	0	0	expand	join	1	0	normal	-
+commentclose-expand.word-l	;; ) comment\n(a)\n	12	0	expand	line	1	0	normal	-
+commentclose-expand.word-m	;; ) comment\n(a)\n	0	3	expand	word	0	0	normal	-
+commentclose-expand.word-n	;; ) comment\n(a)\n	13	-	-	-	0	0	normal	-
+commentclose-expand.word-o	;; ) comment\n(a)\n	0	3	expand	word	0	0	normal	-
+commentclose-expand.word-semi	;; ) comment\n(a)\n	3	0	expand	word	0	0	normal	-
+commentclose-expand.word-shiftb	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-expand.word-shifte	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-expand.word-shifth	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-expand.word-shifti	;; ) comment\n(a)\n	1	3	expand	char	1	0	normal	-
+commentclose-expand.word-shiftm	;; ) comment\n(a)\n	0	3	expand	word	0	0	normal	-
+commentclose-expand.word-shiftn	;; ) comment\n(a)\n	13	3	expand	char	1	0	normal	-
+commentclose-expand.word-shifto	;; ) comment\n(a)\n	0	3	expand	word	0	0	normal	-
+commentclose-expand.word-shiftw	;; ) comment\n(a)\n	12	4	select	symbol	1	0	normal	-
+commentclose-expand.word-w	;; ) comment\n(a)\n	12	0	expand	word	1	0	normal	-
+commentclose-expand.word-z	;; ) comment\n(a)\n	0	3	expand	word	0	0	normal	-
+commentclose-none-b	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-none-e	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-none-g	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-none-h	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-none-i	;; ) comment\n(a)\n	1	-	-	-	0	0	normal	-
+commentclose-none-j	;; ) comment\n(a)\n	0	0	expand	join	1	0	normal	-
+commentclose-none-l	;; ) comment\n(a)\n	12	0	expand	line	1	0	normal	-
+commentclose-none-m	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-none-n	;; ) comment\n(a)\n	13	-	-	-	0	0	normal	-
+commentclose-none-o	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-none-semi	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-none-shiftb	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-none-shifte	;; ) comment\n(a)\n	0	0	expand	char	1	1	normal	-
+commentclose-none-shifth	;; ) comment\n(a)\n	0	0	expand	char	1	1	normal	-
+commentclose-none-shifti	;; ) comment\n(a)\n	1	0	expand	char	1	0	normal	-
+commentclose-none-shiftm	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-none-shiftn	;; ) comment\n(a)\n	13	0	expand	char	1	0	normal	-
+commentclose-none-shifto	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-none-shiftw	;; ) comment\n(a)\n	12	4	select	symbol	1	0	normal	-
+commentclose-none-w	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-none-z	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-select.char-b	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-select.char-e	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-select.char-g	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-select.char-h	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-select.char-i	;; ) comment\n(a)\n	1	-	-	-	0	0	normal	-
+commentclose-select.char-j	;; ) comment\n(a)\n	0	0	expand	join	1	0	normal	-
+commentclose-select.char-l	;; ) comment\n(a)\n	12	0	expand	line	1	0	normal	-
+commentclose-select.char-m	;; ) comment\n(a)\n	0	3	select	char	0	0	normal	-
+commentclose-select.char-n	;; ) comment\n(a)\n	13	-	-	-	0	0	normal	-
+commentclose-select.char-o	;; ) comment\n(a)\n	0	3	select	char	0	0	normal	-
+commentclose-select.char-semi	;; ) comment\n(a)\n	3	0	select	char	0	0	normal	-
+commentclose-select.char-shiftb	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-select.char-shifte	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-select.char-shifth	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-select.char-shifti	;; ) comment\n(a)\n	1	3	expand	char	1	0	normal	-
+commentclose-select.char-shiftm	;; ) comment\n(a)\n	0	3	select	char	0	0	normal	-
+commentclose-select.char-shiftn	;; ) comment\n(a)\n	13	3	expand	char	1	0	normal	-
+commentclose-select.char-shifto	;; ) comment\n(a)\n	0	3	select	char	0	0	normal	-
+commentclose-select.char-shiftw	;; ) comment\n(a)\n	12	4	select	symbol	1	0	normal	-
+commentclose-select.char-w	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-select.char-z	;; ) comment\n(a)\n	0	3	select	char	0	0	normal	-
+commentclose-select.word-b	;; ) comment\n(a)\n	0	3	select	word	0	0	normal	-
+commentclose-select.word-e	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-select.word-g	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-select.word-h	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-select.word-i	;; ) comment\n(a)\n	1	-	-	-	0	0	normal	-
+commentclose-select.word-j	;; ) comment\n(a)\n	0	0	expand	join	1	0	normal	-
+commentclose-select.word-l	;; ) comment\n(a)\n	12	0	expand	line	1	0	normal	-
+commentclose-select.word-m	;; ) comment\n(a)\n	0	3	select	word	0	0	normal	-
+commentclose-select.word-n	;; ) comment\n(a)\n	13	-	-	-	0	0	normal	-
+commentclose-select.word-o	;; ) comment\n(a)\n	0	3	select	word	0	0	normal	-
+commentclose-select.word-semi	;; ) comment\n(a)\n	3	0	select	word	0	0	normal	-
+commentclose-select.word-shiftb	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-select.word-shifte	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-select.word-shifth	;; ) comment\n(a)\n	0	3	expand	char	1	1	normal	-
+commentclose-select.word-shifti	;; ) comment\n(a)\n	1	3	expand	char	1	0	normal	-
+commentclose-select.word-shiftm	;; ) comment\n(a)\n	0	3	select	word	0	0	normal	-
+commentclose-select.word-shiftn	;; ) comment\n(a)\n	13	3	expand	char	1	0	normal	-
+commentclose-select.word-shifto	;; ) comment\n(a)\n	0	3	select	word	0	0	normal	-
+commentclose-select.word-shiftw	;; ) comment\n(a)\n	12	4	select	symbol	1	0	normal	-
+commentclose-select.word-w	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-select.word-z	;; ) comment\n(a)\n	0	3	select	word	0	0	normal	-
+commentclose-seq-flo	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-fo	;; ) comment\n(a)\n	7	0	select	find	1	0	normal	-
+commentclose-seq-fonegrep	;; ) comment\n(a)\n	7	0	select	find	1	1	normal	-
+commentclose-seq-forep	;; ) comment\n(a)\n	7	0	select	find	1	0	normal	-
+commentclose-seq-fq	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-ftl	;; ) comment\n(a)\n	12	0	expand	line	2	0	normal	-
+commentclose-seq-jj	;; ) comment\n(a)\n	0	0	expand	join	2	0	normal	-
+commentclose-seq-jw	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-seq-ll	;; ) comment\n(a)\n	16	0	expand	line	2	0	normal	-
+commentclose-seq-llrep	;; ) comment\n(a)\n	17	0	expand	line	3	0	normal	-
+commentclose-seq-lm	;; ) comment\n(a)\n	12	5	expand	word	2	0	normal	-
+commentclose-seq-lnegl	;; ) comment\n(a)\n	0	0	expand	line	2	0	normal	-
+commentclose-seq-lrep	;; ) comment\n(a)\n	16	0	expand	line	2	0	normal	-
+commentclose-seq-lz	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-mb	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-mg	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-seq-mm	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-mrep	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-msemiw	;; ) comment\n(a)\n	12	4	select	word	1	1	normal	-
+commentclose-seq-mw	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-seq-mz	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-mzz	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-negb	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-seq-nege	;; ) comment\n(a)\n	13	-	-	-	0	0	normal	-
+commentclose-seq-negfo	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-negl	;; ) comment\n(a)\n	0	12	expand	line	1	0	normal	-
+commentclose-seq-negll	;; ) comment\n(a)\n	0	12	expand	line	2	0	normal	-
+commentclose-seq-neglnegl	;; ) comment\n(a)\n	16	12	expand	line	2	0	normal	-
+commentclose-seq-negn	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-seq-negtl	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-seq-negw	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-negwrep	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-oo	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-osemishifto	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-seq-oshifto	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-oshiftosemishifto	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-seq-ow	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-seq-semifo	;; ) comment\n(a)\n	7	0	select	find	1	1	normal	-
+commentclose-seq-semisemi	;; ) comment\n(a)\n	0	-	-	-	0	2	normal	-
+commentclose-seq-semiw	;; ) comment\n(a)\n	12	4	select	word	1	1	normal	-
+commentclose-seq-shiftmshiftw	;; ) comment\n(a)\n	12	4	select	symbol	1	0	normal	-
+commentclose-seq-shiftosemishifto	;; ) comment\n(a)\n	0	-	-	-	0	1	normal	-
+commentclose-seq-shiftoshifto	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-shiftwshiftw	;; ) comment\n(a)\n	15	14	select	symbol	2	0	normal	-
+commentclose-seq-tl	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-tq	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+commentclose-seq-wb	;; ) comment\n(a)\n	5	12	select	word	2	0	normal	-
+commentclose-seq-wfo	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-seq-wj	;; ) comment\n(a)\n	0	0	expand	join	2	0	normal	-
+commentclose-seq-wm	;; ) comment\n(a)\n	12	5	expand	word	2	0	normal	-
+commentclose-seq-wmrep	;; ) comment\n(a)\n	12	5	expand	word	3	0	normal	-
+commentclose-seq-wnegrep	;; ) comment\n(a)\n	12	4	select	word	1	1	normal	-
+commentclose-seq-wrep	;; ) comment\n(a)\n	15	14	select	word	2	0	normal	-
+commentclose-seq-wsemib	;; ) comment\n(a)\n	0	4	select	word	2	0	normal	-
+commentclose-seq-wshifto	;; ) comment\n(a)\n	16	4	expand	block	2	0	normal	-
+commentclose-seq-ww	;; ) comment\n(a)\n	15	14	select	word	2	0	normal	-
+commentclose-seq-wwz	;; ) comment\n(a)\n	12	4	select	word	1	0	normal	-
+commentclose-seq-wz	;; ) comment\n(a)\n	0	-	-	-	0	0	normal	-
+midword-expand.block-b	hello world\nsecond line\nthird\n	6	8	select	word	1	0	normal	-
+midword-expand.block-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+midword-expand.block-g	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-expand.block-h	hello world\nsecond line\nthird\n	7	-	-	-	0	0	normal	-
+midword-expand.block-i	hello world\nsecond line\nthird\n	9	-	-	-	0	0	normal	-
+midword-expand.block-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+midword-expand.block-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+midword-expand.block-m	hello world\nsecond line\nthird\n	11	6	expand	word	1	0	normal	-
+midword-expand.block-n	hello world\nsecond line\nthird\n	20	-	-	-	0	0	normal	-
+midword-expand.block-o	hello world\nsecond line\nthird\n	8	5	expand	block	0	0	normal	-
+midword-expand.block-semi	hello world\nsecond line\nthird\n	5	8	expand	block	0	0	normal	-
+midword-expand.block-shiftb	hello world\nsecond line\nthird\n	6	8	select	symbol	1	0	normal	-
+midword-expand.block-shifte	hello world\nsecond line\nthird\n	0	5	expand	char	1	1	normal	-
+midword-expand.block-shifth	hello world\nsecond line\nthird\n	7	5	expand	char	1	0	normal	-
+midword-expand.block-shifti	hello world\nsecond line\nthird\n	9	5	expand	char	1	0	normal	-
+midword-expand.block-shiftm	hello world\nsecond line\nthird\n	11	6	expand	symbol	1	0	normal	-
+midword-expand.block-shiftn	hello world\nsecond line\nthird\n	20	5	expand	char	1	0	normal	-
+midword-expand.block-shifto	hello world\nsecond line\nthird\n	8	5	expand	block	0	0	normal	-
+midword-expand.block-shiftw	hello world\nsecond line\nthird\n	11	8	select	symbol	1	0	normal	-
+midword-expand.block-w	hello world\nsecond line\nthird\n	11	8	select	word	1	0	normal	-
+midword-expand.block-z	hello world\nsecond line\nthird\n	8	5	expand	block	0	0	normal	-
+midword-expand.char-b	hello world\nsecond line\nthird\n	6	8	select	word	1	0	normal	-
+midword-expand.char-e	hello world\nsecond line\nthird\n	0	5	expand	char	0	1	normal	-
+midword-expand.char-g	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-expand.char-h	hello world\nsecond line\nthird\n	7	5	expand	char	0	0	normal	-
+midword-expand.char-i	hello world\nsecond line\nthird\n	9	5	expand	char	0	0	normal	-
+midword-expand.char-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+midword-expand.char-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+midword-expand.char-m	hello world\nsecond line\nthird\n	11	6	expand	word	1	0	normal	-
+midword-expand.char-n	hello world\nsecond line\nthird\n	20	5	expand	char	0	0	normal	-
+midword-expand.char-o	hello world\nsecond line\nthird\n	8	5	expand	char	0	0	normal	-
+midword-expand.char-semi	hello world\nsecond line\nthird\n	5	8	expand	char	0	0	normal	-
+midword-expand.char-shiftb	hello world\nsecond line\nthird\n	6	8	select	symbol	1	0	normal	-
+midword-expand.char-shifte	hello world\nsecond line\nthird\n	0	5	expand	char	1	1	normal	-
+midword-expand.char-shifth	hello world\nsecond line\nthird\n	7	5	expand	char	1	0	normal	-
+midword-expand.char-shifti	hello world\nsecond line\nthird\n	9	5	expand	char	1	0	normal	-
+midword-expand.char-shiftm	hello world\nsecond line\nthird\n	11	6	expand	symbol	1	0	normal	-
+midword-expand.char-shiftn	hello world\nsecond line\nthird\n	20	5	expand	char	1	0	normal	-
+midword-expand.char-shifto	hello world\nsecond line\nthird\n	8	5	expand	char	0	0	normal	-
+midword-expand.char-shiftw	hello world\nsecond line\nthird\n	11	8	select	symbol	1	0	normal	-
+midword-expand.char-w	hello world\nsecond line\nthird\n	11	8	select	word	1	0	normal	-
+midword-expand.char-z	hello world\nsecond line\nthird\n	8	5	expand	char	0	0	normal	-
+midword-expand.join-b	hello world\nsecond line\nthird\n	6	8	select	word	1	0	normal	-
+midword-expand.join-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+midword-expand.join-g	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-expand.join-h	hello world\nsecond line\nthird\n	7	-	-	-	0	0	normal	-
+midword-expand.join-i	hello world\nsecond line\nthird\n	9	-	-	-	0	0	normal	-
+midword-expand.join-j	hello world\nsecond line\nthird\n	8	8	expand	join	1	0	normal	-
+midword-expand.join-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+midword-expand.join-m	hello world\nsecond line\nthird\n	11	6	expand	word	1	0	normal	-
+midword-expand.join-n	hello world\nsecond line\nthird\n	20	-	-	-	0	0	normal	-
+midword-expand.join-o	hello world\nsecond line\nthird\n	8	5	expand	join	0	0	normal	-
+midword-expand.join-semi	hello world\nsecond line\nthird\n	5	8	expand	join	0	0	normal	-
+midword-expand.join-shiftb	hello world\nsecond line\nthird\n	6	8	select	symbol	1	0	normal	-
+midword-expand.join-shifte	hello world\nsecond line\nthird\n	0	5	expand	char	1	1	normal	-
+midword-expand.join-shifth	hello world\nsecond line\nthird\n	7	5	expand	char	1	0	normal	-
+midword-expand.join-shifti	hello world\nsecond line\nthird\n	9	5	expand	char	1	0	normal	-
+midword-expand.join-shiftm	hello world\nsecond line\nthird\n	11	6	expand	symbol	1	0	normal	-
+midword-expand.join-shiftn	hello world\nsecond line\nthird\n	20	5	expand	char	1	0	normal	-
+midword-expand.join-shifto	hello world\nsecond line\nthird\n	8	5	expand	join	0	0	normal	-
+midword-expand.join-shiftw	hello world\nsecond line\nthird\n	11	8	select	symbol	1	0	normal	-
+midword-expand.join-w	hello world\nsecond line\nthird\n	11	8	select	word	1	0	normal	-
+midword-expand.join-z	hello world\nsecond line\nthird\n	8	5	expand	join	0	0	normal	-
+midword-expand.line-b	hello world\nsecond line\nthird\n	6	8	select	word	1	0	normal	-
+midword-expand.line-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+midword-expand.line-g	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-expand.line-h	hello world\nsecond line\nthird\n	7	-	-	-	0	0	normal	-
+midword-expand.line-i	hello world\nsecond line\nthird\n	9	-	-	-	0	0	normal	-
+midword-expand.line-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+midword-expand.line-l	hello world\nsecond line\nthird\n	23	5	expand	line	1	0	normal	-
+midword-expand.line-m	hello world\nsecond line\nthird\n	11	6	expand	word	1	0	normal	-
+midword-expand.line-n	hello world\nsecond line\nthird\n	20	-	-	-	0	0	normal	-
+midword-expand.line-o	hello world\nsecond line\nthird\n	8	5	expand	line	0	0	normal	-
+midword-expand.line-semi	hello world\nsecond line\nthird\n	5	8	expand	line	0	0	normal	-
+midword-expand.line-shiftb	hello world\nsecond line\nthird\n	6	8	select	symbol	1	0	normal	-
+midword-expand.line-shifte	hello world\nsecond line\nthird\n	0	5	expand	char	1	1	normal	-
+midword-expand.line-shifth	hello world\nsecond line\nthird\n	7	5	expand	char	1	0	normal	-
+midword-expand.line-shifti	hello world\nsecond line\nthird\n	9	5	expand	char	1	0	normal	-
+midword-expand.line-shiftm	hello world\nsecond line\nthird\n	11	6	expand	symbol	1	0	normal	-
+midword-expand.line-shiftn	hello world\nsecond line\nthird\n	20	5	expand	char	1	0	normal	-
+midword-expand.line-shifto	hello world\nsecond line\nthird\n	8	5	expand	line	0	0	normal	-
+midword-expand.line-shiftw	hello world\nsecond line\nthird\n	11	8	select	symbol	1	0	normal	-
+midword-expand.line-w	hello world\nsecond line\nthird\n	11	8	select	word	1	0	normal	-
+midword-expand.line-z	hello world\nsecond line\nthird\n	8	5	expand	line	0	0	normal	-
+midword-expand.symbol-b	hello world\nsecond line\nthird\n	6	8	select	word	1	0	normal	-
+midword-expand.symbol-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+midword-expand.symbol-g	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-expand.symbol-h	hello world\nsecond line\nthird\n	7	-	-	-	0	0	normal	-
+midword-expand.symbol-i	hello world\nsecond line\nthird\n	9	-	-	-	0	0	normal	-
+midword-expand.symbol-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+midword-expand.symbol-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+midword-expand.symbol-m	hello world\nsecond line\nthird\n	11	6	expand	word	1	0	normal	-
+midword-expand.symbol-n	hello world\nsecond line\nthird\n	20	-	-	-	0	0	normal	-
+midword-expand.symbol-o	hello world\nsecond line\nthird\n	8	5	expand	symbol	0	0	normal	-
+midword-expand.symbol-semi	hello world\nsecond line\nthird\n	5	8	expand	symbol	0	0	normal	-
+midword-expand.symbol-shiftb	hello world\nsecond line\nthird\n	0	8	expand	symbol	1	0	normal	-
+midword-expand.symbol-shifte	hello world\nsecond line\nthird\n	0	5	expand	char	1	1	normal	-
+midword-expand.symbol-shifth	hello world\nsecond line\nthird\n	7	5	expand	char	1	0	normal	-
+midword-expand.symbol-shifti	hello world\nsecond line\nthird\n	9	5	expand	char	1	0	normal	-
+midword-expand.symbol-shiftm	hello world\nsecond line\nthird\n	11	6	expand	symbol	1	0	normal	-
+midword-expand.symbol-shiftn	hello world\nsecond line\nthird\n	20	5	expand	char	1	0	normal	-
+midword-expand.symbol-shifto	hello world\nsecond line\nthird\n	8	5	expand	symbol	0	0	normal	-
+midword-expand.symbol-shiftw	hello world\nsecond line\nthird\n	11	5	expand	symbol	1	0	normal	-
+midword-expand.symbol-w	hello world\nsecond line\nthird\n	11	8	select	word	1	0	normal	-
+midword-expand.symbol-z	hello world\nsecond line\nthird\n	8	5	expand	symbol	0	0	normal	-
+midword-expand.word-b	hello world\nsecond line\nthird\n	0	8	expand	word	1	0	normal	-
+midword-expand.word-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+midword-expand.word-g	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-expand.word-h	hello world\nsecond line\nthird\n	7	-	-	-	0	0	normal	-
+midword-expand.word-i	hello world\nsecond line\nthird\n	9	-	-	-	0	0	normal	-
+midword-expand.word-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+midword-expand.word-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+midword-expand.word-m	hello world\nsecond line\nthird\n	11	6	expand	word	1	0	normal	-
+midword-expand.word-n	hello world\nsecond line\nthird\n	20	-	-	-	0	0	normal	-
+midword-expand.word-o	hello world\nsecond line\nthird\n	8	5	expand	word	0	0	normal	-
+midword-expand.word-semi	hello world\nsecond line\nthird\n	5	8	expand	word	0	0	normal	-
+midword-expand.word-shiftb	hello world\nsecond line\nthird\n	6	8	select	symbol	1	0	normal	-
+midword-expand.word-shifte	hello world\nsecond line\nthird\n	0	5	expand	char	1	1	normal	-
+midword-expand.word-shifth	hello world\nsecond line\nthird\n	7	5	expand	char	1	0	normal	-
+midword-expand.word-shifti	hello world\nsecond line\nthird\n	9	5	expand	char	1	0	normal	-
+midword-expand.word-shiftm	hello world\nsecond line\nthird\n	11	6	expand	symbol	1	0	normal	-
+midword-expand.word-shiftn	hello world\nsecond line\nthird\n	20	5	expand	char	1	0	normal	-
+midword-expand.word-shifto	hello world\nsecond line\nthird\n	8	5	expand	word	0	0	normal	-
+midword-expand.word-shiftw	hello world\nsecond line\nthird\n	11	8	select	symbol	1	0	normal	-
+midword-expand.word-w	hello world\nsecond line\nthird\n	11	5	expand	word	1	0	normal	-
+midword-expand.word-z	hello world\nsecond line\nthird\n	8	5	expand	word	0	0	normal	-
+midword-none-b	hello world\nsecond line\nthird\n	6	8	select	word	1	0	normal	-
+midword-none-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+midword-none-g	hello world\nsecond line\nthird\n	8	-	-	-	0	1	normal	-
+midword-none-h	hello world\nsecond line\nthird\n	7	-	-	-	0	0	normal	-
+midword-none-i	hello world\nsecond line\nthird\n	9	-	-	-	0	0	normal	-
+midword-none-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+midword-none-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+midword-none-m	hello world\nsecond line\nthird\n	11	6	expand	word	1	0	normal	-
+midword-none-n	hello world\nsecond line\nthird\n	20	-	-	-	0	0	normal	-
+midword-none-o	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-none-semi	hello world\nsecond line\nthird\n	8	-	-	-	0	1	normal	-
+midword-none-shiftb	hello world\nsecond line\nthird\n	6	8	select	symbol	1	0	normal	-
+midword-none-shifte	hello world\nsecond line\nthird\n	0	8	expand	char	1	1	normal	-
+midword-none-shifth	hello world\nsecond line\nthird\n	7	8	expand	char	1	0	normal	-
+midword-none-shifti	hello world\nsecond line\nthird\n	9	8	expand	char	1	0	normal	-
+midword-none-shiftm	hello world\nsecond line\nthird\n	11	6	expand	symbol	1	0	normal	-
+midword-none-shiftn	hello world\nsecond line\nthird\n	20	8	expand	char	1	0	normal	-
+midword-none-shifto	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-none-shiftw	hello world\nsecond line\nthird\n	11	8	select	symbol	1	0	normal	-
+midword-none-w	hello world\nsecond line\nthird\n	11	8	select	word	1	0	normal	-
+midword-none-z	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-select.char-b	hello world\nsecond line\nthird\n	6	8	select	word	1	0	normal	-
+midword-select.char-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+midword-select.char-g	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-select.char-h	hello world\nsecond line\nthird\n	7	-	-	-	0	0	normal	-
+midword-select.char-i	hello world\nsecond line\nthird\n	9	-	-	-	0	0	normal	-
+midword-select.char-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+midword-select.char-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+midword-select.char-m	hello world\nsecond line\nthird\n	11	6	expand	word	1	0	normal	-
+midword-select.char-n	hello world\nsecond line\nthird\n	20	-	-	-	0	0	normal	-
+midword-select.char-o	hello world\nsecond line\nthird\n	8	5	select	char	0	0	normal	-
+midword-select.char-semi	hello world\nsecond line\nthird\n	5	8	select	char	0	0	normal	-
+midword-select.char-shiftb	hello world\nsecond line\nthird\n	6	8	select	symbol	1	0	normal	-
+midword-select.char-shifte	hello world\nsecond line\nthird\n	0	5	expand	char	1	1	normal	-
+midword-select.char-shifth	hello world\nsecond line\nthird\n	7	5	expand	char	1	0	normal	-
+midword-select.char-shifti	hello world\nsecond line\nthird\n	9	5	expand	char	1	0	normal	-
+midword-select.char-shiftm	hello world\nsecond line\nthird\n	11	6	expand	symbol	1	0	normal	-
+midword-select.char-shiftn	hello world\nsecond line\nthird\n	20	5	expand	char	1	0	normal	-
+midword-select.char-shifto	hello world\nsecond line\nthird\n	8	5	select	char	0	0	normal	-
+midword-select.char-shiftw	hello world\nsecond line\nthird\n	11	8	select	symbol	1	0	normal	-
+midword-select.char-w	hello world\nsecond line\nthird\n	11	8	select	word	1	0	normal	-
+midword-select.char-z	hello world\nsecond line\nthird\n	8	5	select	char	0	0	normal	-
+midword-select.word-b	hello world\nsecond line\nthird\n	6	8	select	word	1	0	normal	-
+midword-select.word-e	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+midword-select.word-g	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-select.word-h	hello world\nsecond line\nthird\n	7	-	-	-	0	0	normal	-
+midword-select.word-i	hello world\nsecond line\nthird\n	9	-	-	-	0	0	normal	-
+midword-select.word-j	hello world\nsecond line\nthird\n	0	0	expand	join	1	0	normal	-
+midword-select.word-l	hello world\nsecond line\nthird\n	11	0	expand	line	1	0	normal	-
+midword-select.word-m	hello world\nsecond line\nthird\n	11	6	expand	word	1	0	normal	-
+midword-select.word-n	hello world\nsecond line\nthird\n	20	-	-	-	0	0	normal	-
+midword-select.word-o	hello world\nsecond line\nthird\n	8	5	select	word	0	0	normal	-
+midword-select.word-semi	hello world\nsecond line\nthird\n	5	8	select	word	0	0	normal	-
+midword-select.word-shiftb	hello world\nsecond line\nthird\n	6	8	select	symbol	1	0	normal	-
+midword-select.word-shifte	hello world\nsecond line\nthird\n	0	5	expand	char	1	1	normal	-
+midword-select.word-shifth	hello world\nsecond line\nthird\n	7	5	expand	char	1	0	normal	-
+midword-select.word-shifti	hello world\nsecond line\nthird\n	9	5	expand	char	1	0	normal	-
+midword-select.word-shiftm	hello world\nsecond line\nthird\n	11	6	expand	symbol	1	0	normal	-
+midword-select.word-shiftn	hello world\nsecond line\nthird\n	20	5	expand	char	1	0	normal	-
+midword-select.word-shifto	hello world\nsecond line\nthird\n	8	5	select	word	0	0	normal	-
+midword-select.word-shiftw	hello world\nsecond line\nthird\n	11	8	select	symbol	1	0	normal	-
+midword-select.word-w	hello world\nsecond line\nthird\n	11	8	select	word	1	0	normal	-
+midword-select.word-z	hello world\nsecond line\nthird\n	8	5	select	word	0	0	normal	-
+midword-seq-flo	hello world\nsecond line\nthird\n	10	8	select	find	1	0	normal	-
+midword-seq-fo	hello world\nsecond line\nthird\n	16	8	select	find	1	0	normal	-
+midword-seq-fonegrep	hello world\nsecond line\nthird\n	16	8	select	find	1	1	normal	-
+midword-seq-forep	hello world\nsecond line\nthird\n	16	8	select	find	1	0	normal	-
+midword-seq-fq	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-seq-ftl	hello world\nsecond line\nthird\n	29	24	expand	line	2	0	normal	-
+midword-seq-jj	hello world\nsecond line\nthird\n	0	0	expand	join	2	0	normal	-
+midword-seq-jw	hello world\nsecond line\nthird\n	5	0	select	word	1	0	normal	-
+midword-seq-ll	hello world\nsecond line\nthird\n	23	0	expand	line	2	0	normal	-
+midword-seq-llrep	hello world\nsecond line\nthird\n	29	0	expand	line	3	0	normal	-
+midword-seq-lm	hello world\nsecond line\nthird\n	11	6	expand	word	2	0	normal	-
+midword-seq-lnegl	hello world\nsecond line\nthird\n	0	0	expand	line	2	0	normal	-
+midword-seq-lrep	hello world\nsecond line\nthird\n	23	0	expand	line	2	0	normal	-
+midword-seq-lz	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-seq-mb	hello world\nsecond line\nthird\n	0	11	expand	word	2	0	normal	-
+midword-seq-mg	hello world\nsecond line\nthird\n	11	-	-	-	0	0	normal	-
+midword-seq-mm	hello world\nsecond line\nthird\n	11	6	expand	word	2	0	normal	-
+midword-seq-mrep	hello world\nsecond line\nthird\n	11	6	expand	word	2	0	normal	-
+midword-seq-msemiw	hello world\nsecond line\nthird\n	18	6	expand	word	2	0	normal	-
+midword-seq-mw	hello world\nsecond line\nthird\n	18	6	expand	word	2	0	normal	-
+midword-seq-mz	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-seq-mzz	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-seq-negb	hello world\nsecond line\nthird\n	11	8	select	word	1	0	normal	-
+midword-seq-nege	hello world\nsecond line\nthird\n	20	-	-	-	0	0	normal	-
+midword-seq-negfo	hello world\nsecond line\nthird\n	7	8	select	find	1	0	normal	-
+midword-seq-negl	hello world\nsecond line\nthird\n	0	11	expand	line	1	0	normal	-
+midword-seq-negll	hello world\nsecond line\nthird\n	0	11	expand	line	2	0	normal	-
+midword-seq-neglnegl	hello world\nsecond line\nthird\n	23	11	expand	line	2	0	normal	-
+midword-seq-negn	hello world\nsecond line\nthird\n	0	-	-	-	0	1	normal	-
+midword-seq-negtl	hello world\nsecond line\nthird\n	4	8	select	till	1	0	normal	-
+midword-seq-negw	hello world\nsecond line\nthird\n	6	8	select	word	1	0	normal	-
+midword-seq-negwrep	hello world\nsecond line\nthird\n	0	6	select	word	2	0	normal	-
+midword-seq-oo	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-seq-osemishifto	hello world\nsecond line\nthird\n	8	-	-	-	0	1	normal	-
+midword-seq-oshifto	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-seq-oshiftosemishifto	hello world\nsecond line\nthird\n	8	-	-	-	0	1	normal	-
+midword-seq-ow	hello world\nsecond line\nthird\n	11	8	select	word	1	0	normal	-
+midword-seq-semifo	hello world\nsecond line\nthird\n	16	8	select	find	1	1	normal	-
+midword-seq-semisemi	hello world\nsecond line\nthird\n	8	-	-	-	0	2	normal	-
+midword-seq-semiw	hello world\nsecond line\nthird\n	11	8	select	word	1	1	normal	-
+midword-seq-shiftmshiftw	hello world\nsecond line\nthird\n	18	6	expand	symbol	2	0	normal	-
+midword-seq-shiftosemishifto	hello world\nsecond line\nthird\n	8	-	-	-	0	1	normal	-
+midword-seq-shiftoshifto	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-seq-shiftwshiftw	hello world\nsecond line\nthird\n	18	11	select	symbol	2	0	normal	-
+midword-seq-tl	hello world\nsecond line\nthird\n	9	8	select	till	1	0	normal	-
+midword-seq-tq	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+midword-seq-wb	hello world\nsecond line\nthird\n	6	11	select	word	2	0	normal	-
+midword-seq-wfo	hello world\nsecond line\nthird\n	16	11	select	find	2	0	normal	-
+midword-seq-wj	hello world\nsecond line\nthird\n	0	0	expand	join	2	0	normal	-
+midword-seq-wm	hello world\nsecond line\nthird\n	11	6	expand	word	2	0	normal	-
+midword-seq-wmrep	hello world\nsecond line\nthird\n	11	6	expand	word	3	0	normal	-
+midword-seq-wnegrep	hello world\nsecond line\nthird\n	11	8	select	word	1	1	normal	-
+midword-seq-wrep	hello world\nsecond line\nthird\n	18	11	select	word	2	0	normal	-
+midword-seq-wsemib	hello world\nsecond line\nthird\n	6	8	select	word	2	0	normal	-
+midword-seq-wshifto	hello world\nsecond line\nthird\n	11	8	select	word	1	0	normal	-
+midword-seq-ww	hello world\nsecond line\nthird\n	18	11	select	word	2	0	normal	-
+midword-seq-wwz	hello world\nsecond line\nthird\n	11	8	select	word	1	0	normal	-
+midword-seq-wz	hello world\nsecond line\nthird\n	8	-	-	-	0	0	normal	-
+punct-expand.block-b	foo_bar baz\n\nqux(arg)\n	13	16	select	word	1	0	normal	-
+punct-expand.block-e	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+punct-expand.block-g	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-expand.block-h	foo_bar baz\n\nqux(arg)\n	16	-	-	-	0	0	normal	-
+punct-expand.block-i	foo_bar baz\n\nqux(arg)\n	18	-	-	-	0	0	normal	-
+punct-expand.block-j	foo_bar baz\n\nqux(arg)\n	13	11	expand	join	1	0	normal	-
+punct-expand.block-l	foo_bar baz\n\nqux(arg)\n	21	13	expand	line	1	0	normal	-
+punct-expand.block-m	foo_bar baz\n\nqux(arg)\n	20	17	expand	word	1	0	normal	-
+punct-expand.block-n	foo_bar baz\n\nqux(arg)\n	22	-	-	-	0	0	normal	-
+punct-expand.block-o	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+punct-expand.block-semi	foo_bar baz\n\nqux(arg)\n	14	17	expand	block	0	0	normal	-
+punct-expand.block-shiftb	foo_bar baz\n\nqux(arg)\n	13	16	select	symbol	1	0	normal	-
+punct-expand.block-shifte	foo_bar baz\n\nqux(arg)\n	12	14	expand	char	1	0	normal	-
+punct-expand.block-shifth	foo_bar baz\n\nqux(arg)\n	16	14	expand	char	1	0	normal	-
+punct-expand.block-shifti	foo_bar baz\n\nqux(arg)\n	18	14	expand	char	1	0	normal	-
+punct-expand.block-shiftm	foo_bar baz\n\nqux(arg)\n	20	17	expand	symbol	1	0	normal	-
+punct-expand.block-shiftn	foo_bar baz\n\nqux(arg)\n	22	14	expand	char	1	0	normal	-
+punct-expand.block-shifto	foo_bar baz\n\nqux(arg)\n	17	14	expand	block	0	0	normal	-
+punct-expand.block-shiftw	foo_bar baz\n\nqux(arg)\n	20	17	select	symbol	1	0	normal	-
+punct-expand.block-w	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	0	normal	-
+punct-expand.block-z	foo_bar baz\n\nqux(arg)\n	17	14	expand	block	0	0	normal	-
+punct-expand.char-b	foo_bar baz\n\nqux(arg)\n	13	16	select	word	1	0	normal	-
+punct-expand.char-e	foo_bar baz\n\nqux(arg)\n	12	14	expand	char	0	0	normal	-
+punct-expand.char-g	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-expand.char-h	foo_bar baz\n\nqux(arg)\n	16	14	expand	char	0	0	normal	-
+punct-expand.char-i	foo_bar baz\n\nqux(arg)\n	18	14	expand	char	0	0	normal	-
+punct-expand.char-j	foo_bar baz\n\nqux(arg)\n	13	11	expand	join	1	0	normal	-
+punct-expand.char-l	foo_bar baz\n\nqux(arg)\n	21	13	expand	line	1	0	normal	-
+punct-expand.char-m	foo_bar baz\n\nqux(arg)\n	20	17	expand	word	1	0	normal	-
+punct-expand.char-n	foo_bar baz\n\nqux(arg)\n	22	14	expand	char	0	0	normal	-
+punct-expand.char-o	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+punct-expand.char-semi	foo_bar baz\n\nqux(arg)\n	14	17	expand	char	0	0	normal	-
+punct-expand.char-shiftb	foo_bar baz\n\nqux(arg)\n	13	16	select	symbol	1	0	normal	-
+punct-expand.char-shifte	foo_bar baz\n\nqux(arg)\n	12	14	expand	char	1	0	normal	-
+punct-expand.char-shifth	foo_bar baz\n\nqux(arg)\n	16	14	expand	char	1	0	normal	-
+punct-expand.char-shifti	foo_bar baz\n\nqux(arg)\n	18	14	expand	char	1	0	normal	-
+punct-expand.char-shiftm	foo_bar baz\n\nqux(arg)\n	20	17	expand	symbol	1	0	normal	-
+punct-expand.char-shiftn	foo_bar baz\n\nqux(arg)\n	22	14	expand	char	1	0	normal	-
+punct-expand.char-shifto	foo_bar baz\n\nqux(arg)\n	17	14	expand	char	0	0	normal	-
+punct-expand.char-shiftw	foo_bar baz\n\nqux(arg)\n	20	17	select	symbol	1	0	normal	-
+punct-expand.char-w	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	0	normal	-
+punct-expand.char-z	foo_bar baz\n\nqux(arg)\n	17	14	expand	char	0	0	normal	-
+punct-expand.join-b	foo_bar baz\n\nqux(arg)\n	13	16	select	word	1	0	normal	-
+punct-expand.join-e	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+punct-expand.join-g	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-expand.join-h	foo_bar baz\n\nqux(arg)\n	16	-	-	-	0	0	normal	-
+punct-expand.join-i	foo_bar baz\n\nqux(arg)\n	18	-	-	-	0	0	normal	-
+punct-expand.join-j	foo_bar baz\n\nqux(arg)\n	17	17	expand	join	1	0	normal	-
+punct-expand.join-l	foo_bar baz\n\nqux(arg)\n	21	13	expand	line	1	0	normal	-
+punct-expand.join-m	foo_bar baz\n\nqux(arg)\n	20	17	expand	word	1	0	normal	-
+punct-expand.join-n	foo_bar baz\n\nqux(arg)\n	22	-	-	-	0	0	normal	-
+punct-expand.join-o	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+punct-expand.join-semi	foo_bar baz\n\nqux(arg)\n	14	17	expand	join	0	0	normal	-
+punct-expand.join-shiftb	foo_bar baz\n\nqux(arg)\n	13	16	select	symbol	1	0	normal	-
+punct-expand.join-shifte	foo_bar baz\n\nqux(arg)\n	12	14	expand	char	1	0	normal	-
+punct-expand.join-shifth	foo_bar baz\n\nqux(arg)\n	16	14	expand	char	1	0	normal	-
+punct-expand.join-shifti	foo_bar baz\n\nqux(arg)\n	18	14	expand	char	1	0	normal	-
+punct-expand.join-shiftm	foo_bar baz\n\nqux(arg)\n	20	17	expand	symbol	1	0	normal	-
+punct-expand.join-shiftn	foo_bar baz\n\nqux(arg)\n	22	14	expand	char	1	0	normal	-
+punct-expand.join-shifto	foo_bar baz\n\nqux(arg)\n	17	14	expand	join	0	0	normal	-
+punct-expand.join-shiftw	foo_bar baz\n\nqux(arg)\n	20	17	select	symbol	1	0	normal	-
+punct-expand.join-w	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	0	normal	-
+punct-expand.join-z	foo_bar baz\n\nqux(arg)\n	17	14	expand	join	0	0	normal	-
+punct-expand.line-b	foo_bar baz\n\nqux(arg)\n	13	16	select	word	1	0	normal	-
+punct-expand.line-e	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+punct-expand.line-g	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-expand.line-h	foo_bar baz\n\nqux(arg)\n	16	-	-	-	0	0	normal	-
+punct-expand.line-i	foo_bar baz\n\nqux(arg)\n	18	-	-	-	0	0	normal	-
+punct-expand.line-j	foo_bar baz\n\nqux(arg)\n	13	11	expand	join	1	0	normal	-
+punct-expand.line-l	foo_bar baz\n\nqux(arg)\n	22	14	expand	line	1	0	normal	-
+punct-expand.line-m	foo_bar baz\n\nqux(arg)\n	20	17	expand	word	1	0	normal	-
+punct-expand.line-n	foo_bar baz\n\nqux(arg)\n	22	-	-	-	0	0	normal	-
+punct-expand.line-o	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+punct-expand.line-semi	foo_bar baz\n\nqux(arg)\n	14	17	expand	line	0	0	normal	-
+punct-expand.line-shiftb	foo_bar baz\n\nqux(arg)\n	13	16	select	symbol	1	0	normal	-
+punct-expand.line-shifte	foo_bar baz\n\nqux(arg)\n	12	14	expand	char	1	0	normal	-
+punct-expand.line-shifth	foo_bar baz\n\nqux(arg)\n	16	14	expand	char	1	0	normal	-
+punct-expand.line-shifti	foo_bar baz\n\nqux(arg)\n	18	14	expand	char	1	0	normal	-
+punct-expand.line-shiftm	foo_bar baz\n\nqux(arg)\n	20	17	expand	symbol	1	0	normal	-
+punct-expand.line-shiftn	foo_bar baz\n\nqux(arg)\n	22	14	expand	char	1	0	normal	-
+punct-expand.line-shifto	foo_bar baz\n\nqux(arg)\n	17	14	expand	line	0	0	normal	-
+punct-expand.line-shiftw	foo_bar baz\n\nqux(arg)\n	20	17	select	symbol	1	0	normal	-
+punct-expand.line-w	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	0	normal	-
+punct-expand.line-z	foo_bar baz\n\nqux(arg)\n	17	14	expand	line	0	0	normal	-
+punct-expand.symbol-b	foo_bar baz\n\nqux(arg)\n	13	16	select	word	1	0	normal	-
+punct-expand.symbol-e	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+punct-expand.symbol-g	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-expand.symbol-h	foo_bar baz\n\nqux(arg)\n	16	-	-	-	0	0	normal	-
+punct-expand.symbol-i	foo_bar baz\n\nqux(arg)\n	18	-	-	-	0	0	normal	-
+punct-expand.symbol-j	foo_bar baz\n\nqux(arg)\n	13	11	expand	join	1	0	normal	-
+punct-expand.symbol-l	foo_bar baz\n\nqux(arg)\n	21	13	expand	line	1	0	normal	-
+punct-expand.symbol-m	foo_bar baz\n\nqux(arg)\n	20	17	expand	word	1	0	normal	-
+punct-expand.symbol-n	foo_bar baz\n\nqux(arg)\n	22	-	-	-	0	0	normal	-
+punct-expand.symbol-o	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+punct-expand.symbol-semi	foo_bar baz\n\nqux(arg)\n	14	17	expand	symbol	0	0	normal	-
+punct-expand.symbol-shiftb	foo_bar baz\n\nqux(arg)\n	13	17	expand	symbol	1	0	normal	-
+punct-expand.symbol-shifte	foo_bar baz\n\nqux(arg)\n	12	14	expand	char	1	0	normal	-
+punct-expand.symbol-shifth	foo_bar baz\n\nqux(arg)\n	16	14	expand	char	1	0	normal	-
+punct-expand.symbol-shifti	foo_bar baz\n\nqux(arg)\n	18	14	expand	char	1	0	normal	-
+punct-expand.symbol-shiftm	foo_bar baz\n\nqux(arg)\n	20	17	expand	symbol	1	0	normal	-
+punct-expand.symbol-shiftn	foo_bar baz\n\nqux(arg)\n	22	14	expand	char	1	0	normal	-
+punct-expand.symbol-shifto	foo_bar baz\n\nqux(arg)\n	17	14	expand	symbol	0	0	normal	-
+punct-expand.symbol-shiftw	foo_bar baz\n\nqux(arg)\n	20	14	expand	symbol	1	0	normal	-
+punct-expand.symbol-w	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	0	normal	-
+punct-expand.symbol-z	foo_bar baz\n\nqux(arg)\n	17	14	expand	symbol	0	0	normal	-
+punct-expand.word-b	foo_bar baz\n\nqux(arg)\n	13	17	expand	word	1	0	normal	-
+punct-expand.word-e	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+punct-expand.word-g	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-expand.word-h	foo_bar baz\n\nqux(arg)\n	16	-	-	-	0	0	normal	-
+punct-expand.word-i	foo_bar baz\n\nqux(arg)\n	18	-	-	-	0	0	normal	-
+punct-expand.word-j	foo_bar baz\n\nqux(arg)\n	13	11	expand	join	1	0	normal	-
+punct-expand.word-l	foo_bar baz\n\nqux(arg)\n	21	13	expand	line	1	0	normal	-
+punct-expand.word-m	foo_bar baz\n\nqux(arg)\n	20	17	expand	word	1	0	normal	-
+punct-expand.word-n	foo_bar baz\n\nqux(arg)\n	22	-	-	-	0	0	normal	-
+punct-expand.word-o	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+punct-expand.word-semi	foo_bar baz\n\nqux(arg)\n	14	17	expand	word	0	0	normal	-
+punct-expand.word-shiftb	foo_bar baz\n\nqux(arg)\n	13	16	select	symbol	1	0	normal	-
+punct-expand.word-shifte	foo_bar baz\n\nqux(arg)\n	12	14	expand	char	1	0	normal	-
+punct-expand.word-shifth	foo_bar baz\n\nqux(arg)\n	16	14	expand	char	1	0	normal	-
+punct-expand.word-shifti	foo_bar baz\n\nqux(arg)\n	18	14	expand	char	1	0	normal	-
+punct-expand.word-shiftm	foo_bar baz\n\nqux(arg)\n	20	17	expand	symbol	1	0	normal	-
+punct-expand.word-shiftn	foo_bar baz\n\nqux(arg)\n	22	14	expand	char	1	0	normal	-
+punct-expand.word-shifto	foo_bar baz\n\nqux(arg)\n	17	14	expand	word	0	0	normal	-
+punct-expand.word-shiftw	foo_bar baz\n\nqux(arg)\n	20	17	select	symbol	1	0	normal	-
+punct-expand.word-w	foo_bar baz\n\nqux(arg)\n	20	14	expand	word	1	0	normal	-
+punct-expand.word-z	foo_bar baz\n\nqux(arg)\n	17	14	expand	word	0	0	normal	-
+punct-none-b	foo_bar baz\n\nqux(arg)\n	13	16	select	word	1	0	normal	-
+punct-none-e	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+punct-none-g	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	1	normal	-
+punct-none-h	foo_bar baz\n\nqux(arg)\n	16	-	-	-	0	0	normal	-
+punct-none-i	foo_bar baz\n\nqux(arg)\n	18	-	-	-	0	0	normal	-
+punct-none-j	foo_bar baz\n\nqux(arg)\n	13	11	expand	join	1	0	normal	-
+punct-none-l	foo_bar baz\n\nqux(arg)\n	21	13	expand	line	1	0	normal	-
+punct-none-m	foo_bar baz\n\nqux(arg)\n	20	17	expand	word	1	0	normal	-
+punct-none-n	foo_bar baz\n\nqux(arg)\n	22	-	-	-	0	0	normal	-
+punct-none-o	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+punct-none-semi	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	1	normal	-
+punct-none-shiftb	foo_bar baz\n\nqux(arg)\n	13	16	select	symbol	1	0	normal	-
+punct-none-shifte	foo_bar baz\n\nqux(arg)\n	12	17	expand	char	1	0	normal	-
+punct-none-shifth	foo_bar baz\n\nqux(arg)\n	16	17	expand	char	1	0	normal	-
+punct-none-shifti	foo_bar baz\n\nqux(arg)\n	18	17	expand	char	1	0	normal	-
+punct-none-shiftm	foo_bar baz\n\nqux(arg)\n	20	17	expand	symbol	1	0	normal	-
+punct-none-shiftn	foo_bar baz\n\nqux(arg)\n	22	17	expand	char	1	0	normal	-
+punct-none-shifto	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-none-shiftw	foo_bar baz\n\nqux(arg)\n	20	17	select	symbol	1	0	normal	-
+punct-none-w	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	0	normal	-
+punct-none-z	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-select.char-b	foo_bar baz\n\nqux(arg)\n	13	16	select	word	1	0	normal	-
+punct-select.char-e	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+punct-select.char-g	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-select.char-h	foo_bar baz\n\nqux(arg)\n	16	-	-	-	0	0	normal	-
+punct-select.char-i	foo_bar baz\n\nqux(arg)\n	18	-	-	-	0	0	normal	-
+punct-select.char-j	foo_bar baz\n\nqux(arg)\n	13	11	expand	join	1	0	normal	-
+punct-select.char-l	foo_bar baz\n\nqux(arg)\n	21	13	expand	line	1	0	normal	-
+punct-select.char-m	foo_bar baz\n\nqux(arg)\n	20	17	expand	word	1	0	normal	-
+punct-select.char-n	foo_bar baz\n\nqux(arg)\n	22	-	-	-	0	0	normal	-
+punct-select.char-o	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+punct-select.char-semi	foo_bar baz\n\nqux(arg)\n	14	17	select	char	0	0	normal	-
+punct-select.char-shiftb	foo_bar baz\n\nqux(arg)\n	13	16	select	symbol	1	0	normal	-
+punct-select.char-shifte	foo_bar baz\n\nqux(arg)\n	12	14	expand	char	1	0	normal	-
+punct-select.char-shifth	foo_bar baz\n\nqux(arg)\n	16	14	expand	char	1	0	normal	-
+punct-select.char-shifti	foo_bar baz\n\nqux(arg)\n	18	14	expand	char	1	0	normal	-
+punct-select.char-shiftm	foo_bar baz\n\nqux(arg)\n	20	17	expand	symbol	1	0	normal	-
+punct-select.char-shiftn	foo_bar baz\n\nqux(arg)\n	22	14	expand	char	1	0	normal	-
+punct-select.char-shifto	foo_bar baz\n\nqux(arg)\n	17	14	select	char	0	0	normal	-
+punct-select.char-shiftw	foo_bar baz\n\nqux(arg)\n	20	17	select	symbol	1	0	normal	-
+punct-select.char-w	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	0	normal	-
+punct-select.char-z	foo_bar baz\n\nqux(arg)\n	17	14	select	char	0	0	normal	-
+punct-select.word-b	foo_bar baz\n\nqux(arg)\n	13	16	select	word	1	0	normal	-
+punct-select.word-e	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+punct-select.word-g	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-select.word-h	foo_bar baz\n\nqux(arg)\n	16	-	-	-	0	0	normal	-
+punct-select.word-i	foo_bar baz\n\nqux(arg)\n	18	-	-	-	0	0	normal	-
+punct-select.word-j	foo_bar baz\n\nqux(arg)\n	13	11	expand	join	1	0	normal	-
+punct-select.word-l	foo_bar baz\n\nqux(arg)\n	21	13	expand	line	1	0	normal	-
+punct-select.word-m	foo_bar baz\n\nqux(arg)\n	20	17	expand	word	1	0	normal	-
+punct-select.word-n	foo_bar baz\n\nqux(arg)\n	22	-	-	-	0	0	normal	-
+punct-select.word-o	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+punct-select.word-semi	foo_bar baz\n\nqux(arg)\n	14	17	select	word	0	0	normal	-
+punct-select.word-shiftb	foo_bar baz\n\nqux(arg)\n	13	16	select	symbol	1	0	normal	-
+punct-select.word-shifte	foo_bar baz\n\nqux(arg)\n	12	14	expand	char	1	0	normal	-
+punct-select.word-shifth	foo_bar baz\n\nqux(arg)\n	16	14	expand	char	1	0	normal	-
+punct-select.word-shifti	foo_bar baz\n\nqux(arg)\n	18	14	expand	char	1	0	normal	-
+punct-select.word-shiftm	foo_bar baz\n\nqux(arg)\n	20	17	expand	symbol	1	0	normal	-
+punct-select.word-shiftn	foo_bar baz\n\nqux(arg)\n	22	14	expand	char	1	0	normal	-
+punct-select.word-shifto	foo_bar baz\n\nqux(arg)\n	17	14	select	word	0	0	normal	-
+punct-select.word-shiftw	foo_bar baz\n\nqux(arg)\n	20	17	select	symbol	1	0	normal	-
+punct-select.word-w	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	0	normal	-
+punct-select.word-z	foo_bar baz\n\nqux(arg)\n	17	14	select	word	0	0	normal	-
+punct-seq-flo	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+punct-seq-fo	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-seq-fonegrep	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	1	normal	-
+punct-seq-forep	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-seq-fq	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-seq-ftl	foo_bar baz\n\nqux(arg)\n	21	13	expand	line	1	0	normal	-
+punct-seq-jj	foo_bar baz\n\nqux(arg)\n	13	11	expand	join	2	0	normal	-
+punct-seq-jw	foo_bar baz\n\nqux(arg)\n	16	13	select	word	1	0	normal	-
+punct-seq-ll	foo_bar baz\n\nqux(arg)\n	22	13	expand	line	2	0	normal	-
+punct-seq-llrep	foo_bar baz\n\nqux(arg)\n	22	13	expand	line	3	0	normal	-
+punct-seq-lm	foo_bar baz\n\nqux(arg)\n	21	13	expand	line	1	0	normal	-
+punct-seq-lnegl	foo_bar baz\n\nqux(arg)\n	12	13	expand	line	2	0	normal	-
+punct-seq-lrep	foo_bar baz\n\nqux(arg)\n	22	13	expand	line	2	0	normal	-
+punct-seq-lz	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-seq-mb	foo_bar baz\n\nqux(arg)\n	13	20	expand	word	2	0	normal	-
+punct-seq-mg	foo_bar baz\n\nqux(arg)\n	20	-	-	-	0	0	normal	-
+punct-seq-mm	foo_bar baz\n\nqux(arg)\n	20	17	expand	word	2	0	normal	-
+punct-seq-mrep	foo_bar baz\n\nqux(arg)\n	20	17	expand	word	2	0	normal	-
+punct-seq-msemiw	foo_bar baz\n\nqux(arg)\n	22	17	expand	word	2	0	normal	-
+punct-seq-mw	foo_bar baz\n\nqux(arg)\n	22	17	expand	word	2	0	normal	-
+punct-seq-mz	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-seq-mzz	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-seq-negb	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	0	normal	-
+punct-seq-nege	foo_bar baz\n\nqux(arg)\n	22	-	-	-	0	0	normal	-
+punct-seq-negfo	foo_bar baz\n\nqux(arg)\n	2	17	select	find	1	0	normal	-
+punct-seq-negl	foo_bar baz\n\nqux(arg)\n	13	21	expand	line	1	0	normal	-
+punct-seq-negll	foo_bar baz\n\nqux(arg)\n	12	21	expand	line	2	0	normal	-
+punct-seq-neglnegl	foo_bar baz\n\nqux(arg)\n	22	21	expand	line	2	0	normal	-
+punct-seq-negn	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+punct-seq-negtl	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-seq-negw	foo_bar baz\n\nqux(arg)\n	13	16	select	word	1	0	normal	-
+punct-seq-negwrep	foo_bar baz\n\nqux(arg)\n	8	13	select	word	2	0	normal	-
+punct-seq-oo	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+punct-seq-osemishifto	foo_bar baz\n\nqux(arg)\n	16	21	expand	block	1	0	normal	-
+punct-seq-oshifto	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+punct-seq-oshiftosemishifto	foo_bar baz\n\nqux(arg)\n	16	21	expand	block	1	0	normal	-
+punct-seq-ow	foo_bar baz\n\nqux(arg)\n	22	21	select	word	1	0	normal	-
+punct-seq-semifo	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	1	normal	-
+punct-seq-semisemi	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	2	normal	-
+punct-seq-semiw	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	1	normal	-
+punct-seq-shiftmshiftw	foo_bar baz\n\nqux(arg)\n	22	17	expand	symbol	2	0	normal	-
+punct-seq-shiftosemishifto	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	1	normal	-
+punct-seq-shiftoshifto	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-seq-shiftwshiftw	foo_bar baz\n\nqux(arg)\n	22	20	select	symbol	2	0	normal	-
+punct-seq-tl	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-seq-tq	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+punct-seq-wb	foo_bar baz\n\nqux(arg)\n	17	20	select	word	2	0	normal	-
+punct-seq-wfo	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	0	normal	-
+punct-seq-wj	foo_bar baz\n\nqux(arg)\n	13	11	expand	join	2	0	normal	-
+punct-seq-wm	foo_bar baz\n\nqux(arg)\n	20	17	expand	word	2	0	normal	-
+punct-seq-wmrep	foo_bar baz\n\nqux(arg)\n	20	17	expand	word	3	0	normal	-
+punct-seq-wnegrep	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	1	normal	-
+punct-seq-wrep	foo_bar baz\n\nqux(arg)\n	22	20	select	word	2	0	normal	-
+punct-seq-wsemib	foo_bar baz\n\nqux(arg)\n	13	16	select	word	2	0	normal	-
+punct-seq-wshifto	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	0	normal	-
+punct-seq-ww	foo_bar baz\n\nqux(arg)\n	22	20	select	word	2	0	normal	-
+punct-seq-wwz	foo_bar baz\n\nqux(arg)\n	20	17	select	word	1	0	normal	-
+punct-seq-wz	foo_bar baz\n\nqux(arg)\n	17	-	-	-	0	0	normal	-
+stringopen-expand.block-b	let s = "("; f(x)\n	13	14	select	word	1	0	normal	-
+stringopen-expand.block-e	let s = "("; f(x)\n	0	-	-	-	0	1	normal	-
+stringopen-expand.block-g	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-expand.block-h	let s = "("; f(x)\n	13	-	-	-	0	0	normal	-
+stringopen-expand.block-i	let s = "("; f(x)\n	15	-	-	-	0	0	normal	-
+stringopen-expand.block-j	let s = "("; f(x)\n	0	0	expand	join	1	0	normal	-
+stringopen-expand.block-l	let s = "("; f(x)\n	17	0	expand	line	1	0	normal	-
+stringopen-expand.block-m	let s = "("; f(x)\n	14	13	expand	word	1	0	normal	-
+stringopen-expand.block-n	let s = "("; f(x)\n	18	-	-	-	0	0	normal	-
+stringopen-expand.block-o	let s = "("; f(x)\n	14	11	expand	block	0	0	normal	-
+stringopen-expand.block-semi	let s = "("; f(x)\n	11	14	expand	block	0	0	normal	-
+stringopen-expand.block-shiftb	let s = "("; f(x)\n	13	14	select	symbol	1	0	normal	-
+stringopen-expand.block-shifte	let s = "("; f(x)\n	0	11	expand	char	1	1	normal	-
+stringopen-expand.block-shifth	let s = "("; f(x)\n	13	11	expand	char	1	0	normal	-
+stringopen-expand.block-shifti	let s = "("; f(x)\n	15	11	expand	char	1	0	normal	-
+stringopen-expand.block-shiftm	let s = "("; f(x)\n	14	13	expand	symbol	1	0	normal	-
+stringopen-expand.block-shiftn	let s = "("; f(x)\n	18	11	expand	char	1	0	normal	-
+stringopen-expand.block-shifto	let s = "("; f(x)\n	17	11	expand	block	1	0	normal	-
+stringopen-expand.block-shiftw	let s = "("; f(x)\n	16	15	select	symbol	1	0	normal	-
+stringopen-expand.block-w	let s = "("; f(x)\n	16	15	select	word	1	0	normal	-
+stringopen-expand.block-z	let s = "("; f(x)\n	14	11	expand	block	0	0	normal	-
+stringopen-expand.char-b	let s = "("; f(x)\n	13	14	select	word	1	0	normal	-
+stringopen-expand.char-e	let s = "("; f(x)\n	0	11	expand	char	0	1	normal	-
+stringopen-expand.char-g	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-expand.char-h	let s = "("; f(x)\n	13	11	expand	char	0	0	normal	-
+stringopen-expand.char-i	let s = "("; f(x)\n	15	11	expand	char	0	0	normal	-
+stringopen-expand.char-j	let s = "("; f(x)\n	0	0	expand	join	1	0	normal	-
+stringopen-expand.char-l	let s = "("; f(x)\n	17	0	expand	line	1	0	normal	-
+stringopen-expand.char-m	let s = "("; f(x)\n	14	13	expand	word	1	0	normal	-
+stringopen-expand.char-n	let s = "("; f(x)\n	18	11	expand	char	0	0	normal	-
+stringopen-expand.char-o	let s = "("; f(x)\n	14	11	expand	char	0	0	normal	-
+stringopen-expand.char-semi	let s = "("; f(x)\n	11	14	expand	char	0	0	normal	-
+stringopen-expand.char-shiftb	let s = "("; f(x)\n	13	14	select	symbol	1	0	normal	-
+stringopen-expand.char-shifte	let s = "("; f(x)\n	0	11	expand	char	1	1	normal	-
+stringopen-expand.char-shifth	let s = "("; f(x)\n	13	11	expand	char	1	0	normal	-
+stringopen-expand.char-shifti	let s = "("; f(x)\n	15	11	expand	char	1	0	normal	-
+stringopen-expand.char-shiftm	let s = "("; f(x)\n	14	13	expand	symbol	1	0	normal	-
+stringopen-expand.char-shiftn	let s = "("; f(x)\n	18	11	expand	char	1	0	normal	-
+stringopen-expand.char-shifto	let s = "("; f(x)\n	17	11	expand	block	1	0	normal	-
+stringopen-expand.char-shiftw	let s = "("; f(x)\n	16	15	select	symbol	1	0	normal	-
+stringopen-expand.char-w	let s = "("; f(x)\n	16	15	select	word	1	0	normal	-
+stringopen-expand.char-z	let s = "("; f(x)\n	14	11	expand	char	0	0	normal	-
+stringopen-expand.join-b	let s = "("; f(x)\n	13	14	select	word	1	0	normal	-
+stringopen-expand.join-e	let s = "("; f(x)\n	0	-	-	-	0	1	normal	-
+stringopen-expand.join-g	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-expand.join-h	let s = "("; f(x)\n	13	-	-	-	0	0	normal	-
+stringopen-expand.join-i	let s = "("; f(x)\n	15	-	-	-	0	0	normal	-
+stringopen-expand.join-j	let s = "("; f(x)\n	14	14	expand	join	1	0	normal	-
+stringopen-expand.join-l	let s = "("; f(x)\n	17	0	expand	line	1	0	normal	-
+stringopen-expand.join-m	let s = "("; f(x)\n	14	13	expand	word	1	0	normal	-
+stringopen-expand.join-n	let s = "("; f(x)\n	18	-	-	-	0	0	normal	-
+stringopen-expand.join-o	let s = "("; f(x)\n	14	11	expand	join	0	0	normal	-
+stringopen-expand.join-semi	let s = "("; f(x)\n	11	14	expand	join	0	0	normal	-
+stringopen-expand.join-shiftb	let s = "("; f(x)\n	13	14	select	symbol	1	0	normal	-
+stringopen-expand.join-shifte	let s = "("; f(x)\n	0	11	expand	char	1	1	normal	-
+stringopen-expand.join-shifth	let s = "("; f(x)\n	13	11	expand	char	1	0	normal	-
+stringopen-expand.join-shifti	let s = "("; f(x)\n	15	11	expand	char	1	0	normal	-
+stringopen-expand.join-shiftm	let s = "("; f(x)\n	14	13	expand	symbol	1	0	normal	-
+stringopen-expand.join-shiftn	let s = "("; f(x)\n	18	11	expand	char	1	0	normal	-
+stringopen-expand.join-shifto	let s = "("; f(x)\n	17	11	expand	block	1	0	normal	-
+stringopen-expand.join-shiftw	let s = "("; f(x)\n	16	15	select	symbol	1	0	normal	-
+stringopen-expand.join-w	let s = "("; f(x)\n	16	15	select	word	1	0	normal	-
+stringopen-expand.join-z	let s = "("; f(x)\n	14	11	expand	join	0	0	normal	-
+stringopen-expand.line-b	let s = "("; f(x)\n	13	14	select	word	1	0	normal	-
+stringopen-expand.line-e	let s = "("; f(x)\n	0	-	-	-	0	1	normal	-
+stringopen-expand.line-g	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-expand.line-h	let s = "("; f(x)\n	13	-	-	-	0	0	normal	-
+stringopen-expand.line-i	let s = "("; f(x)\n	15	-	-	-	0	0	normal	-
+stringopen-expand.line-j	let s = "("; f(x)\n	0	0	expand	join	1	0	normal	-
+stringopen-expand.line-l	let s = "("; f(x)\n	18	11	expand	line	1	0	normal	-
+stringopen-expand.line-m	let s = "("; f(x)\n	14	13	expand	word	1	0	normal	-
+stringopen-expand.line-n	let s = "("; f(x)\n	18	-	-	-	0	0	normal	-
+stringopen-expand.line-o	let s = "("; f(x)\n	14	11	expand	line	0	0	normal	-
+stringopen-expand.line-semi	let s = "("; f(x)\n	11	14	expand	line	0	0	normal	-
+stringopen-expand.line-shiftb	let s = "("; f(x)\n	13	14	select	symbol	1	0	normal	-
+stringopen-expand.line-shifte	let s = "("; f(x)\n	0	11	expand	char	1	1	normal	-
+stringopen-expand.line-shifth	let s = "("; f(x)\n	13	11	expand	char	1	0	normal	-
+stringopen-expand.line-shifti	let s = "("; f(x)\n	15	11	expand	char	1	0	normal	-
+stringopen-expand.line-shiftm	let s = "("; f(x)\n	14	13	expand	symbol	1	0	normal	-
+stringopen-expand.line-shiftn	let s = "("; f(x)\n	18	11	expand	char	1	0	normal	-
+stringopen-expand.line-shifto	let s = "("; f(x)\n	17	11	expand	block	1	0	normal	-
+stringopen-expand.line-shiftw	let s = "("; f(x)\n	16	15	select	symbol	1	0	normal	-
+stringopen-expand.line-w	let s = "("; f(x)\n	16	15	select	word	1	0	normal	-
+stringopen-expand.line-z	let s = "("; f(x)\n	14	11	expand	line	0	0	normal	-
+stringopen-expand.symbol-b	let s = "("; f(x)\n	13	14	select	word	1	0	normal	-
+stringopen-expand.symbol-e	let s = "("; f(x)\n	0	-	-	-	0	1	normal	-
+stringopen-expand.symbol-g	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-expand.symbol-h	let s = "("; f(x)\n	13	-	-	-	0	0	normal	-
+stringopen-expand.symbol-i	let s = "("; f(x)\n	15	-	-	-	0	0	normal	-
+stringopen-expand.symbol-j	let s = "("; f(x)\n	0	0	expand	join	1	0	normal	-
+stringopen-expand.symbol-l	let s = "("; f(x)\n	17	0	expand	line	1	0	normal	-
+stringopen-expand.symbol-m	let s = "("; f(x)\n	14	13	expand	word	1	0	normal	-
+stringopen-expand.symbol-n	let s = "("; f(x)\n	18	-	-	-	0	0	normal	-
+stringopen-expand.symbol-o	let s = "("; f(x)\n	14	11	expand	symbol	0	0	normal	-
+stringopen-expand.symbol-semi	let s = "("; f(x)\n	11	14	expand	symbol	0	0	normal	-
+stringopen-expand.symbol-shiftb	let s = "("; f(x)\n	6	14	expand	symbol	1	0	normal	-
+stringopen-expand.symbol-shifte	let s = "("; f(x)\n	0	11	expand	char	1	1	normal	-
+stringopen-expand.symbol-shifth	let s = "("; f(x)\n	13	11	expand	char	1	0	normal	-
+stringopen-expand.symbol-shifti	let s = "("; f(x)\n	15	11	expand	char	1	0	normal	-
+stringopen-expand.symbol-shiftm	let s = "("; f(x)\n	14	13	expand	symbol	1	0	normal	-
+stringopen-expand.symbol-shiftn	let s = "("; f(x)\n	18	11	expand	char	1	0	normal	-
+stringopen-expand.symbol-shifto	let s = "("; f(x)\n	17	11	expand	block	1	0	normal	-
+stringopen-expand.symbol-shiftw	let s = "("; f(x)\n	16	11	expand	symbol	1	0	normal	-
+stringopen-expand.symbol-w	let s = "("; f(x)\n	16	15	select	word	1	0	normal	-
+stringopen-expand.symbol-z	let s = "("; f(x)\n	14	11	expand	symbol	0	0	normal	-
+stringopen-expand.word-b	let s = "("; f(x)\n	4	14	expand	word	1	0	normal	-
+stringopen-expand.word-e	let s = "("; f(x)\n	0	-	-	-	0	1	normal	-
+stringopen-expand.word-g	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-expand.word-h	let s = "("; f(x)\n	13	-	-	-	0	0	normal	-
+stringopen-expand.word-i	let s = "("; f(x)\n	15	-	-	-	0	0	normal	-
+stringopen-expand.word-j	let s = "("; f(x)\n	0	0	expand	join	1	0	normal	-
+stringopen-expand.word-l	let s = "("; f(x)\n	17	0	expand	line	1	0	normal	-
+stringopen-expand.word-m	let s = "("; f(x)\n	14	13	expand	word	1	0	normal	-
+stringopen-expand.word-n	let s = "("; f(x)\n	18	-	-	-	0	0	normal	-
+stringopen-expand.word-o	let s = "("; f(x)\n	14	11	expand	word	0	0	normal	-
+stringopen-expand.word-semi	let s = "("; f(x)\n	11	14	expand	word	0	0	normal	-
+stringopen-expand.word-shiftb	let s = "("; f(x)\n	13	14	select	symbol	1	0	normal	-
+stringopen-expand.word-shifte	let s = "("; f(x)\n	0	11	expand	char	1	1	normal	-
+stringopen-expand.word-shifth	let s = "("; f(x)\n	13	11	expand	char	1	0	normal	-
+stringopen-expand.word-shifti	let s = "("; f(x)\n	15	11	expand	char	1	0	normal	-
+stringopen-expand.word-shiftm	let s = "("; f(x)\n	14	13	expand	symbol	1	0	normal	-
+stringopen-expand.word-shiftn	let s = "("; f(x)\n	18	11	expand	char	1	0	normal	-
+stringopen-expand.word-shifto	let s = "("; f(x)\n	17	11	expand	block	1	0	normal	-
+stringopen-expand.word-shiftw	let s = "("; f(x)\n	16	15	select	symbol	1	0	normal	-
+stringopen-expand.word-w	let s = "("; f(x)\n	16	11	expand	word	1	0	normal	-
+stringopen-expand.word-z	let s = "("; f(x)\n	14	11	expand	word	0	0	normal	-
+stringopen-none-b	let s = "("; f(x)\n	13	14	select	word	1	0	normal	-
+stringopen-none-e	let s = "("; f(x)\n	0	-	-	-	0	1	normal	-
+stringopen-none-g	let s = "("; f(x)\n	14	-	-	-	0	1	normal	-
+stringopen-none-h	let s = "("; f(x)\n	13	-	-	-	0	0	normal	-
+stringopen-none-i	let s = "("; f(x)\n	15	-	-	-	0	0	normal	-
+stringopen-none-j	let s = "("; f(x)\n	0	0	expand	join	1	0	normal	-
+stringopen-none-l	let s = "("; f(x)\n	17	0	expand	line	1	0	normal	-
+stringopen-none-m	let s = "("; f(x)\n	14	13	expand	word	1	0	normal	-
+stringopen-none-n	let s = "("; f(x)\n	18	-	-	-	0	0	normal	-
+stringopen-none-o	let s = "("; f(x)\n	17	14	expand	block	1	0	normal	-
+stringopen-none-semi	let s = "("; f(x)\n	14	-	-	-	0	1	normal	-
+stringopen-none-shiftb	let s = "("; f(x)\n	13	14	select	symbol	1	0	normal	-
+stringopen-none-shifte	let s = "("; f(x)\n	0	14	expand	char	1	1	normal	-
+stringopen-none-shifth	let s = "("; f(x)\n	13	14	expand	char	1	0	normal	-
+stringopen-none-shifti	let s = "("; f(x)\n	15	14	expand	char	1	0	normal	-
+stringopen-none-shiftm	let s = "("; f(x)\n	14	13	expand	symbol	1	0	normal	-
+stringopen-none-shiftn	let s = "("; f(x)\n	18	14	expand	char	1	0	normal	-
+stringopen-none-shifto	let s = "("; f(x)\n	17	14	expand	block	1	0	normal	-
+stringopen-none-shiftw	let s = "("; f(x)\n	16	15	select	symbol	1	0	normal	-
+stringopen-none-w	let s = "("; f(x)\n	16	15	select	word	1	0	normal	-
+stringopen-none-z	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-select.char-b	let s = "("; f(x)\n	13	14	select	word	1	0	normal	-
+stringopen-select.char-e	let s = "("; f(x)\n	0	-	-	-	0	1	normal	-
+stringopen-select.char-g	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-select.char-h	let s = "("; f(x)\n	13	-	-	-	0	0	normal	-
+stringopen-select.char-i	let s = "("; f(x)\n	15	-	-	-	0	0	normal	-
+stringopen-select.char-j	let s = "("; f(x)\n	0	0	expand	join	1	0	normal	-
+stringopen-select.char-l	let s = "("; f(x)\n	17	0	expand	line	1	0	normal	-
+stringopen-select.char-m	let s = "("; f(x)\n	14	13	expand	word	1	0	normal	-
+stringopen-select.char-n	let s = "("; f(x)\n	18	-	-	-	0	0	normal	-
+stringopen-select.char-o	let s = "("; f(x)\n	14	11	select	char	0	0	normal	-
+stringopen-select.char-semi	let s = "("; f(x)\n	11	14	select	char	0	0	normal	-
+stringopen-select.char-shiftb	let s = "("; f(x)\n	13	14	select	symbol	1	0	normal	-
+stringopen-select.char-shifte	let s = "("; f(x)\n	0	11	expand	char	1	1	normal	-
+stringopen-select.char-shifth	let s = "("; f(x)\n	13	11	expand	char	1	0	normal	-
+stringopen-select.char-shifti	let s = "("; f(x)\n	15	11	expand	char	1	0	normal	-
+stringopen-select.char-shiftm	let s = "("; f(x)\n	14	13	expand	symbol	1	0	normal	-
+stringopen-select.char-shiftn	let s = "("; f(x)\n	18	11	expand	char	1	0	normal	-
+stringopen-select.char-shifto	let s = "("; f(x)\n	17	11	expand	block	1	0	normal	-
+stringopen-select.char-shiftw	let s = "("; f(x)\n	16	15	select	symbol	1	0	normal	-
+stringopen-select.char-w	let s = "("; f(x)\n	16	15	select	word	1	0	normal	-
+stringopen-select.char-z	let s = "("; f(x)\n	14	11	select	char	0	0	normal	-
+stringopen-select.word-b	let s = "("; f(x)\n	13	14	select	word	1	0	normal	-
+stringopen-select.word-e	let s = "("; f(x)\n	0	-	-	-	0	1	normal	-
+stringopen-select.word-g	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-select.word-h	let s = "("; f(x)\n	13	-	-	-	0	0	normal	-
+stringopen-select.word-i	let s = "("; f(x)\n	15	-	-	-	0	0	normal	-
+stringopen-select.word-j	let s = "("; f(x)\n	0	0	expand	join	1	0	normal	-
+stringopen-select.word-l	let s = "("; f(x)\n	17	0	expand	line	1	0	normal	-
+stringopen-select.word-m	let s = "("; f(x)\n	14	13	expand	word	1	0	normal	-
+stringopen-select.word-n	let s = "("; f(x)\n	18	-	-	-	0	0	normal	-
+stringopen-select.word-o	let s = "("; f(x)\n	14	11	select	word	0	0	normal	-
+stringopen-select.word-semi	let s = "("; f(x)\n	11	14	select	word	0	0	normal	-
+stringopen-select.word-shiftb	let s = "("; f(x)\n	13	14	select	symbol	1	0	normal	-
+stringopen-select.word-shifte	let s = "("; f(x)\n	0	11	expand	char	1	1	normal	-
+stringopen-select.word-shifth	let s = "("; f(x)\n	13	11	expand	char	1	0	normal	-
+stringopen-select.word-shifti	let s = "("; f(x)\n	15	11	expand	char	1	0	normal	-
+stringopen-select.word-shiftm	let s = "("; f(x)\n	14	13	expand	symbol	1	0	normal	-
+stringopen-select.word-shiftn	let s = "("; f(x)\n	18	11	expand	char	1	0	normal	-
+stringopen-select.word-shifto	let s = "("; f(x)\n	17	11	expand	block	1	0	normal	-
+stringopen-select.word-shiftw	let s = "("; f(x)\n	16	15	select	symbol	1	0	normal	-
+stringopen-select.word-w	let s = "("; f(x)\n	16	15	select	word	1	0	normal	-
+stringopen-select.word-z	let s = "("; f(x)\n	14	11	select	word	0	0	normal	-
+stringopen-seq-flo	let s = "("; f(x)\n	17	14	expand	block	1	0	normal	-
+stringopen-seq-fo	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-seq-fonegrep	let s = "("; f(x)\n	14	-	-	-	0	1	normal	-
+stringopen-seq-forep	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-seq-fq	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-seq-ftl	let s = "("; f(x)\n	17	0	expand	line	1	0	normal	-
+stringopen-seq-jj	let s = "("; f(x)\n	0	0	expand	join	2	0	normal	-
+stringopen-seq-jw	let s = "("; f(x)\n	3	0	select	word	1	0	normal	-
+stringopen-seq-ll	let s = "("; f(x)\n	18	0	expand	line	2	0	normal	-
+stringopen-seq-llrep	let s = "("; f(x)\n	18	0	expand	line	3	0	normal	-
+stringopen-seq-lm	let s = "("; f(x)\n	17	0	expand	line	1	0	normal	-
+stringopen-seq-lnegl	let s = "("; f(x)\n	0	0	expand	line	2	0	normal	-
+stringopen-seq-lrep	let s = "("; f(x)\n	18	0	expand	line	2	0	normal	-
+stringopen-seq-lz	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-seq-mb	let s = "("; f(x)\n	4	14	expand	word	2	0	normal	-
+stringopen-seq-mg	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-seq-mm	let s = "("; f(x)\n	14	13	expand	word	2	0	normal	-
+stringopen-seq-mrep	let s = "("; f(x)\n	14	13	expand	word	2	0	normal	-
+stringopen-seq-msemiw	let s = "("; f(x)\n	16	13	expand	word	2	0	normal	-
+stringopen-seq-mw	let s = "("; f(x)\n	16	13	expand	word	2	0	normal	-
+stringopen-seq-mz	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-seq-mzz	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-seq-negb	let s = "("; f(x)\n	16	15	select	word	1	0	normal	-
+stringopen-seq-nege	let s = "("; f(x)\n	18	-	-	-	0	0	normal	-
+stringopen-seq-negfo	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-seq-negl	let s = "("; f(x)\n	0	17	expand	line	1	0	normal	-
+stringopen-seq-negll	let s = "("; f(x)\n	0	17	expand	line	2	0	normal	-
+stringopen-seq-neglnegl	let s = "("; f(x)\n	18	17	expand	line	2	0	normal	-
+stringopen-seq-negn	let s = "("; f(x)\n	0	-	-	-	0	1	normal	-
+stringopen-seq-negtl	let s = "("; f(x)\n	1	14	select	till	1	0	normal	-
+stringopen-seq-negw	let s = "("; f(x)\n	13	14	select	word	1	0	normal	-
+stringopen-seq-negwrep	let s = "("; f(x)\n	4	8	select	word	2	0	normal	-
+stringopen-seq-oo	let s = "("; f(x)\n	17	14	expand	block	1	0	normal	-
+stringopen-seq-osemishifto	let s = "("; f(x)\n	14	17	expand	block	1	0	normal	-
+stringopen-seq-oshifto	let s = "("; f(x)\n	17	14	expand	block	1	0	normal	-
+stringopen-seq-oshiftosemishifto	let s = "("; f(x)\n	14	17	expand	block	1	0	normal	-
+stringopen-seq-ow	let s = "("; f(x)\n	18	17	select	word	1	0	normal	-
+stringopen-seq-semifo	let s = "("; f(x)\n	14	-	-	-	0	1	normal	-
+stringopen-seq-semisemi	let s = "("; f(x)\n	14	-	-	-	0	2	normal	-
+stringopen-seq-semiw	let s = "("; f(x)\n	16	15	select	word	1	1	normal	-
+stringopen-seq-shiftmshiftw	let s = "("; f(x)\n	16	13	expand	symbol	2	0	normal	-
+stringopen-seq-shiftosemishifto	let s = "("; f(x)\n	14	17	expand	block	1	0	normal	-
+stringopen-seq-shiftoshifto	let s = "("; f(x)\n	17	14	expand	block	1	0	normal	-
+stringopen-seq-shiftwshiftw	let s = "("; f(x)\n	18	16	select	symbol	2	0	normal	-
+stringopen-seq-tl	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-seq-tq	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+stringopen-seq-wb	let s = "("; f(x)\n	15	16	select	word	2	0	normal	-
+stringopen-seq-wfo	let s = "("; f(x)\n	16	15	select	word	1	0	normal	-
+stringopen-seq-wj	let s = "("; f(x)\n	0	0	expand	join	2	0	normal	-
+stringopen-seq-wm	let s = "("; f(x)\n	16	15	expand	word	2	0	normal	-
+stringopen-seq-wmrep	let s = "("; f(x)\n	16	15	expand	word	3	0	normal	-
+stringopen-seq-wnegrep	let s = "("; f(x)\n	16	15	select	word	1	1	normal	-
+stringopen-seq-wrep	let s = "("; f(x)\n	18	16	select	word	2	0	normal	-
+stringopen-seq-wsemib	let s = "("; f(x)\n	13	14	select	word	2	0	normal	-
+stringopen-seq-wshifto	let s = "("; f(x)\n	16	15	select	word	1	0	normal	-
+stringopen-seq-ww	let s = "("; f(x)\n	18	16	select	word	2	0	normal	-
+stringopen-seq-wwz	let s = "("; f(x)\n	16	15	select	word	1	0	normal	-
+stringopen-seq-wz	let s = "("; f(x)\n	14	-	-	-	0	0	normal	-
+symbol-expand.block-b	foo_bar baz\n\nqux(arg)\n	0	4	select	word	1	0	normal	-
+symbol-expand.block-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	1	normal	-
+symbol-expand.block-g	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-expand.block-h	foo_bar baz\n\nqux(arg)\n	3	-	-	-	0	0	normal	-
+symbol-expand.block-i	foo_bar baz\n\nqux(arg)\n	5	-	-	-	0	0	normal	-
+symbol-expand.block-j	foo_bar baz\n\nqux(arg)\n	0	0	expand	join	1	0	normal	-
+symbol-expand.block-l	foo_bar baz\n\nqux(arg)\n	11	0	expand	line	1	0	normal	-
+symbol-expand.block-m	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	1	0	normal	-
+symbol-expand.block-n	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+symbol-expand.block-o	foo_bar baz\n\nqux(arg)\n	4	1	expand	block	0	0	normal	-
+symbol-expand.block-semi	foo_bar baz\n\nqux(arg)\n	1	4	expand	block	0	0	normal	-
+symbol-expand.block-shiftb	foo_bar baz\n\nqux(arg)\n	0	4	select	symbol	1	0	normal	-
+symbol-expand.block-shifte	foo_bar baz\n\nqux(arg)\n	0	1	expand	char	1	1	normal	-
+symbol-expand.block-shifth	foo_bar baz\n\nqux(arg)\n	3	1	expand	char	1	0	normal	-
+symbol-expand.block-shifti	foo_bar baz\n\nqux(arg)\n	5	1	expand	char	1	0	normal	-
+symbol-expand.block-shiftm	foo_bar baz\n\nqux(arg)\n	7	0	expand	symbol	1	0	normal	-
+symbol-expand.block-shiftn	foo_bar baz\n\nqux(arg)\n	12	1	expand	char	1	0	normal	-
+symbol-expand.block-shifto	foo_bar baz\n\nqux(arg)\n	21	1	expand	block	1	0	normal	-
+symbol-expand.block-shiftw	foo_bar baz\n\nqux(arg)\n	7	4	select	symbol	1	0	normal	-
+symbol-expand.block-w	foo_bar baz\n\nqux(arg)\n	7	4	select	word	1	0	normal	-
+symbol-expand.block-z	foo_bar baz\n\nqux(arg)\n	4	1	expand	block	0	0	normal	-
+symbol-expand.char-b	foo_bar baz\n\nqux(arg)\n	0	4	select	word	1	0	normal	-
+symbol-expand.char-e	foo_bar baz\n\nqux(arg)\n	0	1	expand	char	0	1	normal	-
+symbol-expand.char-g	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-expand.char-h	foo_bar baz\n\nqux(arg)\n	3	1	expand	char	0	0	normal	-
+symbol-expand.char-i	foo_bar baz\n\nqux(arg)\n	5	1	expand	char	0	0	normal	-
+symbol-expand.char-j	foo_bar baz\n\nqux(arg)\n	0	0	expand	join	1	0	normal	-
+symbol-expand.char-l	foo_bar baz\n\nqux(arg)\n	11	0	expand	line	1	0	normal	-
+symbol-expand.char-m	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	1	0	normal	-
+symbol-expand.char-n	foo_bar baz\n\nqux(arg)\n	12	1	expand	char	0	0	normal	-
+symbol-expand.char-o	foo_bar baz\n\nqux(arg)\n	4	1	expand	char	0	0	normal	-
+symbol-expand.char-semi	foo_bar baz\n\nqux(arg)\n	1	4	expand	char	0	0	normal	-
+symbol-expand.char-shiftb	foo_bar baz\n\nqux(arg)\n	0	4	select	symbol	1	0	normal	-
+symbol-expand.char-shifte	foo_bar baz\n\nqux(arg)\n	0	1	expand	char	1	1	normal	-
+symbol-expand.char-shifth	foo_bar baz\n\nqux(arg)\n	3	1	expand	char	1	0	normal	-
+symbol-expand.char-shifti	foo_bar baz\n\nqux(arg)\n	5	1	expand	char	1	0	normal	-
+symbol-expand.char-shiftm	foo_bar baz\n\nqux(arg)\n	7	0	expand	symbol	1	0	normal	-
+symbol-expand.char-shiftn	foo_bar baz\n\nqux(arg)\n	12	1	expand	char	1	0	normal	-
+symbol-expand.char-shifto	foo_bar baz\n\nqux(arg)\n	21	1	expand	block	1	0	normal	-
+symbol-expand.char-shiftw	foo_bar baz\n\nqux(arg)\n	7	4	select	symbol	1	0	normal	-
+symbol-expand.char-w	foo_bar baz\n\nqux(arg)\n	7	4	select	word	1	0	normal	-
+symbol-expand.char-z	foo_bar baz\n\nqux(arg)\n	4	1	expand	char	0	0	normal	-
+symbol-expand.join-b	foo_bar baz\n\nqux(arg)\n	0	4	select	word	1	0	normal	-
+symbol-expand.join-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	1	normal	-
+symbol-expand.join-g	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-expand.join-h	foo_bar baz\n\nqux(arg)\n	3	-	-	-	0	0	normal	-
+symbol-expand.join-i	foo_bar baz\n\nqux(arg)\n	5	-	-	-	0	0	normal	-
+symbol-expand.join-j	foo_bar baz\n\nqux(arg)\n	4	4	expand	join	1	0	normal	-
+symbol-expand.join-l	foo_bar baz\n\nqux(arg)\n	11	0	expand	line	1	0	normal	-
+symbol-expand.join-m	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	1	0	normal	-
+symbol-expand.join-n	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+symbol-expand.join-o	foo_bar baz\n\nqux(arg)\n	4	1	expand	join	0	0	normal	-
+symbol-expand.join-semi	foo_bar baz\n\nqux(arg)\n	1	4	expand	join	0	0	normal	-
+symbol-expand.join-shiftb	foo_bar baz\n\nqux(arg)\n	0	4	select	symbol	1	0	normal	-
+symbol-expand.join-shifte	foo_bar baz\n\nqux(arg)\n	0	1	expand	char	1	1	normal	-
+symbol-expand.join-shifth	foo_bar baz\n\nqux(arg)\n	3	1	expand	char	1	0	normal	-
+symbol-expand.join-shifti	foo_bar baz\n\nqux(arg)\n	5	1	expand	char	1	0	normal	-
+symbol-expand.join-shiftm	foo_bar baz\n\nqux(arg)\n	7	0	expand	symbol	1	0	normal	-
+symbol-expand.join-shiftn	foo_bar baz\n\nqux(arg)\n	12	1	expand	char	1	0	normal	-
+symbol-expand.join-shifto	foo_bar baz\n\nqux(arg)\n	21	1	expand	block	1	0	normal	-
+symbol-expand.join-shiftw	foo_bar baz\n\nqux(arg)\n	7	4	select	symbol	1	0	normal	-
+symbol-expand.join-w	foo_bar baz\n\nqux(arg)\n	7	4	select	word	1	0	normal	-
+symbol-expand.join-z	foo_bar baz\n\nqux(arg)\n	4	1	expand	join	0	0	normal	-
+symbol-expand.line-b	foo_bar baz\n\nqux(arg)\n	0	4	select	word	1	0	normal	-
+symbol-expand.line-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	1	normal	-
+symbol-expand.line-g	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-expand.line-h	foo_bar baz\n\nqux(arg)\n	3	-	-	-	0	0	normal	-
+symbol-expand.line-i	foo_bar baz\n\nqux(arg)\n	5	-	-	-	0	0	normal	-
+symbol-expand.line-j	foo_bar baz\n\nqux(arg)\n	0	0	expand	join	1	0	normal	-
+symbol-expand.line-l	foo_bar baz\n\nqux(arg)\n	12	1	expand	line	1	0	normal	-
+symbol-expand.line-m	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	1	0	normal	-
+symbol-expand.line-n	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+symbol-expand.line-o	foo_bar baz\n\nqux(arg)\n	4	1	expand	line	0	0	normal	-
+symbol-expand.line-semi	foo_bar baz\n\nqux(arg)\n	1	4	expand	line	0	0	normal	-
+symbol-expand.line-shiftb	foo_bar baz\n\nqux(arg)\n	0	4	select	symbol	1	0	normal	-
+symbol-expand.line-shifte	foo_bar baz\n\nqux(arg)\n	0	1	expand	char	1	1	normal	-
+symbol-expand.line-shifth	foo_bar baz\n\nqux(arg)\n	3	1	expand	char	1	0	normal	-
+symbol-expand.line-shifti	foo_bar baz\n\nqux(arg)\n	5	1	expand	char	1	0	normal	-
+symbol-expand.line-shiftm	foo_bar baz\n\nqux(arg)\n	7	0	expand	symbol	1	0	normal	-
+symbol-expand.line-shiftn	foo_bar baz\n\nqux(arg)\n	12	1	expand	char	1	0	normal	-
+symbol-expand.line-shifto	foo_bar baz\n\nqux(arg)\n	21	1	expand	block	1	0	normal	-
+symbol-expand.line-shiftw	foo_bar baz\n\nqux(arg)\n	7	4	select	symbol	1	0	normal	-
+symbol-expand.line-w	foo_bar baz\n\nqux(arg)\n	7	4	select	word	1	0	normal	-
+symbol-expand.line-z	foo_bar baz\n\nqux(arg)\n	4	1	expand	line	0	0	normal	-
+symbol-expand.symbol-b	foo_bar baz\n\nqux(arg)\n	0	4	select	word	1	0	normal	-
+symbol-expand.symbol-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	1	normal	-
+symbol-expand.symbol-g	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-expand.symbol-h	foo_bar baz\n\nqux(arg)\n	3	-	-	-	0	0	normal	-
+symbol-expand.symbol-i	foo_bar baz\n\nqux(arg)\n	5	-	-	-	0	0	normal	-
+symbol-expand.symbol-j	foo_bar baz\n\nqux(arg)\n	0	0	expand	join	1	0	normal	-
+symbol-expand.symbol-l	foo_bar baz\n\nqux(arg)\n	11	0	expand	line	1	0	normal	-
+symbol-expand.symbol-m	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	1	0	normal	-
+symbol-expand.symbol-n	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+symbol-expand.symbol-o	foo_bar baz\n\nqux(arg)\n	4	1	expand	symbol	0	0	normal	-
+symbol-expand.symbol-semi	foo_bar baz\n\nqux(arg)\n	1	4	expand	symbol	0	0	normal	-
+symbol-expand.symbol-shiftb	foo_bar baz\n\nqux(arg)\n	0	4	expand	symbol	1	0	normal	-
+symbol-expand.symbol-shifte	foo_bar baz\n\nqux(arg)\n	0	1	expand	char	1	1	normal	-
+symbol-expand.symbol-shifth	foo_bar baz\n\nqux(arg)\n	3	1	expand	char	1	0	normal	-
+symbol-expand.symbol-shifti	foo_bar baz\n\nqux(arg)\n	5	1	expand	char	1	0	normal	-
+symbol-expand.symbol-shiftm	foo_bar baz\n\nqux(arg)\n	7	0	expand	symbol	1	0	normal	-
+symbol-expand.symbol-shiftn	foo_bar baz\n\nqux(arg)\n	12	1	expand	char	1	0	normal	-
+symbol-expand.symbol-shifto	foo_bar baz\n\nqux(arg)\n	21	1	expand	block	1	0	normal	-
+symbol-expand.symbol-shiftw	foo_bar baz\n\nqux(arg)\n	7	1	expand	symbol	1	0	normal	-
+symbol-expand.symbol-w	foo_bar baz\n\nqux(arg)\n	7	4	select	word	1	0	normal	-
+symbol-expand.symbol-z	foo_bar baz\n\nqux(arg)\n	4	1	expand	symbol	0	0	normal	-
+symbol-expand.word-b	foo_bar baz\n\nqux(arg)\n	0	4	expand	word	1	0	normal	-
+symbol-expand.word-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	1	normal	-
+symbol-expand.word-g	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-expand.word-h	foo_bar baz\n\nqux(arg)\n	3	-	-	-	0	0	normal	-
+symbol-expand.word-i	foo_bar baz\n\nqux(arg)\n	5	-	-	-	0	0	normal	-
+symbol-expand.word-j	foo_bar baz\n\nqux(arg)\n	0	0	expand	join	1	0	normal	-
+symbol-expand.word-l	foo_bar baz\n\nqux(arg)\n	11	0	expand	line	1	0	normal	-
+symbol-expand.word-m	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	1	0	normal	-
+symbol-expand.word-n	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+symbol-expand.word-o	foo_bar baz\n\nqux(arg)\n	4	1	expand	word	0	0	normal	-
+symbol-expand.word-semi	foo_bar baz\n\nqux(arg)\n	1	4	expand	word	0	0	normal	-
+symbol-expand.word-shiftb	foo_bar baz\n\nqux(arg)\n	0	4	select	symbol	1	0	normal	-
+symbol-expand.word-shifte	foo_bar baz\n\nqux(arg)\n	0	1	expand	char	1	1	normal	-
+symbol-expand.word-shifth	foo_bar baz\n\nqux(arg)\n	3	1	expand	char	1	0	normal	-
+symbol-expand.word-shifti	foo_bar baz\n\nqux(arg)\n	5	1	expand	char	1	0	normal	-
+symbol-expand.word-shiftm	foo_bar baz\n\nqux(arg)\n	7	0	expand	symbol	1	0	normal	-
+symbol-expand.word-shiftn	foo_bar baz\n\nqux(arg)\n	12	1	expand	char	1	0	normal	-
+symbol-expand.word-shifto	foo_bar baz\n\nqux(arg)\n	21	1	expand	block	1	0	normal	-
+symbol-expand.word-shiftw	foo_bar baz\n\nqux(arg)\n	7	4	select	symbol	1	0	normal	-
+symbol-expand.word-w	foo_bar baz\n\nqux(arg)\n	7	1	expand	word	1	0	normal	-
+symbol-expand.word-z	foo_bar baz\n\nqux(arg)\n	4	1	expand	word	0	0	normal	-
+symbol-none-b	foo_bar baz\n\nqux(arg)\n	0	4	select	word	1	0	normal	-
+symbol-none-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	1	normal	-
+symbol-none-g	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	1	normal	-
+symbol-none-h	foo_bar baz\n\nqux(arg)\n	3	-	-	-	0	0	normal	-
+symbol-none-i	foo_bar baz\n\nqux(arg)\n	5	-	-	-	0	0	normal	-
+symbol-none-j	foo_bar baz\n\nqux(arg)\n	0	0	expand	join	1	0	normal	-
+symbol-none-l	foo_bar baz\n\nqux(arg)\n	11	0	expand	line	1	0	normal	-
+symbol-none-m	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	1	0	normal	-
+symbol-none-n	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+symbol-none-o	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+symbol-none-semi	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	1	normal	-
+symbol-none-shiftb	foo_bar baz\n\nqux(arg)\n	0	4	select	symbol	1	0	normal	-
+symbol-none-shifte	foo_bar baz\n\nqux(arg)\n	0	4	expand	char	1	1	normal	-
+symbol-none-shifth	foo_bar baz\n\nqux(arg)\n	3	4	expand	char	1	0	normal	-
+symbol-none-shifti	foo_bar baz\n\nqux(arg)\n	5	4	expand	char	1	0	normal	-
+symbol-none-shiftm	foo_bar baz\n\nqux(arg)\n	7	0	expand	symbol	1	0	normal	-
+symbol-none-shiftn	foo_bar baz\n\nqux(arg)\n	12	4	expand	char	1	0	normal	-
+symbol-none-shifto	foo_bar baz\n\nqux(arg)\n	21	4	expand	block	1	0	normal	-
+symbol-none-shiftw	foo_bar baz\n\nqux(arg)\n	7	4	select	symbol	1	0	normal	-
+symbol-none-w	foo_bar baz\n\nqux(arg)\n	7	4	select	word	1	0	normal	-
+symbol-none-z	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-select.char-b	foo_bar baz\n\nqux(arg)\n	0	4	select	word	1	0	normal	-
+symbol-select.char-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	1	normal	-
+symbol-select.char-g	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-select.char-h	foo_bar baz\n\nqux(arg)\n	3	-	-	-	0	0	normal	-
+symbol-select.char-i	foo_bar baz\n\nqux(arg)\n	5	-	-	-	0	0	normal	-
+symbol-select.char-j	foo_bar baz\n\nqux(arg)\n	0	0	expand	join	1	0	normal	-
+symbol-select.char-l	foo_bar baz\n\nqux(arg)\n	11	0	expand	line	1	0	normal	-
+symbol-select.char-m	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	1	0	normal	-
+symbol-select.char-n	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+symbol-select.char-o	foo_bar baz\n\nqux(arg)\n	4	1	select	char	0	0	normal	-
+symbol-select.char-semi	foo_bar baz\n\nqux(arg)\n	1	4	select	char	0	0	normal	-
+symbol-select.char-shiftb	foo_bar baz\n\nqux(arg)\n	0	4	select	symbol	1	0	normal	-
+symbol-select.char-shifte	foo_bar baz\n\nqux(arg)\n	0	1	expand	char	1	1	normal	-
+symbol-select.char-shifth	foo_bar baz\n\nqux(arg)\n	3	1	expand	char	1	0	normal	-
+symbol-select.char-shifti	foo_bar baz\n\nqux(arg)\n	5	1	expand	char	1	0	normal	-
+symbol-select.char-shiftm	foo_bar baz\n\nqux(arg)\n	7	0	expand	symbol	1	0	normal	-
+symbol-select.char-shiftn	foo_bar baz\n\nqux(arg)\n	12	1	expand	char	1	0	normal	-
+symbol-select.char-shifto	foo_bar baz\n\nqux(arg)\n	21	1	expand	block	1	0	normal	-
+symbol-select.char-shiftw	foo_bar baz\n\nqux(arg)\n	7	4	select	symbol	1	0	normal	-
+symbol-select.char-w	foo_bar baz\n\nqux(arg)\n	7	4	select	word	1	0	normal	-
+symbol-select.char-z	foo_bar baz\n\nqux(arg)\n	4	1	select	char	0	0	normal	-
+symbol-select.word-b	foo_bar baz\n\nqux(arg)\n	0	4	select	word	1	0	normal	-
+symbol-select.word-e	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	1	normal	-
+symbol-select.word-g	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-select.word-h	foo_bar baz\n\nqux(arg)\n	3	-	-	-	0	0	normal	-
+symbol-select.word-i	foo_bar baz\n\nqux(arg)\n	5	-	-	-	0	0	normal	-
+symbol-select.word-j	foo_bar baz\n\nqux(arg)\n	0	0	expand	join	1	0	normal	-
+symbol-select.word-l	foo_bar baz\n\nqux(arg)\n	11	0	expand	line	1	0	normal	-
+symbol-select.word-m	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	1	0	normal	-
+symbol-select.word-n	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+symbol-select.word-o	foo_bar baz\n\nqux(arg)\n	4	1	select	word	0	0	normal	-
+symbol-select.word-semi	foo_bar baz\n\nqux(arg)\n	1	4	select	word	0	0	normal	-
+symbol-select.word-shiftb	foo_bar baz\n\nqux(arg)\n	0	4	select	symbol	1	0	normal	-
+symbol-select.word-shifte	foo_bar baz\n\nqux(arg)\n	0	1	expand	char	1	1	normal	-
+symbol-select.word-shifth	foo_bar baz\n\nqux(arg)\n	3	1	expand	char	1	0	normal	-
+symbol-select.word-shifti	foo_bar baz\n\nqux(arg)\n	5	1	expand	char	1	0	normal	-
+symbol-select.word-shiftm	foo_bar baz\n\nqux(arg)\n	7	0	expand	symbol	1	0	normal	-
+symbol-select.word-shiftn	foo_bar baz\n\nqux(arg)\n	12	1	expand	char	1	0	normal	-
+symbol-select.word-shifto	foo_bar baz\n\nqux(arg)\n	21	1	expand	block	1	0	normal	-
+symbol-select.word-shiftw	foo_bar baz\n\nqux(arg)\n	7	4	select	symbol	1	0	normal	-
+symbol-select.word-w	foo_bar baz\n\nqux(arg)\n	7	4	select	word	1	0	normal	-
+symbol-select.word-z	foo_bar baz\n\nqux(arg)\n	4	1	select	word	0	0	normal	-
+symbol-seq-flo	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+symbol-seq-fo	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-seq-fonegrep	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	1	normal	-
+symbol-seq-forep	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-seq-fq	foo_bar baz\n\nqux(arg)\n	14	4	select	find	1	0	normal	-
+symbol-seq-ftl	foo_bar baz\n\nqux(arg)\n	11	0	expand	line	1	0	normal	-
+symbol-seq-jj	foo_bar baz\n\nqux(arg)\n	0	0	expand	join	2	0	normal	-
+symbol-seq-jw	foo_bar baz\n\nqux(arg)\n	3	0	select	word	1	0	normal	-
+symbol-seq-ll	foo_bar baz\n\nqux(arg)\n	12	0	expand	line	2	0	normal	-
+symbol-seq-llrep	foo_bar baz\n\nqux(arg)\n	21	0	expand	line	3	0	normal	-
+symbol-seq-lm	foo_bar baz\n\nqux(arg)\n	11	8	expand	word	2	0	normal	-
+symbol-seq-lnegl	foo_bar baz\n\nqux(arg)\n	0	0	expand	line	2	0	normal	-
+symbol-seq-lrep	foo_bar baz\n\nqux(arg)\n	12	0	expand	line	2	0	normal	-
+symbol-seq-lz	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-seq-mb	foo_bar baz\n\nqux(arg)\n	0	7	expand	word	2	0	normal	-
+symbol-seq-mg	foo_bar baz\n\nqux(arg)\n	7	-	-	-	0	0	normal	-
+symbol-seq-mm	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	2	0	normal	-
+symbol-seq-mrep	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	2	0	normal	-
+symbol-seq-msemiw	foo_bar baz\n\nqux(arg)\n	11	4	expand	word	2	0	normal	-
+symbol-seq-mw	foo_bar baz\n\nqux(arg)\n	11	4	expand	word	2	0	normal	-
+symbol-seq-mz	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-seq-mzz	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-seq-negb	foo_bar baz\n\nqux(arg)\n	7	4	select	word	1	0	normal	-
+symbol-seq-nege	foo_bar baz\n\nqux(arg)\n	12	-	-	-	0	0	normal	-
+symbol-seq-negfo	foo_bar baz\n\nqux(arg)\n	2	4	select	find	1	0	normal	-
+symbol-seq-negl	foo_bar baz\n\nqux(arg)\n	0	11	expand	line	1	0	normal	-
+symbol-seq-negll	foo_bar baz\n\nqux(arg)\n	0	11	expand	line	2	0	normal	-
+symbol-seq-neglnegl	foo_bar baz\n\nqux(arg)\n	12	11	expand	line	2	0	normal	-
+symbol-seq-negn	foo_bar baz\n\nqux(arg)\n	0	-	-	-	0	1	normal	-
+symbol-seq-negtl	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-seq-negw	foo_bar baz\n\nqux(arg)\n	0	4	select	word	1	0	normal	-
+symbol-seq-negwrep	foo_bar baz\n\nqux(arg)\n	0	4	select	word	1	0	normal	-
+symbol-seq-oo	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+symbol-seq-osemishifto	foo_bar baz\n\nqux(arg)\n	16	21	expand	block	1	0	normal	-
+symbol-seq-oshifto	foo_bar baz\n\nqux(arg)\n	21	16	expand	block	1	0	normal	-
+symbol-seq-oshiftosemishifto	foo_bar baz\n\nqux(arg)\n	16	21	expand	block	1	0	normal	-
+symbol-seq-ow	foo_bar baz\n\nqux(arg)\n	22	21	select	word	1	0	normal	-
+symbol-seq-semifo	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	1	normal	-
+symbol-seq-semisemi	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	2	normal	-
+symbol-seq-semiw	foo_bar baz\n\nqux(arg)\n	7	4	select	word	1	1	normal	-
+symbol-seq-shiftmshiftw	foo_bar baz\n\nqux(arg)\n	11	0	expand	symbol	2	0	normal	-
+symbol-seq-shiftosemishifto	foo_bar baz\n\nqux(arg)\n	4	21	expand	block	1	0	normal	-
+symbol-seq-shiftoshifto	foo_bar baz\n\nqux(arg)\n	21	4	expand	block	1	0	normal	-
+symbol-seq-shiftwshiftw	foo_bar baz\n\nqux(arg)\n	11	7	select	symbol	2	0	normal	-
+symbol-seq-tl	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
+symbol-seq-tq	foo_bar baz\n\nqux(arg)\n	13	4	select	till	1	0	normal	-
+symbol-seq-wb	foo_bar baz\n\nqux(arg)\n	4	7	select	word	2	0	normal	-
+symbol-seq-wfo	foo_bar baz\n\nqux(arg)\n	7	4	select	word	1	0	normal	-
+symbol-seq-wj	foo_bar baz\n\nqux(arg)\n	0	0	expand	join	2	0	normal	-
+symbol-seq-wm	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	2	0	normal	-
+symbol-seq-wmrep	foo_bar baz\n\nqux(arg)\n	7	4	expand	word	3	0	normal	-
+symbol-seq-wnegrep	foo_bar baz\n\nqux(arg)\n	7	4	select	word	1	1	normal	-
+symbol-seq-wrep	foo_bar baz\n\nqux(arg)\n	11	7	select	word	2	0	normal	-
+symbol-seq-wsemib	foo_bar baz\n\nqux(arg)\n	0	4	select	word	2	0	normal	-
+symbol-seq-wshifto	foo_bar baz\n\nqux(arg)\n	21	4	expand	block	2	0	normal	-
+symbol-seq-ww	foo_bar baz\n\nqux(arg)\n	11	7	select	word	2	0	normal	-
+symbol-seq-wwz	foo_bar baz\n\nqux(arg)\n	7	4	select	word	1	0	normal	-
+symbol-seq-wz	foo_bar baz\n\nqux(arg)\n	4	-	-	-	0	0	normal	-
